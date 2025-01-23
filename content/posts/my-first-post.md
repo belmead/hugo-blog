@@ -12,6 +12,7 @@ description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
+summary = "This is a test of how summaries work"
 +++
 ## Introduction
 

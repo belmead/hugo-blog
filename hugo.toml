@@ -2,3 +2,7 @@ baseURL = 'https://omya.games/'
 languageCode = 'en-us'
 title = 'Old Man Yells at Games'
 theme = 'terminal'
+[params]
+  ReadMore = "Read More"
+  [params.Logo]
+    logoText = "Old Man Yells at Games"

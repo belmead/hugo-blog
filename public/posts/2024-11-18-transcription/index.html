@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Transcription with OpenAI&#39;s Whisper :: Old Man Yells at Games</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Findings and notes from using python and AI to transcribe a lengthy video." />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/2024-11-18-transcription/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.4b367d85d0d0061435650561285afed36c46a7cf8dc6d7ed5642d98e589fa622.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="http://localhost:1313/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Transcription with OpenAI&#39;s Whisper">
+<meta property="og:description" content="Findings and notes from using python and AI to transcribe a lengthy video." />
+<meta property="og:url" content="http://localhost:1313/posts/2024-11-18-transcription/" />
+<meta property="og:site_name" content="Old Man Yells at Games" />
+
+  
+  
+  <meta property="og:image" content="http://localhost:1313/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-11-18 07:59:44 -0600 CST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/">
+  <div class="logo">
+    Old Man Yells at Games
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/2024-11-18-transcription/">Transcription with OpenAI&rsquo;s Whisper</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-11-18</time></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Shortly before leaving work last Friday, I received an email with a request to use AI to transcribe some video. Note the request — to use AI to accomplish the task. The video was around two and a half hours long, so I would have chosen that route anyway, but a colleague and I had led the (semi-) monthly AI meeting two days prior to the request, so the idea of using AI where possible was fresh in everyone&rsquo;s head.</p>
+<h2 id="the-planned-workflow">The Planned Workflow<a href="#the-planned-workflow" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>I had a rough plan of the order of operations:</p>
+<ol>
+<li>Demux the audio from the video</li>
+<li>Chunk the audio into sections based on who was speaking</li>
+<li>Run a test on a comparatively small audio file to a model capable of transcribing to a text file</li>
+<li>If the test is a success, run the chunked files through the transcriber</li>
+<li>Recombine the output files into a single text file</li>
+</ol>
+<p>I intended to only use FOSS tools to accomplish this task, but since the video file was on my company-provided MacBook, I just used Quicktime to extract the audio to a .m4a file. This didn&rsquo;t take more than 30 seconds or so, despite the file size of ~15GB. The result was a ~279MB AAC audio file — 256 kbps, Low Complexity profile, stereo.</p>
+<h2 id="the-actual-workflow">The Actual Workflow<a href="#the-actual-workflow" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Immediate hurdle: The only method I had (read: felt like using) for moving the file to my home computer (which would do the actual work) was a USB stick, which had lived most of its life as a Linux installer drive. OS X detected the it and I reformatted using Ex-FAT with a GUID partition. I had to look up both of these options to confirm they would work. Not much of an issue there.</p>
+<p>The next challenge, however, seemed a bit much considering how small it seemed at the time: Getting Arch to recognize the drive. <code>lsblk</code> only showed my SSDs, but <code>lsusb</code> showed the drive just fine. In hindsight I suppose this meant that Arch saw the device, but did not recognize it as a block-level device. Turns out this was an easy fix — running <code>sudo pacman -S exfat-utils</code> and rebooting was all it took. I would have saved five minutes or so if I had rebooted after installing that package, but I assumed it would start working immediately. It did not.</p>
+<p>As a side note, I did run <code>sudo pacman -Syu</code> prior to this whole endeavor, and a Hyprland update borked my dotfile slightly, so that was fun. Is this the meme of updates being a chore on rolling-release Linux distros? I got that sorted later on, but it was a minor annoyance.</p>
+<p>To resume: Following a reboot, Arch began to see the USB drive:</p>
+<pre tabindex="0"><code>sda      8:0     1 57.3G     0 disk
+├─sda1   8:1     1 200M      0 part
+└─sda2   8:2     1 57.1G     0 part
+</code></pre><p>I&rsquo;d decided that I wanted to use a Python script to handle the whole thing, which is thankfully <a href="https://github.com/openai/whisper/?tab=readme-ov-file#python-usage">well supported</a>. It&rsquo;s simple enough:</p>
+<pre tabindex="0"><code>import whisper
+
+model = whisper.load_model(&#34;turbo&#34;)
+result = model.transcribe(&#34;audio.mp3&#34;)
+print(result[&#34;text&#34;])
+</code></pre><p>I was concerned that, given the code snippet, only mp3 files were supported, but this turned out to be a non-issue.</p>
+<p>What did turn out to be a mild issue was setting up a virtual environment. I&rsquo;m still a beginner with Python, so I&rsquo;m used to just writing scripts and running them in the terminal (or PyCharm — I know, I know&hellip;) so the concept was new to me. I&rsquo;d heard of venvs, but eschewed learning how they work since my Python education hadn&rsquo;t called for one yet.</p>
+<p>I leaned on Perplexity quite a lot to guide me through the process, and I was satisfied with the results. The longer context windows in modern LLMs are wonderful. However, as of this writing, Perplexity decided to remove one of our conversations about virtual environments, so I&rsquo;ll have to write some of this from memory. So it goes.</p>
+<p>One of the things it took me a while to wrap my head around (WIP) was that venvs are tied to a single terminal instance. I had two terminals open (one for editing Python scripts, another for running tests), but only one would run the Python script. The other threw this back at me:</p>
+<pre tabindex="0"><code>python transcribe_test_hero.py Traceback (most recent call last): File &#34;/home/belmead/py_projects/transcribe/transcribe_test_hero.py&#34;, line 1, in &lt;module&gt; import whisper ModuleNotFoundError: No module named &#39;whisper&#39;
+</code></pre><p>I imported the repo via <code>pip install git+https://github.com/openai/whisper.git</code> per the readme, so I was perplexed as to why the same command resulted in two different outcomes in two different terminals. As it turns out,</p>
+<blockquote>
+<p>The issue you&rsquo;re experiencing, where the script runs successfully in one terminal but raises a <code>ModuleNotFoundError</code> in another, is likely related to differences in the Python environment or configuration between the two terminal sessions. Here are some common reasons for this behavior:</p>
+<ol>
+<li>Different Python Environments</li>
+</ol>
+<ul>
+<li><strong>Virtual Environments</strong>: If you are using a virtual environment (e.g., created with <code>venv</code> or <code>conda</code>), it’s possible that one terminal is activated in a virtual environment where the <code>whisper</code> module is installed, while the other terminal is not.</li>
+</ul>
+</blockquote>
+<p>Also something about isolation and single activation. I was confused because I knew the git repo had successfully downloaded to the correct dir, so why did one terminal act like it didn&rsquo;t know what the <code>whisper</code> module was&hellip;? The module is <em>there on the SSD</em>, so why isn&rsquo;t it findable/usable by all terminals? I&rsquo;ll need to continue learning in that area.</p>
+<p>The next concern was having some manner of system status indicator. I wanted this because I assumed the main task would take a while, and I didn&rsquo;t want it to fail and not tell me, since I had no idea how long it would take. I wanted to do something else with my Saturday than stare at a terminal and wonder if a process was working or was hanging, as I suspected those two outcomes would look identical.</p>
+<p>I ran the test file (a short mp3, about two or three minutes in length) using the <code>base</code> model and it took about two seconds to complete. This was fast enough to make me think it failed, but checking the output file confirmed it had, in fact, worked. It did get someone&rsquo;s name wrong, and switching to <code>turbo</code> got the name right, but that transcription took a bit longer, maybe 10 seconds or so.</p>
+<p>(On reexamination of the repo&rsquo;s readme, I can&rsquo;t help but wonder if I using <code>base.en</code> would have been even faster. There&rsquo;s no English-only <code>turbo</code> model, so it wouldn&rsquo;t have mattered in the long run, but still.)</p>
+<p>I started with <code>print(&quot;\nWorks!&quot;)</code> thinking it would only output that string if it had successfully completed the transcription, but I started to doubt that idea, as I imagined the process failing silently and the string printing regardless. This was also a poor solution in that I required ongoing, visual feedback to reassure me, and this was a string that would only print at the end.</p>
+<p>This is what Perplexity suggested:</p>
+<pre tabindex="0"><code># Event to signal when transcription is done  
+done_event = threading.Event()  
+  
+# Function to display a spinner while processing  
+def spinner():
+	while not done_event.is_set(): # Check if done_event is set  
+		for cursor in &#39;|/-\\&#39;:  
+			print(f&#34;\rTranscribing... {cursor}&#34;, end=&#39;&#39;, flush=True)  
+			time.sleep(0.1) # Adjust speed of spinner if necessary  
+  
+# Start the spinner thread  
+spinner_thread = threading.Thread(target=spinner)  
+spinner_thread.start()  
+  
+try:  
+	# Perform transcription (this is a blocking call)  
+	result = model.transcribe(audio_file) # This will take time based on audio length  
+finally:  
+	done_event.set() # Signal that we are done with transcription  
+	spinner_thread.join() # Wait for spinner thread to finish
+</code></pre><p>It&rsquo;s simple enough — a spinner animation runs in a separate thread using a <code>while</code> loop until the transcription is complete. Once the transcription is done, the event is set, and the spinner thread stops.</p>
+<p>This was <em>wild</em> to me because I&rsquo;d never dealt with threading before, and hadn&rsquo;t thought of a situation where it&rsquo;d be necessary. This makes sense, however, and was an instructive moment about how cores and threading work. From what I gathered, a single core can handle multiple threads, and multiple cores can handle threads in parallel. That&rsquo;s about the extent of my knowledge base there. Again, something to look into at a later time.</p>
+<p>I reran the test file and the spinner animation worked, so I moved on to the main task — the 2.5-hour audio file (I ended up not chunking the audio file, as the value proposition there seemed a bit flimsy. It&rsquo;s mostly one speaker, anyway).</p>
+<p>Back to cores for a moment:</p>
+<p><img src="https://belmead.github.io/blog/images/core_usage.jpg" alt="Core Usage" title="Core Usage"></p>
+<p>Nine cores at or near 100% usage! Now that&rsquo;s exciting — I rarely do any work that really puts the 12600k through its paces. On the topic of <code>htop</code> — I only realized after I started the transcription job that watching the core activity was sufficient for monitoring system status. I didn&rsquo;t need a spinner after all. Oh well. What would have been useful was a timer, since I got up to play Ys X while it ran. That&rsquo;s an improvement for another day.</p>
+<p>I returned right around 19 minutes after the script started to find it had completed its job. Who knows how long it actually took? Again, a timer would have been helpful. Still, under 20 mins for transcribing a 2.5-hour audio file locally seemed impressive enough to me, so I sent off the transcript to the one who requested it.</p>
+<h2 id="python-script">Python Script<a href="#python-script" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Here&rsquo;s the script. It could be improved with a timer placed inside the spinner function.</p>
+<pre tabindex="0"><code>import whisper
+import sys
+import threading
+import time
+
+# Load the Whisper model
+model = whisper.load_model(&#34;turbo&#34;)  # Use a valid model name
+
+# Specify the path to your audio file
+audio_file = &#34;th2024_audio.m4a&#34;  # Replace with your actual file name
+
+# Event to signal when transcription is done
+done_event = threading.Event()
+
+# Function to display a spinner while processing
+def spinner():
+    while not done_event.is_set():  # Check if done_event is set
+        for cursor in &#34;|/-\\&#34;:
+            print(f&#34;\rTranscribing... {cursor}&#34;, end=&#34;&#34;, flush=True)
+            time.sleep(0.1)  # Adjust speed of spinner if necessary
+
+# Start the spinner thread
+spinner_thread = threading.Thread(target=spinner)
+spinner_thread.start()
+
+try:
+    # Perform transcription (this is a blocking call)
+    result = model.transcribe(audio_file)  # This will take time based on audio length
+finally:
+    done_event.set()  # Signal that we are done with transcription
+    spinner_thread.join()  # Wait for spinner thread to finish
+
+# Print the transcribed text to a file
+with open(&#34;th_transcript.txt&#34;, &#34;w&#34;, encoding=&#34;utf-8&#34;) as file:
+    file.write(result[&#34;text&#34;])
+
+print(&#34;\nTranscription complete!&#34;)
+</code></pre><h2 id="lessons-and-takeaways">Lessons and Takeaways<a href="#lessons-and-takeaways" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>I incorrectly assumed without consulting the data table in the repo that the <code>turbo</code> model had more parameters than the <code>large</code> model. It does not: In fact, the large model has nearly twice as many (809 M vs. 1550 M) parameters. On the other hand, the <code>turbo</code> model is listed as being ~8x faster than the baseline <code>large</code> model (that&rsquo;s how I read the table, anyway). It also uses ~4 GB more VRAM — this would have been fine, since I run a 6750XT.  If I have any more transcription jobs in the future, I will run some tests for speed and accuracy.</p>
+<p>Virtual environments are great, probably, but annoying in that they are married to a single terminal instance. I&rsquo;m sure I greatly misunderstand how that part works, exactly, and perhaps a terminal multiplexer would be of aid in venv scenarios, but I&rsquo;m not going to look into that right now. I&rsquo;ll just have to remember not to close the terminal the venv is attached to.</p>
+<p>A timer would be nifty to tell me exactly how long it took to transcribe. This would be excellent for testing the same audio file against the different models.</p>
+<p>Altogether, it was pleasing to get the task completed in a relatively short amount of time (the bulk of the job was me learning how things worked; the actual transcription was quick) using FOSS on Arch. I know there&rsquo;s some debate on exactly what &ldquo;open source&rdquo; means when it comes to models, as the training data itself usually isn&rsquo;t open-source, but I&rsquo;m calling this a win for my skills in Linux/CLI, Python, and more advanced AI usage.</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

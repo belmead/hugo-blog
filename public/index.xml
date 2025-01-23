@@ -2,10 +2,534 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Old Man Yells at Games</title>
-    <link>https://omya.games/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Old Man Yells at Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 09:50:13 -0600</lastBuildDate><atom:link href="https://omya.games/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jan 2025 09:50:13 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Early Review - AYN Odin 2 Pro</title>
+      <link>http://localhost:1313/posts/2024-12-13-odin-2-pro-review/</link>
+      <pubDate>Fri, 13 Dec 2024 08:45:03 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-12-13-odin-2-pro-review/</guid>
+      <description>An incomplete review of the AYN Odin 2 Pro handheld after ~40 hours of use.</description>
+      <content>&lt;p&gt;I received the most excellent AYN Odin 2 Pro from my lovely wife this Christmas, and this is an early review of the device (approx. 3 hours playing so far).&lt;/p&gt;
+&lt;h3 id=&#34;feel&#34;&gt;Feel&lt;/h3&gt;
+&lt;p&gt;My initial impression was, &lt;em&gt;this thing is light&lt;/em&gt;. I really expected the device to weigh twice as much, perhaps closer to a kilogram, and I fretted over an imagined heft while it was in transit. It feels good in my hands, however I do wish the controls (ABXY buttons, sticks, and D-pad) were a bit larger — say, 25% or so. I have smaller hands (size 7½ surgical glove), which is a blessing in this scenario, but still. The triggers (R1/R2, L1/L2) are perfect, as is the palm extrusion. I&amp;rsquo;m not used to ring-finger triggers (pads?) but mapped the left one to &amp;ldquo;back,&amp;rdquo; which turned out to be pretty useful. The right one is currently unmapped.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/odin-2-pro-buttons.jpg&#34; alt=&#34;Odin 2 Pro&#34; title=&#34;Buttons on the Odin 2 Pro&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;screen&#34;&gt;Screen&lt;/h3&gt;
+&lt;p&gt;The screen is amazing. It&amp;rsquo;s &amp;ldquo;only&amp;rdquo; 1080p, but it&amp;rsquo;s heaps bright and very responsive. It seems larger than it actually is — it&amp;rsquo;s a 6&amp;quot; IPS LCD — being only a few millimeters smaller than my Pixel 7 Pro. The 60 Hz refresh rate isn&amp;rsquo;t that noticeable, even coming from the 140 Hz monitor I have for my PC. AYN helpfully included a screen protector in box.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/odin-2-pro.jpg&#34; alt=&#34;Odin 2 Pro&#34; title=&#34;Xenogears on the Odin 2 Pro&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;android&#34;&gt;Android&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m an Android man, so using the OS is no problem — everything is where I expect it to be. It&amp;rsquo;s plenty fast and behaves as expect. No surprises. I considered putting Arch on it, but wanted to get started playing stratightaway, so that may be a project for another day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/odin-2-pro-android.jpg&#34; alt=&#34;Odin 2 Pro&#34; title=&#34;Android on the Odin 2 Pro&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;emulators&#34;&gt;Emulators&lt;/h3&gt;
+&lt;p&gt;Write this when I use emulators.&lt;/p&gt;
+&lt;h3 id=&#34;steam-play&#34;&gt;Steam Play&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve always been skeptical of play-over-WiFi (surely there&amp;rsquo;s a term of art for this — probably &amp;ldquo;streaming&amp;rdquo;), but I was impressed with Steam Link from the get go. Despite expecting hiccoughs running Steam on Arch Linux, Steam Link saw the app running immediately and had no problem playing Path of Exile 2 EA. The gameplay itself was a bit up and down — there was some frame stuttering, but that came and went, and I got over it easily. Our household uses multiple devices simultaneously at nearly all times, so perhaps that had something to do with it. The in-game text can be difficult to read on account of the font size, and I did have to squint a few times at the screens more than I&amp;rsquo;d care to, but I suspect this is more an effect of aging rather than an issue with the device/service. I&amp;rsquo;ll dig into the accessibility options and see what remedies I can find.&lt;/p&gt;
+&lt;h3 id=&#34;battery-life&#34;&gt;Battery Life&lt;/h3&gt;
+&lt;p&gt;I played close to three hours of Path of Exile 2 EA and the battery went from 88% to 73%. Granted, I did have the device muted, but I was thoroughly impressed with a loss of only 15% battery. This was with a screen brightness of maybe 66%, which was just fine. I don&amp;rsquo;t quite remember, but I think I had Bluetooth turned on for some reason, so if that in fact was the case, color me doubly impressed.&lt;/p&gt;
+&lt;h3 id=&#34;emulation&#34;&gt;Emulation&lt;/h3&gt;
+&lt;p&gt;I haven&amp;rsquo;t emulated anything yet, and if you&amp;rsquo;re familiar with my previous posts, you&amp;rsquo;ll understand I only emulate games I physically own. Will report back later on this topic.&lt;/p&gt;
+&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I don&amp;rsquo;t like the font AYN chose for the ABXY buttons.&lt;/li&gt;
+&lt;li&gt;Huge thanks to Retro Game Corps&amp;rsquo; superb &lt;a href=&#34;https://odysee.com/@retrogamecorps:6/ayn-odin-2-starter-guide:9&#34;&gt;AYN Odin 2 Starter Guide&lt;/a&gt; for providing an in-depth guide to getting started.&lt;/li&gt;
+&lt;li&gt;AYN included a &lt;a href=&#34;https://www.ayntec.com/products/odin-2-carrying-case&#34;&gt;carrying case&lt;/a&gt; despite my wife not purchasing one. Unclear why that happened, but I am not complaining.
+&lt;ul&gt;
+&lt;li&gt;They included a &lt;a href=&#34;https://www.ayntec.com/products/odin-2-screen-protector&#34;&gt;screen protector&lt;/a&gt; as well, so that&amp;rsquo;s even more mysterious.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I bought a 256 GB SD card, which ought to be enough for a while, but a half-terabyte card might be more useful later on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I am thoroughly impressed with this device. A higher refresh rate for the screen would have been preferable, and I do wish for larger controls, but the positives more than make up for the negatives. For the sake of reviewing this again in the future, I rate it ~87 / 100.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Transcription with OpenAI&#39;s Whisper</title>
+      <link>http://localhost:1313/posts/2024-11-18-transcription/</link>
+      <pubDate>Mon, 18 Nov 2024 07:59:44 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-11-18-transcription/</guid>
+      <description>Findings and notes from using python and AI to transcribe a lengthy video.</description>
+      <content>&lt;p&gt;Shortly before leaving work last Friday, I received an email with a request to use AI to transcribe some video. Note the request — to use AI to accomplish the task. The video was around two and a half hours long, so I would have chosen that route anyway, but a colleague and I had led the (semi-) monthly AI meeting two days prior to the request, so the idea of using AI where possible was fresh in everyone&amp;rsquo;s head.&lt;/p&gt;
+&lt;h2 id=&#34;the-planned-workflow&#34;&gt;The Planned Workflow&lt;/h2&gt;
+&lt;p&gt;I had a rough plan of the order of operations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Demux the audio from the video&lt;/li&gt;
+&lt;li&gt;Chunk the audio into sections based on who was speaking&lt;/li&gt;
+&lt;li&gt;Run a test on a comparatively small audio file to a model capable of transcribing to a text file&lt;/li&gt;
+&lt;li&gt;If the test is a success, run the chunked files through the transcriber&lt;/li&gt;
+&lt;li&gt;Recombine the output files into a single text file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I intended to only use FOSS tools to accomplish this task, but since the video file was on my company-provided MacBook, I just used Quicktime to extract the audio to a .m4a file. This didn&amp;rsquo;t take more than 30 seconds or so, despite the file size of ~15GB. The result was a ~279MB AAC audio file — 256 kbps, Low Complexity profile, stereo.&lt;/p&gt;
+&lt;h2 id=&#34;the-actual-workflow&#34;&gt;The Actual Workflow&lt;/h2&gt;
+&lt;p&gt;Immediate hurdle: The only method I had (read: felt like using) for moving the file to my home computer (which would do the actual work) was a USB stick, which had lived most of its life as a Linux installer drive. OS X detected the it and I reformatted using Ex-FAT with a GUID partition. I had to look up both of these options to confirm they would work. Not much of an issue there.&lt;/p&gt;
+&lt;p&gt;The next challenge, however, seemed a bit much considering how small it seemed at the time: Getting Arch to recognize the drive. &lt;code&gt;lsblk&lt;/code&gt; only showed my SSDs, but &lt;code&gt;lsusb&lt;/code&gt; showed the drive just fine. In hindsight I suppose this meant that Arch saw the device, but did not recognize it as a block-level device. Turns out this was an easy fix — running &lt;code&gt;sudo pacman -S exfat-utils&lt;/code&gt; and rebooting was all it took. I would have saved five minutes or so if I had rebooted after installing that package, but I assumed it would start working immediately. It did not.&lt;/p&gt;
+&lt;p&gt;As a side note, I did run &lt;code&gt;sudo pacman -Syu&lt;/code&gt; prior to this whole endeavor, and a Hyprland update borked my dotfile slightly, so that was fun. Is this the meme of updates being a chore on rolling-release Linux distros? I got that sorted later on, but it was a minor annoyance.&lt;/p&gt;
+&lt;p&gt;To resume: Following a reboot, Arch began to see the USB drive:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sda      8:0     1 57.3G     0 disk
+├─sda1   8:1     1 200M      0 part
+└─sda2   8:2     1 57.1G     0 part
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I&amp;rsquo;d decided that I wanted to use a Python script to handle the whole thing, which is thankfully &lt;a href=&#34;https://github.com/openai/whisper/?tab=readme-ov-file#python-usage&#34;&gt;well supported&lt;/a&gt;. It&amp;rsquo;s simple enough:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import whisper
+
+model = whisper.load_model(&amp;#34;turbo&amp;#34;)
+result = model.transcribe(&amp;#34;audio.mp3&amp;#34;)
+print(result[&amp;#34;text&amp;#34;])
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I was concerned that, given the code snippet, only mp3 files were supported, but this turned out to be a non-issue.&lt;/p&gt;
+&lt;p&gt;What did turn out to be a mild issue was setting up a virtual environment. I&amp;rsquo;m still a beginner with Python, so I&amp;rsquo;m used to just writing scripts and running them in the terminal (or PyCharm — I know, I know&amp;hellip;) so the concept was new to me. I&amp;rsquo;d heard of venvs, but eschewed learning how they work since my Python education hadn&amp;rsquo;t called for one yet.&lt;/p&gt;
+&lt;p&gt;I leaned on Perplexity quite a lot to guide me through the process, and I was satisfied with the results. The longer context windows in modern LLMs are wonderful. However, as of this writing, Perplexity decided to remove one of our conversations about virtual environments, so I&amp;rsquo;ll have to write some of this from memory. So it goes.&lt;/p&gt;
+&lt;p&gt;One of the things it took me a while to wrap my head around (WIP) was that venvs are tied to a single terminal instance. I had two terminals open (one for editing Python scripts, another for running tests), but only one would run the Python script. The other threw this back at me:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python transcribe_test_hero.py Traceback (most recent call last): File &amp;#34;/home/belmead/py_projects/transcribe/transcribe_test_hero.py&amp;#34;, line 1, in &amp;lt;module&amp;gt; import whisper ModuleNotFoundError: No module named &amp;#39;whisper&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I imported the repo via &lt;code&gt;pip install git+https://github.com/openai/whisper.git&lt;/code&gt; per the readme, so I was perplexed as to why the same command resulted in two different outcomes in two different terminals. As it turns out,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The issue you&amp;rsquo;re experiencing, where the script runs successfully in one terminal but raises a &lt;code&gt;ModuleNotFoundError&lt;/code&gt; in another, is likely related to differences in the Python environment or configuration between the two terminal sessions. Here are some common reasons for this behavior:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Different Python Environments&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Virtual Environments&lt;/strong&gt;: If you are using a virtual environment (e.g., created with &lt;code&gt;venv&lt;/code&gt; or &lt;code&gt;conda&lt;/code&gt;), it’s possible that one terminal is activated in a virtual environment where the &lt;code&gt;whisper&lt;/code&gt; module is installed, while the other terminal is not.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Also something about isolation and single activation. I was confused because I knew the git repo had successfully downloaded to the correct dir, so why did one terminal act like it didn&amp;rsquo;t know what the &lt;code&gt;whisper&lt;/code&gt; module was&amp;hellip;? The module is &lt;em&gt;there on the SSD&lt;/em&gt;, so why isn&amp;rsquo;t it findable/usable by all terminals? I&amp;rsquo;ll need to continue learning in that area.&lt;/p&gt;
+&lt;p&gt;The next concern was having some manner of system status indicator. I wanted this because I assumed the main task would take a while, and I didn&amp;rsquo;t want it to fail and not tell me, since I had no idea how long it would take. I wanted to do something else with my Saturday than stare at a terminal and wonder if a process was working or was hanging, as I suspected those two outcomes would look identical.&lt;/p&gt;
+&lt;p&gt;I ran the test file (a short mp3, about two or three minutes in length) using the &lt;code&gt;base&lt;/code&gt; model and it took about two seconds to complete. This was fast enough to make me think it failed, but checking the output file confirmed it had, in fact, worked. It did get someone&amp;rsquo;s name wrong, and switching to &lt;code&gt;turbo&lt;/code&gt; got the name right, but that transcription took a bit longer, maybe 10 seconds or so.&lt;/p&gt;
+&lt;p&gt;(On reexamination of the repo&amp;rsquo;s readme, I can&amp;rsquo;t help but wonder if I using &lt;code&gt;base.en&lt;/code&gt; would have been even faster. There&amp;rsquo;s no English-only &lt;code&gt;turbo&lt;/code&gt; model, so it wouldn&amp;rsquo;t have mattered in the long run, but still.)&lt;/p&gt;
+&lt;p&gt;I started with &lt;code&gt;print(&amp;quot;\nWorks!&amp;quot;)&lt;/code&gt; thinking it would only output that string if it had successfully completed the transcription, but I started to doubt that idea, as I imagined the process failing silently and the string printing regardless. This was also a poor solution in that I required ongoing, visual feedback to reassure me, and this was a string that would only print at the end.&lt;/p&gt;
+&lt;p&gt;This is what Perplexity suggested:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Event to signal when transcription is done  
+done_event = threading.Event()  
+  
+# Function to display a spinner while processing  
+def spinner():
+	while not done_event.is_set(): # Check if done_event is set  
+		for cursor in &amp;#39;|/-\\&amp;#39;:  
+			print(f&amp;#34;\rTranscribing... {cursor}&amp;#34;, end=&amp;#39;&amp;#39;, flush=True)  
+			time.sleep(0.1) # Adjust speed of spinner if necessary  
+  
+# Start the spinner thread  
+spinner_thread = threading.Thread(target=spinner)  
+spinner_thread.start()  
+  
+try:  
+	# Perform transcription (this is a blocking call)  
+	result = model.transcribe(audio_file) # This will take time based on audio length  
+finally:  
+	done_event.set() # Signal that we are done with transcription  
+	spinner_thread.join() # Wait for spinner thread to finish
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It&amp;rsquo;s simple enough — a spinner animation runs in a separate thread using a &lt;code&gt;while&lt;/code&gt; loop until the transcription is complete. Once the transcription is done, the event is set, and the spinner thread stops.&lt;/p&gt;
+&lt;p&gt;This was &lt;em&gt;wild&lt;/em&gt; to me because I&amp;rsquo;d never dealt with threading before, and hadn&amp;rsquo;t thought of a situation where it&amp;rsquo;d be necessary. This makes sense, however, and was an instructive moment about how cores and threading work. From what I gathered, a single core can handle multiple threads, and multiple cores can handle threads in parallel. That&amp;rsquo;s about the extent of my knowledge base there. Again, something to look into at a later time.&lt;/p&gt;
+&lt;p&gt;I reran the test file and the spinner animation worked, so I moved on to the main task — the 2.5-hour audio file (I ended up not chunking the audio file, as the value proposition there seemed a bit flimsy. It&amp;rsquo;s mostly one speaker, anyway).&lt;/p&gt;
+&lt;p&gt;Back to cores for a moment:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/core_usage.jpg&#34; alt=&#34;Core Usage&#34; title=&#34;Core Usage&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nine cores at or near 100% usage! Now that&amp;rsquo;s exciting — I rarely do any work that really puts the 12600k through its paces. On the topic of &lt;code&gt;htop&lt;/code&gt; — I only realized after I started the transcription job that watching the core activity was sufficient for monitoring system status. I didn&amp;rsquo;t need a spinner after all. Oh well. What would have been useful was a timer, since I got up to play Ys X while it ran. That&amp;rsquo;s an improvement for another day.&lt;/p&gt;
+&lt;p&gt;I returned right around 19 minutes after the script started to find it had completed its job. Who knows how long it actually took? Again, a timer would have been helpful. Still, under 20 mins for transcribing a 2.5-hour audio file locally seemed impressive enough to me, so I sent off the transcript to the one who requested it.&lt;/p&gt;
+&lt;h2 id=&#34;python-script&#34;&gt;Python Script&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the script. It could be improved with a timer placed inside the spinner function.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import whisper
+import sys
+import threading
+import time
+
+# Load the Whisper model
+model = whisper.load_model(&amp;#34;turbo&amp;#34;)  # Use a valid model name
+
+# Specify the path to your audio file
+audio_file = &amp;#34;th2024_audio.m4a&amp;#34;  # Replace with your actual file name
+
+# Event to signal when transcription is done
+done_event = threading.Event()
+
+# Function to display a spinner while processing
+def spinner():
+    while not done_event.is_set():  # Check if done_event is set
+        for cursor in &amp;#34;|/-\\&amp;#34;:
+            print(f&amp;#34;\rTranscribing... {cursor}&amp;#34;, end=&amp;#34;&amp;#34;, flush=True)
+            time.sleep(0.1)  # Adjust speed of spinner if necessary
+
+# Start the spinner thread
+spinner_thread = threading.Thread(target=spinner)
+spinner_thread.start()
+
+try:
+    # Perform transcription (this is a blocking call)
+    result = model.transcribe(audio_file)  # This will take time based on audio length
+finally:
+    done_event.set()  # Signal that we are done with transcription
+    spinner_thread.join()  # Wait for spinner thread to finish
+
+# Print the transcribed text to a file
+with open(&amp;#34;th_transcript.txt&amp;#34;, &amp;#34;w&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) as file:
+    file.write(result[&amp;#34;text&amp;#34;])
+
+print(&amp;#34;\nTranscription complete!&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;lessons-and-takeaways&#34;&gt;Lessons and Takeaways&lt;/h2&gt;
+&lt;p&gt;I incorrectly assumed without consulting the data table in the repo that the &lt;code&gt;turbo&lt;/code&gt; model had more parameters than the &lt;code&gt;large&lt;/code&gt; model. It does not: In fact, the large model has nearly twice as many (809 M vs. 1550 M) parameters. On the other hand, the &lt;code&gt;turbo&lt;/code&gt; model is listed as being ~8x faster than the baseline &lt;code&gt;large&lt;/code&gt; model (that&amp;rsquo;s how I read the table, anyway). It also uses ~4 GB more VRAM — this would have been fine, since I run a 6750XT.  If I have any more transcription jobs in the future, I will run some tests for speed and accuracy.&lt;/p&gt;
+&lt;p&gt;Virtual environments are great, probably, but annoying in that they are married to a single terminal instance. I&amp;rsquo;m sure I greatly misunderstand how that part works, exactly, and perhaps a terminal multiplexer would be of aid in venv scenarios, but I&amp;rsquo;m not going to look into that right now. I&amp;rsquo;ll just have to remember not to close the terminal the venv is attached to.&lt;/p&gt;
+&lt;p&gt;A timer would be nifty to tell me exactly how long it took to transcribe. This would be excellent for testing the same audio file against the different models.&lt;/p&gt;
+&lt;p&gt;Altogether, it was pleasing to get the task completed in a relatively short amount of time (the bulk of the job was me learning how things worked; the actual transcription was quick) using FOSS on Arch. I know there&amp;rsquo;s some debate on exactly what &amp;ldquo;open source&amp;rdquo; means when it comes to models, as the training data itself usually isn&amp;rsquo;t open-source, but I&amp;rsquo;m calling this a win for my skills in Linux/CLI, Python, and more advanced AI usage.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Note-taking Software</title>
+      <link>http://localhost:1313/posts/2024-11-18-note-taking-software/</link>
+      <pubDate>Fri, 08 Nov 2024 09:06:21 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-11-18-note-taking-software/</guid>
+      <description>Notes about notes and Goldilocks software.</description>
+      <content>&lt;p&gt;I&amp;rsquo;m on the hunt for a good note-taking application. This is my usage history:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A single, long MSFT Word document&lt;/li&gt;
+&lt;li&gt;MSFT OneNote&lt;/li&gt;
+&lt;li&gt;Notion&lt;/li&gt;
+&lt;li&gt;Writing .md files in PyCharm&lt;/li&gt;
+&lt;li&gt;Fabric&lt;/li&gt;
+&lt;li&gt;Writing .md files in Obsidian (currently here)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main use case is composing and organizing work notes. My main issue with using MSFT products — one of the larger issues, anyway — is the rubbish user interface. This will not do:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/msft_word_editing.jpg&#34; alt=&#34;Edit options in MSFT Word&#34; title=&#34;Edit options in MSFT Word&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This (Google Docs) is miles closer, but still not right (read: comfy):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/google_docs_editing.jpg&#34; alt=&#34;Edit options in Google Docs&#34; title=&#34;Edit options in Google Docs&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Too many options. I will expound on this point ere long.&lt;/p&gt;
+&lt;h2 id=&#34;unix-philosophy&#34;&gt;UNIX Philosophy&lt;/h2&gt;
+&lt;p&gt;Thinking about finding the right editor reminded me of the Stack Overflow blog post, &lt;a href=&#34;https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs/&#34;&gt;Modern IDEs are magic. Why are so many coders still using Vim and Emacs?&lt;/a&gt;. I&amp;rsquo;m not one to retread on such well-worn ground as dunking on the baffling logic of the post, seeing as my betters have done such an impressive, thorough job — I have nothing new or interesting to add to the heap anyway — so this is more of an attempt to use the article as a example of how I&amp;rsquo;ve grown to appreciate constraints in software as well as understand and esteem UNIX philosophy.&lt;/p&gt;
+&lt;p&gt;To speak on that, briefly, I&amp;rsquo;m not sure when I learned of the idea of the [[UNIX philosophy]], and I certainly didn&amp;rsquo;t understand it well at that time (not do I completely understand it now). I&amp;rsquo;m beginning to grasp it in parts, but many aspects make sense only &lt;em&gt;intellectually&lt;/em&gt;. One aspect that has gone from intellectual to internalized, gut-based understanding is the notion of &amp;ldquo;do one thing well.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;My understanding of this principle encompasses both its positive aspect — &amp;lsquo;do one thing well&amp;rsquo; —and its antithesis — &amp;ldquo;don&amp;rsquo;t do many things poorly.&amp;rdquo; It&amp;rsquo;s been my experience, especially since becoming a full-time product designer, that many applications take the latter approach. Since our company is full-on entrenched with MSFT, I&amp;rsquo;ve had (and currently have) the experience of using at least half a dozen of their offerings regularly — mostly the Office 365 suite and Azure DevOps.&lt;/p&gt;
+&lt;p&gt;In this paragraph, before rewriting it, I accused MSFT products of not doing anything well. That&amp;rsquo;s inaccurate: Each bit of Office 365 software does what it is advertised to do. But the amount of things Word (for example) does poorly dwarfs what it does well (namely, creating and saving .docx files). Creating/saving is an easy enough task to accomplish, but the user experience — what happens in between &amp;ldquo;get in&amp;rdquo; and &amp;ldquo;get out&amp;rdquo; — makes for a crummy time.&lt;/p&gt;
+&lt;p&gt;To return focus to the UI momentarily:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/msft_word_editing.jpg&#34; alt=&#34;Edit options in MSFT Word&#34; title=&#34;Edit options in MSFT Word&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s understandable why the ~40% of the text and type options on the left side exist. They could be presented in a more elegant fashion, certainly, but my gripe centers around the middle and right-side bits. The middle part (which are &lt;em&gt;styles&lt;/em&gt;, but that piece of info is only available on hover) and the right side (Styles Pane, Dictate, Sensitivity, Add-ins, Editor) is the antithesis of &lt;a href=&#34;https://www.nngroup.com/articles/progressive-disclosure/&#34;&gt;progressive disclosure&lt;/a&gt;.  To misquote &lt;a href=&#34;https://www.youtube.com/watch?v=Dh15fetq8MM&#34;&gt;Mark Corrigan&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That&amp;rsquo;s the way things are these days: Let&amp;rsquo;s just put an icon here, a button there. Why not? Who knows what these things are used for? Who even cares?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Google Docs does a more elegant job with with their edit panel:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/google_docs_editing.jpg&#34; alt=&#34;Edit options in Google Docs&#34; title=&#34;Edit options in Google Docs&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is as close as I&amp;rsquo;ve seen to a proper editing panel. If it could relocate about one-third of its icons behind context menus, we&amp;rsquo;d be in business. I&amp;rsquo;d like to think Google spends an appropriate amount of resources on product development and that the icons and options available in the edit panel are a reflection of an enormous amount of ongoing user testing — that what you see are indeed the most-used tools and formatting options&lt;/p&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;p&gt;I heard about Obsidian a couple of months ago on YouTube and was quite taken by the graphing feature. Since I have a low attention span and occasional inattention to detail, I assumed the graphing feature happened automatically, somehow. I did not know until I was a few days into using Obsidian that it&amp;rsquo;s a function of backlinks, which was demotivating, but I set myself up on that one by fabricating unrealistic expectations based on YouTube thumbnails. The upshot, though, was I immediately took to markdown as syntax once I began using Obsidian. It&amp;rsquo;s highly readable and has a bare minimum of formatting elements.&lt;/p&gt;
+&lt;p&gt;To be clear, I wrote notes in markdown in PyCharm for a few months prior to using Obsidian, but it never really clicked until recently. I know I&amp;rsquo;ve written readme files on GitHub before, but I really don&amp;rsquo;t remember having any concrete opinion on markdown at that time.&lt;/p&gt;
+&lt;h2 id=&#34;constraints-are-good&#34;&gt;Constraints are good&lt;/h2&gt;
+&lt;p&gt;This is one of those counterintuitive things about product design. This idea is in the same vein as, &amp;ldquo;burdens are a blessing&amp;rdquo; in the sense that challenges and/or limitations can lead to positive outcomes. They don&amp;rsquo;t always have lead to positive results, but oftentimes they do. Prerequisite to understanding this maxim is a reframing of mindset: Limitations — markdown&amp;rsquo;s relatively small pool of formatting elements — encourage a reevaluation of what is required to complete a task. For note taking, as it turns out, markdown is more than sufficient in most cases. As a bonus, it just feels neat to use, and on fiddling with the mouse, as the &lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;&gt;syntax for formatting elements is character-based&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This also means the lack of an editing panel. Obsidian is fairly clean&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/obsidian.jpg&#34; alt=&#34;Obsidian&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;hellip;which is appreciated, as it&amp;rsquo;s the single minimalist experience in my otherwise messy (thanks, Microsoft) work-tech stack. It does what it set out to do with nearly nonexistent &amp;ldquo;but wait, there&amp;rsquo;s more!&amp;rdquo; action. I haven&amp;rsquo;t fully explored backlinks, so commenting on how I feel about them would be premature.&lt;/p&gt;
+&lt;p&gt;Edit: I expolored them and found they don&amp;rsquo;t solve any problem I currently have, and indeed adding them into my blog posts doesn&amp;rsquo;t work as Jekyll doesn&amp;rsquo;t support the feature, so they will remain unsused.&lt;/p&gt;
+&lt;p&gt;I like the approach Obsidian takes w/r/t no edit panel, but I quickly threw this together to show what one might look like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/markdown_edit_panel.jpg&#34; alt=&#34;Obsidian with edit panel&#34; title=&#34;Obsidian with edit panel&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s next?&lt;/h2&gt;
+&lt;p&gt;I think at this point any change from Obsidian would be akin to distro hopping — just using something else because it looks neat or if I get bored of Obsidian. It works perfectly well right now (though I need to set git up so I can push directly to the blog, but that&amp;rsquo;s a skill issue on my end). I&amp;rsquo;ve heard neat things about Joplin, but it looks too busy and I don&amp;rsquo;t need anything like cloud sharing, collab, or multimedia notes. Obsidian also jives well with my blog, which runs on Jekyll, because it&amp;rsquo;s based on markdown.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Premium Piracy</title>
+      <link>http://localhost:1313/posts/2024-10-31-premium-piracy/</link>
+      <pubDate>Thu, 31 Oct 2024 12:55:51 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-10-31-premium-piracy/</guid>
+      <description>An attempt to understand entitlement.</description>
+      <content>&lt;p&gt;On the &lt;a href=&#34;https://news.ycombinator.com/item?id=41999314&#34;&gt;Hacker News-posted article&lt;/a&gt; (originally found on &lt;a href=&#34;https://www.gamingonlinux.com/2024/10/steam-games-will-now-need-to-fully-disclose-kernel-level-anti-cheat-on-store-pages/&#34;&gt;Gaming on Linux&lt;/a&gt;), I found this comment:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/hacker-news-piracy.png&#34; alt=&#34;Hacker News comment&#34; title=&#34;Hacker News comment&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m starting to believe this is copypasta — I see this so often, nearly word-for-word each time. If it is copypasta, I&amp;rsquo;m officially out of touch. Even with the risk of Old Man Yells at Thieves, I&amp;rsquo;ll go ahead with the critique.&lt;/p&gt;
+&lt;p&gt;I began pirating around 2000 or so. Napster was enough for a while, when individual songs sufficed, but before long I moved to torrents. For a while, after I got a car, I frequently drove to Blockbuster to rent DVDs for movies I couldn&amp;rsquo;t find torrents for so as to rip them with Gordion Knot and host them. I reckon my finest moment was uploading a vinyl rips of Lord Tariq and Peter Gunz&amp;rsquo;s &amp;ldquo;Deja Vu (Uptown Baby)&amp;rdquo; b/w &amp;ldquo;Marmalade.&amp;rdquo; I was convinced &amp;ldquo;Marmalade&amp;rdquo; was not available online prior to that point, as it wasn&amp;rsquo;t (to the best f my knowledge) on the album &lt;em&gt;Make it Reign&lt;/em&gt;, so I was doing heads a favor by rectifying that situation. A slightly wiser me knows this was wrong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ownership is the premium version of a product.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I concur with bitsandboots on this point (see previous posts re: ownership)&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Turns out piracy is sometimes the only ownership option.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip; yet on this point I strongly disagree with bits. Regardless of how much you may want something, pirating is not a justifiable option. To think — planting a flag on this point over &lt;em&gt;Grand Theft Auto&lt;/em&gt;! Is the only other option in this scenario not to thieve? Where is the line in the sand on this — that is, what&amp;rsquo;s the point of decision wherein it becomes an acceptable form of recourse to steal a thing, and does this decision framework extend to others? Say I decide I want — I just cannot live without! — your Toyota 4Runner. Is it acceptable to just steal it?&lt;/p&gt;
+&lt;p&gt;So we&amp;rsquo;re clear on what I mean by &amp;ldquo;pirating:&amp;rdquo;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One type of copyright infringement is popularly known as piracy. This involves duplicating and distributing copyrighted materials without permission from the copyright holder.
+&lt;a href=&#34;https://www.justia.com/entertainment-law/piracy-in-the-entertainment-industry/&#34;&gt;Piracy in the Entertainment Industry &amp;amp; Legal Penalties &lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I don&amp;rsquo;t buy the digital vs. tangible goods division: That the difference in the 4Runner and a video game is that as a digital good, &lt;em&gt;GTA&lt;/em&gt; is copyable with comparatively minimal effort. It&amp;rsquo;s just bits and bytes, after all. This argument shifts the discussion away from when it&amp;rsquo;s acceptable to steal to why it&amp;rsquo;s acceptable to steal, which is some mighty serious conclusion jumping.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an undercurrent of entitlement: To wit, that Rockstar games owes you or I something, or that we have any right to products they make.&lt;/p&gt;
+&lt;p&gt;By no means do I desire to create animosity between bits and myself, but this is foolishness. If I&amp;rsquo;m adverse to playing games requiring kernel-level anticheats, then the solution is to not play the game. That&amp;rsquo;s the simplest way to adhere to my principles on the matter. Principles often require you to not do things you&amp;rsquo;d (possibly) rather do, if it weren&amp;rsquo;t for the principles getting in the way. That&amp;rsquo;s part of the entire point of the matter. Stealing, as the third option, strikes me as a betrayal of principle while robbing the individual or group of individuals who created the good. Principles that don&amp;rsquo;t stand up to the whimsy of desire are weak, flimsy things.&lt;/p&gt;
+&lt;p&gt;As I was writing this post, another game was removed from the Steam Deck scene: &lt;a href=&#34;https://www.theverge.com/2024/10/31/24284644/apex-legends-loses-linux-steam-deck-support-anti-cheat&#34;&gt;Apex Legends is taking away its support for the Steam Deck and Linux&lt;/a&gt;. If I were a Valorant player, my options would be: 1) Play Valorant on an OS that could pass security checks, or 2) do not play Valorant. The former might even require me to build a separate computer (or just dual-boot) but the point stands: I&amp;rsquo;m not entitled to this video game. Electronic Arts is not in a position wherein they owe me anything.&lt;/p&gt;
+&lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
+&lt;p&gt;I was browsing Slashdot and found &lt;a href=&#34;https://yro.slashdot.org/story/24/11/20/1543236/half-of-young-norwegians-justify-piracy-as-streaming-costs-soar&#34;&gt;this&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/slashdot_piracy.png&#34; alt=&#34;Slashdot comment on piracy&#34; title=&#34;Slashdot coment on piracy&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Piracy also provides a way of watching your content whenever you want and does not depend on the existence of upstream provider or whether they still have a license for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;Your&amp;rdquo; content&amp;hellip;?&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Gaming Backlog</title>
+      <link>http://localhost:1313/posts/2024-10-28-backlog/</link>
+      <pubDate>Mon, 28 Oct 2024 07:59:32 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-10-28-backlog/</guid>
+      <description>A list of games, mostly Playstation titles, comprising my backlog.</description>
+      <content>&lt;h3 id=&#34;metal-gear-solid&#34;&gt;Metal Gear Solid&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;breath-of-fire-iii&#34;&gt;Breath of Fire III&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: First played / beat ca. 1999. Favorite RPG.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;breath-of-fire-iv&#34;&gt;Breath of Fire IV&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: First played / beat ca. 2002.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lunar-silver-star-story-complete&#34;&gt;Lunar: Silver Star Story Complete&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lunar-2-eternal-blue-complete&#34;&gt;Lunar 2: Eternal Blue Complete&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ys-x-nordics&#34;&gt;Ys X: Nordics&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation 4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;cat-quest-iii&#34;&gt;Cat Quest III&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation 4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;castlevania-symphony-of-the-night&#34;&gt;Castlevania: Symphony of the Night&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;medievil&#34;&gt;MediEvil&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;klonoa-door-to-phantomile&#34;&gt;Klonoa: Door to Phantomile&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation 4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: Expensive. Might take some time to acquire.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;metal-gear-solid-v-the-phantom-pain&#34;&gt;Metal Gear Solid V: The Phantom Pain&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note: I have the digital version, but need to get the physical.&lt;/p&gt;
+&lt;hr&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Birds of the Midwest</title>
+      <link>http://localhost:1313/posts/2024-10-9-midwest-birds/</link>
+      <pubDate>Wed, 09 Oct 2024 10:10:54 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-10-9-midwest-birds/</guid>
+      <description>Other fauna, too.</description>
+      <content>&lt;p&gt;There&amp;rsquo;s a walking trail on a for-sale plot of land contiguous to the corporate HQ where I work. I find it good and pleasing to walk this trail two or three times in the morning, and again in the afternoon, depending on how warm it is.&lt;/p&gt;
+&lt;p&gt;The Lord&amp;rsquo;s work is plainly evident on many mornings:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/walking-trail-oct-10-2024.jpg&#34; alt=&#34;Waking trail in Lenexa, KS&#34; title=&#34;Walking trail in Lenexa, KS&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Friends, Romans, countrymen, lend me your eardrums&lt;/p&gt;
+&lt;p&gt;It was a beautiful day off in the neighborhood&lt;/p&gt;
+&lt;p&gt;Yellows and greens and blues and browns&lt;/p&gt;
+&lt;p&gt;And greys and hues that ooze beneath dilapidated wood&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Andrew 3000, &amp;ldquo;Black Ice&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s growing cooler in the morning, so different birds are returning and leaving. I saw this one today:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/kansas-bird-1.jpg&#34; alt=&#34;Great Blue Heron&#34; title=&#34;Great Blue Heron&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/kansas-bird-1-larger.jpg&#34; alt=&#34;Great Blue Heron, closer&#34; title=&#34;Great Blue Heron, closer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I reckon it&amp;rsquo;s a Great Blue Heron based on the physical appearance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Long, slender legs&lt;/li&gt;
+&lt;li&gt;S-curved neck&lt;/li&gt;
+&lt;li&gt;Long, pointed beak&lt;/li&gt;
+&lt;li&gt;Overall grayish-blue coloration&lt;/li&gt;
+&lt;li&gt;Large size (Great Blue Herons are one of the largest heron species in North America)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finding it near a body of water in this part of the Midwest at this time of year is also in line with GBH behavior. They eat fish — hence this one&amp;rsquo;s proximity to water when I took the picture — but I don&amp;rsquo;t often see fish in the ponds.&lt;/p&gt;
+&lt;p&gt;The ponds are artificial (best I can tell) and don&amp;rsquo;t feed from a natural body of water, so I don&amp;rsquo;t know where fish would come from unless they were introduced by man. I did see two small, black fish darting around in the southern pond the other day, but that&amp;rsquo;s not a typical sight.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Great Blue Herons are wading birds that hunt for fish, amphibians, and other small prey in shallow waters. They&amp;rsquo;re known for their patient hunting style, often standing still or moving very slowly through the water before quickly striking at their prey. (claude.ai)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From our home&amp;rsquo;s balcony in the suburbs, my wife took these pictures:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/missouri-blue-bird-1.heic&#34; alt=&#34;A blue bird&#34; title=&#34;A blue bird&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is an Eastern Bluebird, the state bird of Missorui since 1927. It&amp;rsquo;s also the state bird of New York.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bright blue head and back&lt;/li&gt;
+&lt;li&gt;Ruddy breast&lt;/li&gt;
+&lt;li&gt;White rump&lt;/li&gt;
+&lt;li&gt;Prefers open areas&lt;/li&gt;
+&lt;li&gt;Eats insects, berries, and fruit&lt;/li&gt;
+&lt;li&gt;Songbird&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I built a birdhouse and mounted it to the fence line, and it took about a week before some of these Eastern Bluebirds moved in. The female built the nest in about 5 - 7 days. She used thatch from the pit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/missouri-red-bird-1.heic&#34; alt=&#34;A red bird&#34; title=&#34;A red bird&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A House Finch. Probably a male (bright red coloration). House Finches are small songbirds with the following characteristics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reddish-pink coloration on the head, breast, and rump&lt;/li&gt;
+&lt;li&gt;Brown streaking on the back and sides&lt;/li&gt;
+&lt;li&gt;A stout, conical beak typical of seed-eating birds&lt;/li&gt;
+&lt;li&gt;A slightly notched tail&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/missouri-mammal.heic&#34; alt=&#34;A mammal called Mammal&#34; title=&#34;A mammal called Mammal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is not a bird.&lt;/p&gt;
+&lt;p&gt;This is Mammal, who lives in the pit? Dry retention pond? beyond our house. It&amp;rsquo;s called Mammal because at the time we first saw him, neither my wife nor I knew what it was, so we settled on using the class name. We&amp;rsquo;re now almost 100% positive Mammal is a woodchuck. They are also known as &amp;ldquo;whistlepigs.&amp;rdquo; It has a funny run and eats flowers and some grasses.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/geese-1.jpg&#34; alt=&#34;Canada geese&#34; title=&#34;Canada geese&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is a gaggle (or a &amp;ldquo;plump&amp;rdquo;) of Canada geese. The ones that frequent the ponds are pretty docile, as dozens of people walk the trails daily, which I assume desensitizes them to human presence. They also don&amp;rsquo;t care about the cars on the road, which isn&amp;rsquo;t as great, since the geese just cross the street whenever it pleases them to do so.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/geese-2.jpg&#34; alt=&#34;Canada goose, closer&#34; title=&#34;Canada goose, closer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Canada geese are characterized by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Large size&lt;/li&gt;
+&lt;li&gt;Long black necks&lt;/li&gt;
+&lt;li&gt;Black heads with a white &amp;ldquo;chinstrap&amp;rdquo; marking&lt;/li&gt;
+&lt;li&gt;Tan-brown body feathers&lt;/li&gt;
+&lt;li&gt;Lighter colored breast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We call these birds &amp;ldquo;honkies&amp;rdquo; because of their distinctive call. They fly in V-shaped wedge formations when a team of them is migrating. We often hear them before we see them.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mexican Trinitron</title>
+      <link>http://localhost:1313/posts/2024-10-3-mexican-trinitron/</link>
+      <pubDate>Thu, 03 Oct 2024 09:54:43 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-10-3-mexican-trinitron/</guid>
+      <description>Notes on a CRT.</description>
+      <content>&lt;p&gt;h/t to @bennieiv for directing me to an estate sale with a 27&amp;quot; Sony WEGA Trinitron ($5!). The scanline geometry is a bit &amp;hellip;wonky, but easy to ignore. I lack the knowledge, time, tools, and interest to do anything about it, and for $5, what&amp;rsquo;s the difference? It could very well be the case this is how all flat-panel CRTs look.&lt;/p&gt;
+&lt;p&gt;Edit: This is called bowing, and apparently Sony&amp;rsquo;s Wega TVs are notorious for this effect (though all flat CRTs are susceptible). &lt;a href=&#34;https://crtdatabase.com/faq/adjusting-the-yoke-on-a-flat-crt-to-fix-bowing&#34;&gt;CRT Database&lt;/a&gt; has an excellent article on this. Yokes and that.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://belmead.github.io/blog/images/tv-bowed-image-mgs.jpg&#34; alt=&#34;Bowed television picture&#34; title=&#34;Bowed television picture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Bowing prevalent on the right side bottom.&lt;/p&gt;
+&lt;h3 id=&#34;sony-sony-kv-24fv12--selected-facts-from-crt-databasehttpscrtdatabasecomcrtssonysony-kv-24fv12&#34;&gt;Sony Sony KV-24FV12 — selected facts from &lt;a href=&#34;https://crtdatabase.com/crts/sony/sony-kv-24fv12&#34;&gt;CRT Database&lt;/a&gt;&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Property&lt;/th&gt;
+          &lt;th&gt;Attribute&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;High&lt;/td&gt;
+          &lt;td&gt;Low&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Series&lt;/td&gt;
+          &lt;td&gt;Wega&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Viewable Size&lt;/td&gt;
+          &lt;td&gt;24&amp;quot;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Inputs&lt;/td&gt;
+          &lt;td&gt;Composite, S-Video, RF&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Resolutions&lt;/td&gt;
+          &lt;td&gt;240p, 480i&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Horiz. Scan Range&lt;/td&gt;
+          &lt;td&gt;15 kHz&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vert. Scan Range&lt;/td&gt;
+          &lt;td&gt;60 Hz&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Format&lt;/td&gt;
+          &lt;td&gt;NTSC&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Aspect Ratio&lt;/td&gt;
+          &lt;td&gt;4:3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mask&lt;/td&gt;
+          &lt;td&gt;Aperture Grill&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Speakers&lt;/td&gt;
+          &lt;td&gt;Stereo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Weight&lt;/td&gt;
+          &lt;td&gt;81 lbs&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Launched&lt;/td&gt;
+          &lt;td&gt;2000&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Country of Mfg.&lt;/td&gt;
+          &lt;td&gt;Mexico&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Like the 24FV300, the speakers used in this model are prone to foam rot and usually do not work properly. (Ibid.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Thankfully, the sound is excellent so far, but I&amp;rsquo;ll listen for any changes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Unlike the 27&amp;quot; and larger BA-5 Trinitrons, this TV does not have native component inputs. However, its jungle chip is very versatile and can be modified for RGB and YPbPr component video. (Ibid.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I am in no hurry to mod this television, but it&amp;rsquo;s nice to have options. Lastly:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most of Sony&amp;rsquo;s flat Trinitrons contain a velocity modulation circuit. VM enhances dark outlines on screen, which helps hide composite dot crawl and can make TV and movies look better. However, it ruins pixel art and significantly degrades the appearance of 2D games. On this model, it can be disabled in the user menu. (Ibid.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The picture looks fine to me, but I can check with Breath of Fire III to see if there is a difference with the setting turned off (I&amp;rsquo;m assuming it&amp;rsquo;s on, if that&amp;rsquo;s the default. The original owner — a man called Frank, whom I believe has passed — did not strike me as the type of man to fiddle with electronics [based on what the woman in charge of the estate sale told me]. I understand he was a brilliant carpenter, however. I enjoy woodworking, so it&amp;rsquo;s a bit of a shame I could not meet the man and learn something from him).&lt;/p&gt;
+&lt;p&gt;Rest in peace, Frank. Thanks for taking good care of the TV.&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>
