@@ -6,7 +6,7 @@
     <description>Recent content on Old Man Yells at Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 09:50:13 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 08:45:03 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Early Review - AYN Odin 2 Pro</title>
       <link>http://localhost:1313/posts/2024-12-13-odin-2-pro-review/</link>
@@ -271,7 +271,14 @@ print(&amp;#34;\nTranscription complete!&amp;#34;)
       
       <guid>http://localhost:1313/posts/2024-10-28-backlog/</guid>
       <description>A list of games, mostly Playstation titles, comprising my backlog.</description>
-      <content>&lt;h3 id=&#34;metal-gear-solid&#34;&gt;Metal Gear Solid&lt;/h3&gt;
+      <content>&lt;h3 id=&#34;disgaea-7-vows-of-the-virtueless&#34;&gt;Disgaea 7: Vows of the Virtueless&lt;/h3&gt;
+&lt;p&gt;🎮 Playstation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Play&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Beat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;metal-gear-solid&#34;&gt;Metal Gear Solid&lt;/h3&gt;
 &lt;p&gt;🎮 Playstation&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Acquire&lt;/li&gt;
@@ -528,6 +535,64 @@ print(&amp;#34;\nTranscription complete!&amp;#34;)
 &lt;/blockquote&gt;
 &lt;p&gt;The picture looks fine to me, but I can check with Breath of Fire III to see if there is a difference with the setting turned off (I&amp;rsquo;m assuming it&amp;rsquo;s on, if that&amp;rsquo;s the default. The original owner — a man called Frank, whom I believe has passed — did not strike me as the type of man to fiddle with electronics [based on what the woman in charge of the estate sale told me]. I understand he was a brilliant carpenter, however. I enjoy woodworking, so it&amp;rsquo;s a bit of a shame I could not meet the man and learn something from him).&lt;/p&gt;
 &lt;p&gt;Rest in peace, Frank. Thanks for taking good care of the TV.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Colophon</title>
+      <link>http://localhost:1313/posts/0-colophon/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/0-colophon/</guid>
+      <description>readme.md</description>
+      <content>&lt;h1 id=&#34;why-a-blog&#34;&gt;Why a blog?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;I enjoy writing&lt;/li&gt;
+&lt;li&gt;I understand things better when I write about them&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;whats-the-stack&#34;&gt;What&amp;rsquo;s the stack?&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Tool&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hugo&lt;/td&gt;
+          &lt;td&gt;SSG&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vercel&lt;/td&gt;
+          &lt;td&gt;Deployment&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;GitHub&lt;/td&gt;
+          &lt;td&gt;VCS and repo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Obsidian&lt;/td&gt;
+          &lt;td&gt;Writing&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;nvim&lt;/td&gt;
+          &lt;td&gt;Editing&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Arch&lt;/td&gt;
+          &lt;td&gt;At home B)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;OS X&lt;/td&gt;
+          &lt;td&gt;At work :(&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;what-do-you-do&#34;&gt;What do you do?&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m a product designer (UI/UX) for a financial institution in the midwest. I don&amp;rsquo;t write much about that. I often larp as someone who knows how to code.&lt;/p&gt;
+&lt;h1 id=&#34;what-else&#34;&gt;What else?&lt;/h1&gt;
+&lt;p&gt;Christ is king.&lt;/p&gt;
 </content>
     </item>
     
