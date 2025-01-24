@@ -36,10 +36,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      # Deploy to Vercel
+      # Deploy to Vercel using CLI
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
       - name: Deploy to Vercel
-        uses: vercel/vercel-action@v1
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
+
