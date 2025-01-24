@@ -1,0 +1,45 @@
+name: Deploy Hugo Site
+on: 
+  push:
+    branches: 
+      - main  # Triggers on pushes to main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the code
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive  # If you use submodules
+
+      # Cache Hugo dependencies (optional)
+      - name: Cache Hugo files
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./resources
+            ./public
+            ./node_modules
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/*.md', '**/*.toml', '**/*.yaml', '**/*.json') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
+      # Setup Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'  # Pin to a specific version if needed for stablility
+          extended: true  # For SCSS/SASS support
+
+      # Build the Hugo site
+      - name: Build
+        run: hugo --minify
+
+      # Deploy to Vercel
+      - name: Deploy to Vercel
+        uses: vercel/action@v5
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
