@@ -19,7 +19,7 @@ summary = "What caught my eye in the month of January, 2025."
 
 [It's not enough to be right](https://databased.pedramnavid.com/p/its-not-enough-to-be-right) by Pedram Navid
 
-[# Software, the Tough Tomato Principle, and the Great Weirdening of the World](https://flocrivello.com/software-the-tough-tomato-principle-and-the-great-weirdening-of-the-world/) by Flo Crivello
+[Software, the Tough Tomato Principle, and the Great Weirdening of the World](https://flocrivello.com/software-the-tough-tomato-principle-and-the-great-weirdening-of-the-world/) by Flo Crivello
 
 [Travel + Tech + Fintech In South East Asia](https://www.paymentsculture.com/p/travel-tech-fintech-in-south-east) by Matt Jones
 
