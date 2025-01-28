@@ -24,3 +24,5 @@ summary = "What caught my eye in the month of January, 2025."
 [Travel + Tech + Fintech In South East Asia](https://www.paymentsculture.com/p/travel-tech-fintech-in-south-east) by Matt Jones
 
 [The Premium Mediocre Life of Maya Millennial](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/) by Venkatesh Rao
+
+[Matt Yglesias Considered As The Nietzschean Superman](https://www.astralcodexten.com/p/matt-yglesias-considered-as-the-nietzschean) by Astral Codex Ten
