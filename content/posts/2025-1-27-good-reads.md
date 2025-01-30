@@ -26,3 +26,5 @@ summary = "What caught my eye in the month of January, 2025."
 [The Premium Mediocre Life of Maya Millennial](https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/) by Venkatesh Rao
 
 [Matt Yglesias Considered As The Nietzschean Superman](https://www.astralcodexten.com/p/matt-yglesias-considered-as-the-nietzschean) by Astral Codex Ten
+
+[Advice for a friend who wants to start a blog](https://www.henrikkarlsson.xyz/p/start-a-blog) by Henrik Karlsson
