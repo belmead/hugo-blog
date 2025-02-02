@@ -1,5 +1,5 @@
 +++
-title = "Installing Git CLI on Arch"
+title = "Following along: typecraft's Neovim for newbs part 1"
 date = "2025-02-02T08:12:21-06:00"
 draft = false
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
@@ -11,9 +11,13 @@ description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
-summary = "Getting the blog set up locally on Arch Linux."
+summary = "In which I spend ages following a YouTube guide on nvim."
 +++
-Prior to looking at the [Packages page](https://archlinux.org/packages/) on the official Arch Linux site, let's make sure the system is UTD:
+What began as a post on installing GitHub locally turned into a multipart post on following typecraft's guide to nvim, so while I eventually get around to installing the CLI tools, this is elmost entirely about typecraft's guide. I kept the part about GitHub in so I can re-use it later.
+
+Starting with me wanting to get GitHub's CLI installed:
+
+Prior to looking at the [Packages page](https://archlinux.org/packages/) on the official Arch Linux site, I made sure the system's UTD:
 
 `sudo pacman -Syu'
 
@@ -143,18 +147,142 @@ We add a few more lines below (this is where the official Lazy install doc diver
 local plugins = {}
 local opts = {}
 
-require ("lazy").setup(plugins, opts)
+require("lazy").setup(plugins, opts)
 ```
 
 After saving, running `:Lazy` gets us:
 
-![First post success](/img/2025-01-22-hugo-first-post.png)
-
-![Lazy running in nvim](/img/snapshot_2025-02-02_09-49-06.png)
+![Lazy running in nvim](/img/2025-02-02_lazy-initial.png)
 *Lazy running in nvim with `:Lazy`*
 
 ### Color scheme (catpucchin)
 
-### telescope
+The link to the catppuccin repo is [here](https://github.com/catppuccin/nvim). The line
 
-### treesitter
+`{ "catppuccin/nvim", name = "catppuccin", priority = 1000 }`
+
+goes into the local plugins table (`local plugins = {}`):
+
+```
+local plugins = {
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+}
+local opts = {}
+```
+
+Save, exit, and run `nvim` gets me:
+
+![Lazy with (not) catppuccin](/img/2025-02-02_lazy-cat.png)
+
+Evidently this is not catppuccin, and I need to call it with a function so the nvim Lua runtime knows what to do with it:
+
+```
+require("lazy").setup(plugins, opts)
+
+require("catppuccin").setup()
+vim.cmd.colorscheme "catppuccin"
+```
+
+No change to the `require("lazy").setup(plugins, opts)` bit, I only included it as a location marker.
+
+![Lazy with catpuccin called](/img/2025-02-02_lazy-cat-called.png)
+
+### Fuzzy finding and `grep`ping with Telescope
+
+Per typecraft,
+
+> Telescope is unbelievable. It's an amazing plugin - it enables you, in your neovim configuration, to fuzzy find based on the name of files. It allows you to `grep` through all your files to look for specific strings throughout your project, and tons and tons and tons of other stuff.
+
+You may find the repo [here](https://github.com/nvim-telescope/telescope.nvim). This requires more table editing:
+
+```
+local plugins = {
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  {
+    'nvim-telescope/telescope.nvim', tag = '0.1.8',
+    dependencies = { 'nvim-lua/plenary.nvim' }
+  }
+}
+```
+
+Save, exit, and run `nvim` gets me:
+
+![Lazy installing Telescope and Plenary](2025-02-02_telescope-and-plenary.png)
+*Lazy installing Telescope and Plenary*
+
+Very cool. Next, we install a local variable called `builtin`:
+
+```
+require("lazy").setup(plugins, opts)
+
+local builtin = require("telescope.builtin")
+```
+
+Per typecraft,
+
+> What this is going to do is, it's going to load up all of the stuff in the Lua file within the module `telescope.builtin`.
+
+So we edit thusly:
+
+```
+require("lazy").setup(plugins, opts)
+
+local builtin = require("telescope.builtin")
+vim.keymap.set('n', '<C-p>', builtin.find_files(), {})
+```
+
+> This is a function in the built-in module for Telescope and it allow us to use fuzzy find to find files in our project.
+
+Now I can find files with ctrl+P:
+
+![File finder in with Telescope](/img/2025-02-02_find-files.png)
+*Finding files with Telescope*
+
+Neat. To live `grep`, we add the following below the last `keymap` line:
+
+`vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})`
+
+`leader` is undefined, so at the top, under `vim.cmd("set shiftwidth=2")`, we add:
+
+`vim.g.mapleader = " "`
+
+After running `:source` and saving, we can use live grep with space+fg:
+
+![Live grep in nvim](/img/2025-02-02_nvim-live-grep.png)
+*Live `grep` in nvim*
+
+### nvim-treesitter
+
+I used the repo at [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and the install wiki [here](https://github.com/nvim-treesitter/nvim-treesitter/wiki/installation). Per the repo, nvim-treesitter:
+
+> The goal of nvim-treesitter is both to provide a simple and easy way to use the interface for tree-sitter in Neovim and to provide some basic functionality such as highlighting based on it.
+
+So what does treesitter do?
+
+> Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited. [repo](https://github.com/tree-sitter/tree-sitter)
+
+So nvim-treesitter helps us use tree-sitter. Very confusing. I think it's a text highlighter. Back in init.lua, we add to our list of plugins:
+
+`require("lazy").setup({{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}})`
+
+Below the `keymap` setting for live grep, we add:
+
+```
+local config = require("nvim-treesitter.configs")
+config.setup({
+  ensure_installed = {"lua", "python"},
+  highlight = { enable = true },
+  indent = { enable = true },  
+})
+```
+
+typecraft went for JS, but I mostly fool around in Python, so I added that instead.
+
+That's the end of the first video in the 6-part series. To recap, we:
+
+1. installed nvim
+2. Created out config file, init.lua
+3. Installed a package manager
+4. Installed packages `catppuccin`, `telescope`. and `nvim-treesitter`
+
+Up next: [](). 
