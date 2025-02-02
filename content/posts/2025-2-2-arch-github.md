@@ -131,31 +131,24 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   end
 end
 vim.opt.rtp:prepend(lazypath)
-
--- Make sure to setup `mapleader` and `maplocalleader` before
--- loading lazy.nvim so that mappings are correct.
--- This is also a good place to setup other settings (vim.opt)
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
-
--- Setup lazy.nvim
-require("lazy").setup({
-  spec = {
-    -- add your plugins here
-  },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "habamax" } },
-  -- automatically check for plugin updates
-  checker = { enabled = true },
-})
 ```
 
 A bit opaque (I'm not used to Lua's if-then statements). Per typecraft,
 
-> So essentially this little snippet just says, "Hey, does this thing exist on the system yet? If not, we'll clone the repository, and then we're good to go.
+> So essentially this little snippet just says, "Hey, does this thing exist on the system yet? If not, we'll clone the repository, and then we're good to go."
 
-![Lazy running in nvim](static/img/snapshot_2025-02-02_09-49-06.png)
+We add a few more lines below (this is where the official Lazy install doc diverges from typecraft's guide. The install document has some different code, but I'm following typecraft. If it breaks, I'll refer to the doc. The lines:
+
+```
+local plugins = {}
+local opts = {}
+
+require ("lazy").setup(plugins, opts)
+```
+
+After saving, running `:Lazy` gets us:
+
+![Lazy running in nvim](/img/snapshot_2025-02-02_09-49-06.png)
 *Lazy running in nvim with `:Lazy`*
 
 ### Color scheme (catpucchin)
