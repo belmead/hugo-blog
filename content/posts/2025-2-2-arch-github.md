@@ -148,6 +148,8 @@ require ("lazy").setup(plugins, opts)
 
 After saving, running `:Lazy` gets us:
 
+![First post success](/img/2025-01-22-hugo-first-post.png)
+
 ![Lazy running in nvim](/img/snapshot_2025-02-02_09-49-06.png)
 *Lazy running in nvim with `:Lazy`*
 
