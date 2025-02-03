@@ -207,7 +207,7 @@ local plugins = {
 
 Save, exit, and run `nvim` gets me:
 
-![Lazy installing Telescope and Plenary](2025-02-02_telescope-and-plenary.png)
+![Lazy installing Telescope and Plenary](/img/2025-02-02_telescope-and-plenary.png)
 *Lazy installing Telescope and Plenary*
 
 Very cool. Next, we install a local variable called `builtin`:
@@ -285,4 +285,4 @@ That's the end of the first video in the 6-part series. To recap, we:
 3. Installed a package manager
 4. Installed packages `catppuccin`, `telescope`. and `nvim-treesitter`
 
-Up next: [](). 
+Up next: [part 2](2025-2-2-nvim-newb-2.md)
