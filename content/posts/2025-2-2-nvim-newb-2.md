@@ -13,7 +13,7 @@ readingTime = false
 hideComments = false
 summary = "In which I spend ages following a YouTube guide on nvim."
 +++
-If you missed the previous post, see [Following along: typecraft's Neovim for newbs part 1](2025-2-2-nvim-newb-1.md). This post refers to typecraft's [https://www.youtube.com/watch?v=4zyZ3sw_ulc&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&index=2](second video) in a six-part series.
+If you missed the previous post, see [Following along: typecraft's Neovim for newbs part 1](2025-2-2-nvim-newb-1.md). This post refers to typecraft's [second videp](https://www.youtube.com/watch?v=4zyZ3sw_ulc&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&index=2) in a six-part series.
 
 ## Neo-tree
 
