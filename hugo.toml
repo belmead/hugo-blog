@@ -1,7 +1,7 @@
 baseURL = 'https://omya.games/'
 languageCode = 'en-us'
 summary = 'summary'
-description = 'description'
+site-description = 'description'
 title = 'Old Man Yells at Games'
 theme = 'archie'
 [params]
