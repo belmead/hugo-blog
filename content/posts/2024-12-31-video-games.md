@@ -1,11 +1,13 @@
 ---
 title: My Life in Gaming
-description: "Description."
+description: Description.
 date: December 13, 2024
 tldr: All the games I can remember playing.
 draft: false
-tags: [tag names] (optional)
-toc: false (optional)
+tags:
+  - tag
+  - names
+toc: "false"
 ---
 
 I don't recall at which age I began to game — between six and eight years of age, I reckon — but I've been at this hobby for at least 75% of my life. I anticipate this number will only increase as I age. Were I a smarter man, I would have compiled a list sooner and kept up with it, but I've always been a poor planner.
