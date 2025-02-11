@@ -1,7 +1,7 @@
 ---
 title: My Life in Gaming
 description: Description.
-date: "12132024"
+date: 2024-12-13
 tldr: All the games I can remember playing.
 draft: false
 tags:
