@@ -1,7 +1,7 @@
 ---
 title: My Life in Gaming
 description: Description.
-date: December 13, 2024
+date: 12-13-2024
 tldr: All the games I can remember playing.
 draft: false
 tags:
