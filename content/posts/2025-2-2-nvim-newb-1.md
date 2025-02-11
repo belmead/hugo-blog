@@ -27,7 +27,7 @@ It wasn't (is an Arch machine every truly UTD?) so I installed the updated packa
 
 From there, I create a dir in for repos with
 
-`mkdir -~/repos`
+`mkdir -p ~/repos`
 
 The `-p` option prevents the `No such file or directory` error because we are making a directory requiring a parent directory which doesn't exist, either. That is, `-p` is for making nested dirs.
 

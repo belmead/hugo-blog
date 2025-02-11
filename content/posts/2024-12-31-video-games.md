@@ -1,18 +1,12 @@
-+++
-title = "My Life in Games"
-date = "2024-12-13T08:45:03-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "All the games I can remember playing."
-+++
+---
+title: My 
+description: Description.
+date: December 13, 2024
+tldr: All the games I can remember playing.
+draft: false
+tags: [tag names] (optional)
+toc: false (optional)
+---
 I don't recall at which age I began to game — between six and eight years of age, I reckon — but I've been at this hobby for at least 75% of my life. I anticipate this number will only increase as I age. Were I a smarter man, I would have compiled a list sooner and kept up with it, but I've always been a poor planner.
 
 I'm keeping this a list of games I've spent at least ~15 minutes with and/or more than two credits' worth. An all-encompassing list would be significantly longer, but my memory is rubbish, so. I wouldn't be surprised to find out I've beaten and forgotten more games than there are entries on this list.
@@ -435,4 +429,4 @@ Played this originally when it came out and got pretty far but quit before I bea
 Great TD game.
 
 **Marvel Rivals**
-I miss the first 12 ,18 months of Overwatch. I don't at all care/know about Marvel IPs (outside of the crossover fighting games), but I chose Rocket Raccoon at random and got decent with him before learning he's not well-liked. Ah, well. My competitive days are behind me, and no one complains in Quick Match.
+I miss the first 12, 18 months of Overwatch. I don't at all care/know about Marvel IPs (outside of the crossover fighting games), but I chose Rocket Raccoon at random and got decent with him before learning he's not well-liked. Ah, well. My competitive days are behind me, and no one complains in Quick Match.
