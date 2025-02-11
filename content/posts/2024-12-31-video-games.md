@@ -1,12 +1,13 @@
 ---
-title: My 
-description: Description.
+title: My Life in Gaming
+description: "Description."
 date: December 13, 2024
 tldr: All the games I can remember playing.
 draft: false
 tags: [tag names] (optional)
 toc: false (optional)
 ---
+
 I don't recall at which age I began to game — between six and eight years of age, I reckon — but I've been at this hobby for at least 75% of my life. I anticipate this number will only increase as I age. Were I a smarter man, I would have compiled a list sooner and kept up with it, but I've always been a poor planner.
 
 I'm keeping this a list of games I've spent at least ~15 minutes with and/or more than two credits' worth. An all-encompassing list would be significantly longer, but my memory is rubbish, so. I wouldn't be surprised to find out I've beaten and forgotten more games than there are entries on this list.
