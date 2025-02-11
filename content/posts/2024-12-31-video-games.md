@@ -21,151 +21,151 @@ I'm keeping this a list of games I've spent at least ~15 minutes with and/or mor
 
 ### NES
 
-**Kirby's Adventure — NES**
+**Kirby's Adventure**
 One of the original games that just appeared in my house one day, along with an NES. I think I remember getting it new, but many of my games were from pawn shops, so I'll never know. I loved the soundtrack then and now, and prided myself on a hitless run.
 
-**Super Mario Bros. — NES**
+**Super Mario Bros.**
 Another game that just appeared one day. Definitely not new when purchased. My dad and I used to love going to pawn shops on weekends, and there was always a copy of SMB available.
 
-**Super Mario Bros. 2 — NES**
+**Super Mario Bros. 2**
 Never felt like a sequel to SMB, and at the time (early-to-mid 90s), I wasn't aware of the game's history. I did enjoy being able to play as Luigi and Peach. I thought her ability to float was OP.
 
-**Super Mario Bros. 3 — NES**
+**Super Mario Bros. 3**
 I played this more than any of the previous 2 SMB titles. I was blown away by the abilities of the tanooki suit, the shoe, and the hammer suit. Giant Land was amazing to me as a child, as sprites of that size were uncommon in the games I played.
 
-**Top Gun — NES**
+**Top Gun**
 I did not enjoy this game at the time and have never played it since. I suspect not having the manual hurt my ability to understand the mechanics.
 
-**Amagon — NES**
+**Amagon**
 I definitely remember getting this from a pawn shop. I found it difficult and never got too far. I played it again as an adult and got farther than I ever did as a child, but it still wasn't that fun.
 
-**Faxanadu — NES**
+**Faxanadu**
 Rented this at least once from Video One. Was too dumb as a kid to appreciate it.
 
-**Yo! Noid — NES**
+**Yo! Noid**
 Rented this often from Blockbuster Video. I never saw the commercials (they may have aired before I was born, not sure), so I didn't understand the mascot, but it was a fun platformer.
 
-**Marble Madness — NES**
+**Marble Madness**
 Thought the isometric view was interesting, but made for a frustrating play. I recall being annoyed with the controls.
 
-**Bubble Bobble — NES**
+**Bubble Bobble**
 I loved this game. Very satisfying to chain attacks on enemies.
 
-**Ice Climbers — NES**
+**Ice Climbers**
 I think I didn't like this game, but I remember playing it often, so I'm not sure what to make of that.
 
-**Gauntlet — NES**
+**Gauntlet**
 Loved this game.
 
-**Mega Man 1 — NES**
+**Mega Man 1**
 Rental from Blockbuster or Video One. Probably the one I rented the least.
 
-**Mega Man 2 — NES**
+**Mega Man 2**
 Rented this one a few times. Best soundtrack.
 
-**Mega Man 3 — NES**
+**Mega Man 3**
 
-**Mega Man 4 — NES**
+**Mega Man 4**
 
-**Mega Man 5 — NES**
+**Mega Man 5**
 
-**Mega Man 6 — NES**
+**Mega Man 6**
 Owned this one, and it was new. I think we got it from K-Mart? Watching replays on YouTube made me realize how much more I should have used Rush's abilities.
 
 ### Arcade
 
-**Galaga — Arcade**
+**Galaga**
 I distinctly recall hurting my wrist playing this at Jolly Time in the Odessa mall (before the mall was renamed and the arcade moved to make way for a theater). Dad said it was carpal tunnel, and I now know that was a correct diagnosis.
 
-**Hard Drivin' — Arcade**
+**Hard Drivin'**
 Even back then I thought the graphics were poor. Unenjoyable, but interesting as a novelty. Cool cabinet.
 
-**Virtua Fighter — Arcade**
+**Virtua Fighter**
 I was never good at "realistic" fighting games. I think it was directly next to Hard Drivin' at Jolly Time.
 
-**Marvel vs. Capcom — Arcade**
+**Marvel vs. Capcom**
 One of my all-time favorite games. I could never do amazing combos, but could — more often than not — beat the game on a single credit with Ryu and Wolverine. I entered into a tournament at the arcade and did not place in the top 5 — I think every other player was at least twice my age — but I do remember dad telling me he was proud I entered anyway.
 
-**Street Fighter vs. Marvel — Arcade**
+**Street Fighter vs. Marvel**
 I loved these crossover games. Beautiful sprite work.
 
 **X-Men: Children of the Atom**
 This was at Gatti Town (or Gatti Land?) and I only ever went there for friends' birthday parties. I was a huge fan of crossover fighting games by this point, but for whatever reason, I don't think I ever played this one much. The attract mode was cool and was the first time I ever saw Omega Red.
 
-**Mortal Kombat — Arcade**
+**Mortal Kombat**
 I remember when Jolly Time got MK. There was a crowd around a new cabinet inside and to the right (where the new games went) where the teenagers were vying for standing space to watch. Didn't play much, as it was almost always being played and I was reluctant to fight against a non-computer opponent, as that was  guaranteed to be a short game. 
 
-**Mortal Kombat 2 — Arcade**
+**Mortal Kombat 2**
 Played it enough to make it to the list. The characters and story was more interesting to me than the actual gameplay.
 
-**Mortal Kombat 3 — Arcade**
+**Mortal Kombat 3**
 This, like MK2, was more of a joy to watch than play. My friend across the street had UMK3 for the SNES and he and I played it often.
 
-**Police Trainer — Arcade**
+**Police Trainer**
 Played this very often, probably every time I went to Jolly Time.
 
-**Area 51 — Arcade**
+**Area 51**
 Played this more often than I should have, because it wasn't very good (though much better than the sequels). My interest in this title went up when I learned you could unlock secrets by breaking all the glass, shooting all the fire extinguishers, etc. Most of my deaths occurred because I was too invested in unlocking secrets than shooting aliens.
 
-**Golden Axe — Arcade**
+**Golden Axe**
 Played this often at the laundromat my dad and I frequented. I don't remember which character I liked to go with. Probably Ax Battler, as I found the name humorous. Still do.
 
-**Street Fighter II — Arcade**
+**Street Fighter II**
 Played this often at the (other) laundromat my dad and I frequented. I always wondered why I couldn't interact with the stone in Chun-Li's stage. I think I mained (if you can call it that) Dhalsim?
 
-**Super Street Fighter III Alpha (?) — Arcade**
+**Super Street Fighter III Alpha (?)**
 I didn't "get" this game despite how many quarters I fed it over the years at Jolly Time. Or was it Wal-Mart? Not sure who I liked to play as. Maybe Birdie?
 
-**Aliens — Arcade**
+**Aliens**
 I didn't play it much, but I loved the art direction. I saw *Alien* when I way too young and thought the arcade game did a fine job of capturing the feel of the movie. Not sure I feel that way now. Part of the feel of the game came from Jolly Time being a dark arcade (that is, poorly lit — which was the style at the time), so that helped.
 
-**The Simpsons — Arcade**
+**The Simpsons**
 Loved this title! Great attract mode.
 
-**X-Men — Arcade**
+**X-Men**
 On equal footing with The Simpsons game. Played this a lot with friends, as it was at Gatti Town/Land and that was the spot for birthdays in Odessa.
 One of my favorite memories was playing this with my friend Bryan. He chose Wolverine and I liked to play as Colossus, but for some reason I thought that I had chosen Wolverine and he the Russian. So when we were fighting Magneto, I was standing in an empty corner firing off ults while Magneto was beating on Wolverine. Bryan, rightfully exasperated, asked what I was doing. I explained I was clawing away at Magneto, and the look on Bryan's face was priceless. Simpler times.
 
-**Alien vs. Predator — Arcade**
+**Alien vs. Predator**
 I loved this game more than I played it. Excellent sprite work. Should have put more quarters into it.
 
-**Primal Rage — Arcade**
+**Primal Rage**
 It was available, so I played it. Not much to say. Vulgar.
 
-**The Avengers — Arcade**
+**The Avengers**
 Played this one quite a few times — I opted for Vision, I think. Not bad. I remember thinking the game went on forever.
 
-**Cruisin' USA — Arcade**
-Similar story to Primal Rage — it was there, so I played it. Better than a claw game. I don't enjoy racing games.
+**Cruisin' USA**
+Similar story to Primal Rage — it was there, so I played it. Better than a claw game. I don't enjoy racing games outside of the Super Mario Kart series. 
 
-**Killer Instinct — Arcade**
+**Killer Instinct**
 I played KI2 before this one, so it never really did it for me. I do appreciate how the series started, however.
 
-**Killer Instinct 2 — Arcade**
+**Killer Instinct 2**
 Played this almost as much as the crossover fighting games. Could reliably beat the game on a single credit with Glacius (the gray color variant, of course). The music and sound effects were sublime and the announcer still plays in my head from time to time. I could never do the insane combos, but I was more than satisfied with knocking Saberwulf down the well.
 
-**Gauntlet Dark Legacy — Arcade**
+**Gauntlet Dark Legacy**
 I really enjoyed this game, but thought the interface was a bit too much. It was difficult to pay attention to what was important on screen. Cool idea, wonky execution. Original was more playable.
 
-**House of the Dead — Arcade**
+**House of the Dead**
 Probably the last lightgun game I played. It was okay. I think I played it in Dallas? Houston?
 
-**Donkey Kong — Arcade**
+**Donkey Kong**
 Played it for the novelty every time I saw it in an arcade, which wasn't often.
 
-**Burger Time — Arcade**
+**Burger Time**
 Cool idea. Boring after a few rounds.
 
-**Ninja Gaiden — Arcade**
+**Ninja Gaiden**
 For whatever reason, a Long John Silver's in my hometown had this game. I was too young to play it well, but enjoyed it. I recall especially liking the bonus stages where the enemy ninjas came at the screen and you had to throw shurikens at them.
 
-**Pinball — Arcade**
+**Pinball**
 Lots of pinball games. Couldn't tell you which ones.
 
-**Dig Dug — Arcade**
+**Dig Dug**
 Available at a bowling alley in Odessa. I thought it was rude to blow up monsters (I still do).
 
-**Ghosts 'n Goblins — Arcade**
+**Ghosts 'n Goblins**
 This cabinet, alongside another game I cannot remember, was at a Texas Burger in my hometown, and we ate there frequently. I think it was Texas Burger, anyway.
 
 ### Super Nintendo
@@ -192,29 +192,32 @@ I played this port before I played it on PC, and so maybe I didn't know any bett
 Played it often at a friend's house. It was fine — not nearly as bad as it's made out to be.
 ### Nintendo 64
 
-**Star Fox 64 — N64**
+**Star Fox 64**
 Played this a ton, as it was one of the few N64 games I owned. My cousin and I would take turns with the controller. Not sure I'd find it interesting enough to play past a few stages these days.
 
-**Glover — N64**
+**Glover**
 A weekend rental, but I think I beat it. Can't tell you anything about it except it's a platformer starring a glove.
 
-**Legend of Zelda - Ocarina of Time — N64**
+**Legend of Zelda - Ocarina of Time**
 Another one of the three N64 games I owned. Loved it, beat it multiple times. Always hated the water temple.
 
-**Doom 64 — N64**
+**Doom 64**
 I rented this a few times from Blockbuster over the years. I never appreciated it the way I did the original games, but it's since grown on me. Makes me happy to see it's recognized for being a good game.
 
-**Goldeneye 64 — N64**
+**GoldenEye 007**
 The other game I owned. My cousin (who lived with my dad and I) would play deathmatch for hours. The cheats, level variety, and weapon options did wonders for the replayability. I remember being pretty bad at Secret Agent difficulty level, so my cousin had to beat those for me on my save file.
 
-**War Gods — N64**
+**War Gods**
 Not sure why I rented this.
 
-**Turok: Dinosaur Hunter — N64**
+**Turok: Dinosaur Hunter**
 I don't recall if I beat this, but I definitely rented it more than once.
 
-**Super Mario 64 — N64**
+**Super Mario 64**
 We rented this one so often, at some point it would have been cheaper to just buy it. Absolute classic.
+
+**Super Mario Kart 64**
+When I was in middle school (or high school), my dad and I forgot to move the clocks back in the house for DST, and we were well up before realizing this error. Worked out, because I got to stay home for an hour before school and play Super Mario Kart 64. That was cool.
 
 ### PlayStation
 
@@ -354,6 +357,18 @@ I *think* this is the correct title. Fun Breakout clone from the shareware days.
 
 **Clean Asia!**
 Where did I find this? Came out around 2007-2008, which seems about right. Fun stuff. I played another one of this games, but I don't remember the title and none of the games on his website ring a bell.
+
+**Quake**
+Lovely title from id Software. I loved the level design.
+
+**Quake II**
+Equally cool as the first.
+
+**Quake III Arena**
+Played this frequently, but not as often as UT.
+
+**Quake IV**
+Bought it, played it, beat it, and promptly forgot about it.
 
 ### PC (Steam)
 
