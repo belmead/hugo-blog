@@ -5,6 +5,7 @@ site-description = 'description'
 title = 'Old Man Yells at Games'
 theme = 'archie'
 [params]
+  subtitle = "Culture, gaming, and dev stuff from the smartest dumb guy in the room"
   ReadMore = "Read More"
   [params.Logo]
     logoText = "Old Man Yells at Games"
