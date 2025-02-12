@@ -1,18 +1,8 @@
-+++
-title = "Note-taking Software"
-date = "2024-11-08T09:06:21-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "Notes about notes and Goldilocks software."
-+++
+---
+title: "Note-taking Software"
+description: "Notes about notes and Goldilocks software."
+date: 2024-11-18
+---
 I'm on the hunt for a good note-taking application. This is my usage history:
 
 - A single, long MSFT Word document
