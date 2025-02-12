@@ -144,7 +144,8 @@ These ought to live in a different Lua module, so before we move them, we add th
 
 ```lua
 require("vim-options")
-require("lazy").setup("plugins")```
+require("lazy").setup("plugins")
+```
 
 The `require("lazy")` line is included in the code block above to indicate where the new line should go. With that line adeed, create a new file in the `lua` dir called `vim-options.lua` and paste what we took from the `init.lua` file.
 
