@@ -1,18 +1,8 @@
-+++
-title = "Following along: typecraft's Neovim for newbs part 1"
-date = "2025-02-02T08:12:21-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "In which I spend ages following a YouTube guide on nvim."
-+++
+---
+title: "Following along: typecraft's Neovim for newbs part 3"
+description: "In which I spend ages following a YouTube guide on nvim."
+date: 2025-02-02
+---
 What began as a post on installing GitHub locally turned into a multipart post on following typecraft's guide to nvim, so while I eventually get around to installing the CLI tools, this is elmost entirely about typecraft's guide. I kept the part about GitHub in so I can re-use it later.
 
 Starting with me wanting to get GitHub's CLI installed:
