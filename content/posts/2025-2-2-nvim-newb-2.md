@@ -1,18 +1,8 @@
-+++
-title = "Following along: typecraft's Neovim for newbs part 2"
-date = "2025-02-02T08:12:21-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "In which I spend ages following a YouTube guide on nvim."
-+++
+---
+title: "Following along: typecraft's Neovim for newbs part 2"
+description: "In which I spend ages following a YouTube guide on nvim."
+date: 2025-02-02
+---
 If you missed the previous post, see [Following along: typecraft's Neovim for newbs part 1](2025-2-2-nvim-newb-1.md). This post refers to typecraft's [second videp](https://www.youtube.com/watch?v=4zyZ3sw_ulc&list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&index=2) in a six-part series.
 
 ## Neo-tree
