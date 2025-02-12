@@ -9,7 +9,7 @@ Starting with me wanting to get GitHub's CLI installed:
 
 Prior to looking at the [Packages page](https://archlinux.org/packages/) on the official Arch Linux site, I made sure the system's UTD:
 
-`sudo pacman -Syu'
+`sudo pacman -Syu`
 
 It wasn't (is an Arch machine every truly UTD?) so I installed the updated packages. With that out of the way, we find The GitHub CLI repo on the Packages page  [here](https://archlinux.org/packages/extra/x86_64/github-cli/) and run
 
