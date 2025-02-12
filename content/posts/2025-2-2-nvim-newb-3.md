@@ -3,4 +3,10 @@ title: "Following along: typecraft's Neovim for newbs part 3"
 description: "In which I spend ages following a YouTube guide on nvim."
 date: 2025-02-12
 ---
-Testarino.
+## LSPs
+
+What's an LSP? Per 'Plex,
+
+> Language Server Protocol (LSP): An open protocol for communication between source code editors or IDEs and servers providing language intelligence tools1. It enables programming language support to be implemented independently of specific editors or IDEs, allowing for easier integration of language services across different development environments.
+
+Which I think is fancy talk for autocomplete.
