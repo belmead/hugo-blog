@@ -73,7 +73,7 @@ Which creates the file. I love the `touch` command, so useful. So now we begin w
 
 typecraft writes the file on opening with `:w`, which I don't understand the point of, but I ran with it. 
 
-```
+```lua
 set expandtab
 set tabstop=2
 set softtabstop=2
@@ -100,7 +100,7 @@ He refers to [nanotee's nvim Lua guide](https://github.com/nanotee/nvim-lua-guid
 
 That's what we end up doing, and since multiple lines of Lua are involved, we write a macro and get:
 
-```
+```lua
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
@@ -113,7 +113,7 @@ I've never written a macro, and it took far longer to figure it out than it woul
 
 This is less esoteric than the above, as I work with package managers often enough (pacman on my Arch machine, brew at work). That is to say, at least I understand the "what" and "why" behind the thing. The concept of a package manager for a specific program is interesting. Getting lazynvim requires copy and pasting into the init.lua file. The repo with the code typecraft refers to is [folke's lazy.nvim](https://github.com/folke/lazy.nvim) but the maintainer moved the install instructions [here](https://lazy.folke.io/installation). The outcome using the Single File Setup is:
 
-```
+```lua
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
@@ -143,7 +143,7 @@ A bit opaque (I'm not used to Lua's if-then statements). Per typecraft,
 
 We add a few more lines below (this is where the official Lazy install doc diverges from typecraft's guide. The install document has some different code, but I'm following typecraft. If it breaks, I'll refer to the doc. The lines:
 
-```
+```lua
 local plugins = {}
 local opts = {}
 
@@ -163,7 +163,7 @@ The link to the catppuccin repo is [here](https://github.com/catppuccin/nvim). T
 
 goes into the local plugins table (`local plugins = {}`):
 
-```
+```lua
 local plugins = {
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
 }
@@ -176,7 +176,7 @@ Save, exit, and run `nvim` gets me:
 
 Evidently this is not catppuccin, and I need to call it with a function so the nvim Lua runtime knows what to do with it:
 
-```
+```lua
 require("lazy").setup(plugins, opts)
 
 require("catppuccin").setup()
@@ -195,7 +195,7 @@ Per typecraft,
 
 You may find the repo [here](https://github.com/nvim-telescope/telescope.nvim). This requires more table editing:
 
-```
+```lua
 local plugins = {
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   {
@@ -212,7 +212,7 @@ Save, exit, and run `nvim` gets me:
 
 Very cool. Next, we install a local variable called `builtin`:
 
-```
+```lua
 require("lazy").setup(plugins, opts)
 
 local builtin = require("telescope.builtin")
@@ -224,7 +224,7 @@ Per typecraft,
 
 So we edit thusly:
 
-```
+```lua
 require("lazy").setup(plugins, opts)
 
 local builtin = require("telescope.builtin")
@@ -267,7 +267,7 @@ So nvim-treesitter helps us use tree-sitter. Very confusing. I think it's a text
 
 Below the `keymap` setting for live grep, we add:
 
-```
+```lua
 local config = require("nvim-treesitter.configs")
 config.setup({
   ensure_installed = {"lua", "python"},
