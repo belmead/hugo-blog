@@ -1,18 +1,8 @@
-+++
-title = "Colophon"
-date = "2000-01-01T00:00:00-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "readme.md"
-+++
+---
+title: "Colophon"
+description: "readme.md"
+date: 2000-01-01
+---
 # Why a blog?
 
 1) I enjoy writing
