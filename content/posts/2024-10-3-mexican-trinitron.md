@@ -1,18 +1,8 @@
-+++
-title = "Mexican Trinitron"
-date = "2024-10-03T09:54:43-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "Notes on a CRT."
-+++
+---
+title: "Mexican Trinitron"
+description: "Notes on a CRT."
+date: 2024-10-03
+---
 h/t to @bennieiv for directing me to an estate sale with a 27" Sony WEGA Trinitron ($5!). The scanline geometry is a bit ...wonky, but easy to ignore. I lack the knowledge, time, tools, and interest to do anything about it, and for $5, what's the difference? It could very well be the case this is how all flat-panel CRTs look. 
 
 Edit: This is called bowing, and apparently Sony's Wega TVs are notorious for this effect (though all flat CRTs are susceptible). [CRT Database](https://crtdatabase.com/faq/adjusting-the-yoke-on-a-flat-crt-to-fix-bowing) has an excellent article on this. Yokes and that.
