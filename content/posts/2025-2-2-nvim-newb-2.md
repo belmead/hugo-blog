@@ -21,7 +21,7 @@ This plugin acts as a file explorer for nvim. See repo [here](https://github.com
 
 The Minimal Example for Lazy code goes into our `init.lua` in the plugins table (below `nvim-treesitter`):
 
-```
+```lua
   {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
@@ -54,7 +54,7 @@ Useful on its own, surely, but the point of this was to give us an explorer so w
 
 In `init.lua`, we remove the entire `lua plugins` table and put it into a new file called `/lua/plugins.lua'. We also update the first line so it's a return statement:
 
-```
+```lua
 return {
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   {
@@ -88,7 +88,7 @@ This means Lazy will concatenate found Lua tables found in `~/.config/nvim/lua` 
 
 does. This also allows on-change loading, which is neat. To see this in action, we create a new dir called `plugins` inside the `/lua` dir and cut the catppuccin info into a new file in that dir. Additionally, we update `catppuccin.lua` to include the `vim.cmd.colorscheme` line from `init.lua` since that is no longer needed there. In fact, the entire `require("catppuccin").setup()` line is removed entirely, since the `config` property automatically calls `require(MAIN).setup(opts)`. 
 
-```
+```lua
 return {
   "catppuccin/nvim",
   name = "catppuccin",
