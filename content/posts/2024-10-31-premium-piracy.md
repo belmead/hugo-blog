@@ -1,18 +1,8 @@
-+++
-title = "Premium Piracy"
-date = "2024-10-31T12:55:51-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "An attempt to understand entitlement."
-+++
+---
+title: "Premium Piracy"
+description: "An attempt to understand entitlement."
+date: 2024-10-31
+---
 On the [Hacker News-posted article](https://news.ycombinator.com/item?id=41999314 ) (originally found on [Gaming on Linux](https://www.gamingonlinux.com/2024/10/steam-games-will-now-need-to-fully-disclose-kernel-level-anti-cheat-on-store-pages/)), I found this comment:
 
 ![Hacker News comment](https://belmead.github.io/blog/images/hacker-news-piracy.png "Hacker News comment")
