@@ -1,18 +1,8 @@
-+++
-title = "Transcription with OpenAI's Whisper"
-date = "2024-11-18T07:59:44-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "Findings and notes from using python and AI to transcribe a lengthy video."
-+++
+---
+title: "Transcription with OpenAI's Whisper"
+description: "Findings and notes from using python and AI to transcribe a lengthy video."
+date: 2024-11-18
+---
 Shortly before leaving work last Friday, I received an email with a request to use AI to transcribe some video. Note the request — to use AI to accomplish the task. The video was around two and a half hours long, so I would have chosen that route anyway, but a colleague and I had led the (semi-) monthly AI meeting two days prior to the request, so the idea of using AI where possible was fresh in everyone's head.
 
 ## The Planned Workflow
