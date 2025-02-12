@@ -1,18 +1,8 @@
-+++
-title = "Birds of the Midwest"
-date = "2024-10-09T10:10:54-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "Other fauna, too."
-+++
+---
+title: "Birds of the Midwest"
+description: "Other fauna, too."
+date: 2024-10-09
+---
 There's a walking trail on a for-sale plot of land contiguous to the corporate HQ where I work. I find it good and pleasing to walk this trail two or three times in the morning, and again in the afternoon, depending on how warm it is.
 
 The Lord's work is plainly evident on many mornings:
