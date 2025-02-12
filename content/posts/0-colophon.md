@@ -3,12 +3,14 @@ title: "Colophon"
 description: "readme.md"
 date: 2000-01-01
 ---
-# Why a blog?
+# readme.md
+
+## Why a blog?
 
 1) I enjoy writing
 2) I understand things better when I write about them
 
-# What's the stack?
+## What's the stack?
 
 | Tool | Purpose |
 | -- | -- |
@@ -20,10 +22,10 @@ date: 2000-01-01
 | Arch | At home B) |
 | OS X | At work :( |
 
-# What do you do?
+## What do you do?
 
 I'm a product designer (UI/UX) for a financial institution in the midwest. I don't write much about that. I often larp as someone who knows how to code.
 
-# What else?
+## What else?
 
 Christ is king.
