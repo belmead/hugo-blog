@@ -1,18 +1,8 @@
-+++
-title = "Early Review - AYN Odin 2 Pro"
-date = "2024-12-13T08:45:03-06:00"
-draft = false
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "An incomplete review of the AYN Odin 2 Pro handheld after ~40 hours of use."
-+++
+---
+title: "Early Review - AYN Odin 2 Pro"
+description: "An incomplete review of the AYN Odin 2 Pro handheld after ~40 hours of use."
+date: 2024-12-13
+---
 I received the most excellent AYN Odin 2 Pro from my lovely wife this Christmas, and this is an early review of the device (approx. 3 hours playing so far).
 
 ### Feel
