@@ -80,8 +80,104 @@ to point to this file. That's how I understand it, anyway. This returns a table 
 
 > Some users may want to split their plugin specs in multiple files. Instead of passing a spec table to setup(), you can use a Lua module. The specs from the module and any top-level sub-modules will be merged together in the final spec, so it is not needed to add require calls in your main plugin file to the other files.
 
-This means Lazy will concatenate found Lua tables into a single setup, which is what
+This means Lazy will concatenate found Lua tables found in `~/.config/nvim/lua` into a single setup, which is what
 
 `require("lazy").setup("plugins")`
 
-does. This also allows on-change loading, which is neat. 
+does. This also allows on-change loading, which is neat. To see this in action, we create a new dir called `plugins` inside the `/lua` dir and cut the catppuccin info into a new file in that dir. Additionally, we update `catppuccin.lua` to include the `vim.cmd.colorscheme` line from `init.lua` since that is no longer needed there. In fact, the entire `require("catppuccin").setup()` line is removed entirely, since the `config` property automatically calls `require(MAIN).setup(opts)`. 
+
+```
+return {
+  "catppuccin/nvim",
+  name = "catppuccin",
+  priority = 1000,
+  config = function()
+    vim.cmd.colorscheme "catppuccin"
+  end
+}
+```
+
+With this pattern - using the plugins method of calling in Lua tables in the `plugins` dir - we can easily manage plugins without making a mess of the `init.lua` file. With that in mind, there are some more plugins in `init.lua` that can be placed in their own files. The resulting `init.lua` looks like:
+
+```lua
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.g.mapleader = " "
+
+-- Bootstrap lazy.nvim
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+  local lazyrepo = "https://github.com/folke/lazy.nvim.git"
+  local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
+  if vim.v.shell_error ~= 0 then
+    vim.api.nvim_echo({
+      { "Failed to clone lazy.nvim:\n", "ErrorMsg" },
+      { out, "WarningMsg" },
+      { "\nPress any key to exit..." },
+    }, true, {})
+    vim.fn.getchar()
+    os.exit(1)
+  end
+end
+vim.opt.rtp:prepend(lazypath)
+
+local opts = {}
+
+require("lazy").setup("plugins")
+```
+
+and we now have three files inside our `lua/plugins/' dir: `catppuccin.lua`, `neo-tree.lua`, `telescope.lua`, and `treesitter.lua`.
+
+Now that the plugins are modularized, it's time to copy over the nvim settings to a new file in order to maintain consistency with how we separated the plugins. So in the `init.lua` file, we target these lines at the top:
+
+```lua
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=2")
+vim.cmd("set softtabstop=2")
+vim.cmd("set shiftwidth=2")
+vim.g.mapleader = " "
+```
+
+These ought to live in a different Lua module, so before we move them, we add the following to `init.lua` to point to where they will reside after being moved:
+
+```lua
+require("vim-options")
+require("lazy").setup("plugins")```
+
+The `require("lazy")` line is included in the code block above to indicate where the new line should go. With that line adeed, create a new file in the `lua` dir called `vim-options.lua` and paste what we took from the `init.lua` file.
+
+Not only does modularizing the plugins and nvim configs make it easier to navigate and change settings, it also lays a framework by which we can extend it. That is, adding new plugins, for example, is trivialized: All one needs to do is add a new Lua file in the `plugins/` dir, add the appropriate configs, and return it as a Lua table. To test that out, we install [lualine](https://github.com/nvim-lualine/lualine.nvim). Here's where we are now:
+
+![Plugins running in nvim](/img/2025-02-12_nvim_with_pt2_plugins.png)
+
+Installation is simply given as
+
+```lua
+{
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+}
+```
+
+so we just add a new file, `lualine.lua`, to the `/plugins/` dir and paste that in with a return (this make it a Lua table, apparently) *(I also added the additional lines typecraft indicated here)*:
+
+```lua
+return {
+  'nvim-lualine/lualine.nvim',
+  config = function()
+    require('lualine').setup({
+      options = {
+          theme = 'dracula'
+      }
+    })
+  end
+}
+```
+
+which pops up a cool statusline at the bottom of nvim:
+
+![statusline via lualine](/img/2025-02-12_nvim_statusline.png)
+
+Next up: Completions and LSPs.
