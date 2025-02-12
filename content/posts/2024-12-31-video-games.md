@@ -2,7 +2,6 @@
 title: My Life in Gaming
 description: All the games I can remember playing.
 date: 2024-12-13
-tldr: 
 draft: false
 tags:
 toc: "false"
