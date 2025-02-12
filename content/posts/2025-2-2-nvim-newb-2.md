@@ -50,6 +50,8 @@ This allows me to open Neotree with ctrl+n:
 
 Useful on its own, surely, but the point of this was to give us an explorer so we can better visualize the modularization we'll perform on `init.lua`. typecraft refers to a GitHub page that has since been moved to the official documentation website; find it [here](https://lazy.folke.io/usage/structuring).
 
+## Plugins Modularization
+
 In `init.lua`, we remove the entire `lua plugins` table and put it into a new file called `/lua/plugins.lua'. We also update the first line so it's a return statement:
 
 ```
