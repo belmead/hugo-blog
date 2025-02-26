@@ -34,3 +34,9 @@ On the whole, western popular media is immature. Finality is the cornerstone of 
 
 I posit the paradox extends upward to encompass the medium. Shall it be said consumers are at fault for there being more than 100 runs of Spiderman and variations thereof? Partially, as they are the demand part of the equation. But demand is shaped by suppliers, too, and Marvel (as synechdoche) knows this. It is true that sales are down for western comics (comic shops are ghost towns, which is why so many of them now sell cards as well) despite MCU films, on average, doing big numbers. Forgot what my point is here.
 
+## Never Learn, Never Change
+
+Superheroes (I'm using that perjoratively, here, for western comics) never change — they can't, in fact — as that prevents . If the reader does not change, the characters mustn't, either, so they reinforce each other. On the other hand, when (more like 'if') the user does change, the publsher loses a customer. What's more, it reinforces the normalization of stagnation, which may be in some way partly responsible for the perpetual twighlight of youth.
+
+## Implicit Change
+
