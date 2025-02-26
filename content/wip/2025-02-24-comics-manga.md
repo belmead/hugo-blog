@@ -1,4 +1,4 @@
----
+six---
 title: "Pictures and Words"
 description: "On the manga/comics debate."
 date: 2024-11-18
@@ -16,3 +16,21 @@ Of course, comics are for fools and dupes, and I am chief among that lot. There'
 >By definition, fans of genre consume very similar pieces of content repeatedly. Radway calls this the “paradox” of genre. Each story needs to feel different, without ever diverging from the basic formula. Together, the stories within a genre create a kind of alternate world that audiences can return to with each new piece of content. The more genre fiction they find, the more time they can spend in that world.
 
 This is why Superman doesn't die, or only but temporarily, maybe for a run or two. Growth or meaningful change is anathema to a story that, for most of its history, has sold well.
+
+---- better start: ----
+
+The best thing about the original (UK) version of The Office is that *it ended*. That is, it was written with an end in mind rather than having finality forced upon it. Two series (seasons, each six episodes long) and a Christmas special later, the show concluded and the actors and staff moved on to other projects. The US version, for reference, had six episodes in its first season (not an uncommon number) and 22 episodes in season two. All in all, there were 201 episodes of the US version spanning across 38 DVDs. To be fair, I enjoyed the US version more (up till Steve Carrell left the show), but the UK version had a sense of finality that the US version never had. The Office (US) is a perfect example of how many television shows are treated here in the States: Capitalize on a popular show by keeping it alive well after its prime and ending it far too late.
+
+![IMDB ratings and viewership numbers for The Office (US)](2025-02-26_the_office_ratings.jpg)
+*From Reddit user richk7074 ([/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/66awqa/the_office_ratings_and_viewership_oc/))*
+
+It is of note that while viewership decreased, the average rating per episode stayed more or less in the same band, which is not an easy feat to accomplish, especially after the main star of the show left. Excellent — or even passable — writing can't save a show whose audience has moved on, it seems.
+
+The Office (either version) is a self-contained entity. If you want to watch it, just start at S1E1. The same can be said for manga, for the most part: If you want to read Akira, just buy issue (or collection) #1. Some series do have spin-offs, but most do do not, and you miss nothing by reading a mainline entry and leaving it at that. Furthermore, manga is self-contained, so one needn't pick up any unrelated titles out of fear of missing a plot point or reference later on. Western comics, however, are designed with a markedly different, nearly opposite tactic: Interrelated plot points scattered across runs.
+
+On the whole, western popular media is immature. Finality is the cornerstone of storytelling, and money lies in building, not shipping. This is in line with Annalee Newitz's paradox of genre (over at [The Hypothesis](https://buttondown.com/thehypothesis/archive/how-much-are-you-willing-to-pay-for-a-fantasy/))
+
+>By definition, fans of genre consume very similar pieces of content repeatedly. Radway calls this the “paradox” of genre. Each story needs to feel different, without ever diverging from the basic formula. Together, the stories within a genre create a kind of alternate world that audiences can return to with each new piece of content. The more genre fiction they find, the more time they can spend in that world.
+
+I posit the paradox extends upward to encompass the medium. Shall it be said consumers are at fault for there being more than 100 runs of Spiderman and variations thereof? Partially, as they are the demand part of the equation. But demand is shaped by suppliers, too, and Marvel (as synechdoche) knows this. It is true that sales are down for western comics (comic shops are ghost towns, which is why so many of them now sell cards as well) despite MCU films, on average, doing big numbers. Forgot what my point is here.
+
