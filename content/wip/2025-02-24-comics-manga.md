@@ -38,5 +38,16 @@ I posit the paradox extends upward to encompass the medium. Shall it be said con
 
 Superheroes (I'm using that perjoratively, here, for western comics) never change — they can't, in fact — as that prevents . If the reader does not change, the characters mustn't, either, so they reinforce each other. On the other hand, when (more like 'if') the user does change, the publsher loses a customer. What's more, it reinforces the normalization of stagnation, which may be in some way partly responsible for the perpetual twighlight of youth.
 
-## Implicit Change
+## Prioritization of Familiarity over Growth
 
+Despite any implicit character growth, it matters not if there's demonstrably no alteration. Relying on this idea — implicit vs. explicit growth — bifurcates characters into "head canon" and what's actually on the page. That is to say, it's but fan fiction. New readers and readers who don't have the trait of forming their own internal canons of who a character is based on a hundred runs are destined to eventually move on when they themselves change and no longer care to reread the same stories ad infinitum. 
+
+## Cui Bono?
+
+In the 90s, many churches turned to what we refer to now as the "seeker sentitivity movement" in order to get more congregants into pews. Bad pastors decided that the Truth wasn't exciting enough, so they embraced silly, secular nonsense (modern worship music, hip sermons, reader response exegesis) to draw a crowd. The problem that arose was that, as it turns out, whatever you use to attract people with, you need to keep supplying it, and oftentimes you'll need to ratchet it up across time to maintain  numbers. This is why deaths are cheap and stakes mean nothing — just reboot the hero, start a new run. No one ever really dies.
+
+Who benefits? Only the publishers, it seems. Fans are just as well served with a Spiderman story from the 80s as they would be with one from the 90s, 2000s, 10s, or now. He's always the same, maybe a change of color, but always the same. This preserves brand recognition, certainly, but at what cost? Mature readers can understand the tactics involved, but a younger reader's takeaways may be harmful to their own growth. 
+
+## Hermetic Tales
+
+The near-opposite is true for manga: The outliers are stories like JoJo's Bizaare Adventure, and DBZ, which seemingly go on forever. Vastly more common are self-contained stories that go on for a dozen or two books and then stop. Akira is an excellent example of this: There's no other Akira story but Akira. There's the classic '88 film, a couple of video games, but that's it. It can rest peacefully in place and be enjoyed by subsequent generations. This is what the finest pieces of work are able to do: Stand alone. Dostoyevsky didn't need to write Crime and Punishment II or The Idiot: The Prequel. 
