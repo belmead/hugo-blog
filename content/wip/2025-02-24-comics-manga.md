@@ -1,4 +1,4 @@
-six---
+---
 title: "Pictures and Words"
 description: "On the manga/comics debate."
 date: 2024-11-18
