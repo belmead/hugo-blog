@@ -46,4 +46,6 @@ This was the most finicky one by far, and the one I burned through a good deal o
 ![Placeholder cover images](2025-3-10-mangadex-placeholder.png)
 *Placeholder cover images from MangaDex*
 
-It took far too long to get this sorted. 
+Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Lovable handle, because I don't know what that means, really. 
+
+
