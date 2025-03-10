@@ -1,5 +1,5 @@
 ---
-title: "Using Lovable.dev the pain of finding a good API"
+title: "Lovable.dev and the pain of finding a good API"
 description: "AIs and APIs."
 date: 2025-03-10
 ---
