@@ -57,4 +57,10 @@ This is fine for a title like *Akira,* which was collected into 6 単行本, but
 
 ![FLCL results](2025-3-10-flcl-manga.png)
 
-It's a mess, but the job here is to make sense of the mess, or at least try.
+It's a mess, but the job here is to make sense of the mess, or at least try. For a series with a reasonable number of volumes (*Akira*, again):
+
+![Akira volume list](2025-3-11-akira-volumes.png)
+
+It's not that bad. However, for a series with a large number (i.e., a number that would make the modal too large on mobile viewports):
+
+![One Piece volumes](2025-3-11-one-piece-volumes.png)
