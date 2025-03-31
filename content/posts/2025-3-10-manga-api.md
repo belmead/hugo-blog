@@ -45,7 +45,6 @@ This was great! At first. Lovable integrated this one the quickest, and with the
 This was the most finicky one by far, and the one I burned through a good deal of my monthly prompts with. Aside from endless CORS-based errors, returning an actual cover image was a chore.
 
 ![Placeholder cover images](/img/2025-3-10-mangadex-placeholder.png)
-*Placeholder cover images from MangaDex*
 
 Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Lovable handle, because I don't know what that means, really.
 Edit: Yeah, this was insurmountable, at least for my tech intellect.
