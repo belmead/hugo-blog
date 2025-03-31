@@ -46,4 +46,4 @@ There's not much of a difference between these two photos, but this is what it l
 
 ![Pre-stained](/img/2025-3-30_pre-stain.jpeg)
 
-Up next is the stain and the spar poly application. I hate these steps most of all, since they take ages and are finicky, so I'll update as that gets completed.
+Up next is the stain and the spar poly application. I dislike these steps most of all, since they take ages and are finicky, so I'll update as that gets completed.
