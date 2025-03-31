@@ -49,7 +49,7 @@ This was the most finicky one by far, and the one I burned through a good deal o
 Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Lovable handle, because I don't know what that means, really.
 Edit: Yeah, this was insurmountable, at least for my tech intellect.
 
-### 4. Jikan
+### 4: Jikan
 
 This one had superior API documentation, and I used ChatGPT 4.5 to build a small React component to test it out. I appreciated how clean the code was. Unsure how *good* it is, but it was readable. The same issue as before came up, though: No specific key for volume number. That is, it's more series-based, like AniList. The JSON, however, does contain a volume key-value pair for the number of volumes (AniList might have this too, didn't check), so I decided to change how the user adds an item to the 'Owned' or 'Wishlist' group: Return the result in a card as normal, but on tap, it expands to show a checkbox stack. Users can select which volumes they have / want, and then tap to add them to whichever list.
 
