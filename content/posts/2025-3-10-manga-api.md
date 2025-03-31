@@ -1,5 +1,5 @@
 ---
-title: "Loveable.dev and the pain of finding a good API"
+title: "Lovable.dev and the pain of finding a good API"
 description: "AIs and APIs."
 date: 2025-03-10
 draft: false
@@ -18,7 +18,7 @@ Here's a list of quasi-JTBDs for the app:
 - " ", I want to create a list of titles I intend to read so I can remember what to buy at the store.
 - " ", I want to be able to add titles I already own by taking a picture of covers.
 
-A month or so ago, my manager hipped me to [Bolt.new](https://bolt.new), which was interesting, but a bit lacking in features. I then went on to find out about [Loveable.dev](https://loveable.dev) somewhere, probably HN, and really took to it. It does a fine job of executing more or less what I want, despite a few hiccoughs (it claims it made design updates based on a Figma screenshot I gave it, but I see through the deception). The five prompts per day limit is a bit frustrating, but I learned to bundle a dozen or so prompts together, which it doesn't mind. Eventually I just started to pay for the Starter plan, which is where I am now.
+A month or so ago, my manager hipped me to [Bolt.new](https://bolt.new), which was interesting, but a bit lacking in features. I then went on to find out about [Lovable.dev](https://lovable.dev) somewhere, probably HN, and really took to it. It does a fine job of executing more or less what I want, despite a few hiccoughs (it claims it made design updates based on a Figma screenshot I gave it, but I see through the deception). The five prompts per day limit is a bit frustrating, but I learned to bundle a dozen or so prompts together, which it doesn't mind. Eventually I just started to pay for the Starter plan, which is where I am now.
 
 ## Manga APIs
 
@@ -38,7 +38,7 @@ This is the one I started with, and it'd be appropriate for a more general, book
 
 ### 2: AniList
 
-This was great! At first. Loveable integrated this one the quickest, and with the fewest number of errors. The problem is AniList is series-level, so it doesn't keep track of volume numbers (best I can tell). That is, if you search for 'sakamoto days,' it just returns that as a single result, whereas I want results for each volume. If AniList kept track of volumes (or if it does, if I could just use it correctly), this would be the way to go. Alack alas.
+This was great! At first. Lovable integrated this one the quickest, and with the fewest number of errors. The problem is AniList is series-level, so it doesn't keep track of volume numbers (best I can tell). That is, if you search for 'sakamoto days,' it just returns that as a single result, whereas I want results for each volume. If AniList kept track of volumes (or if it does, if I could just use it correctly), this would be the way to go. Alack alas.
 
 ### 3: MangaDex
 
@@ -47,7 +47,7 @@ This was the most finicky one by far, and the one I burned through a good deal o
 ![Placeholder cover images](/img/2025-3-10-mangadex-placeholder.png)
 *Placeholder cover images from MangaDex*
 
-Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Loveable handle, because I don't know what that means, really.
+Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Lovable handle, because I don't know what that means, really.
 Edit: Yeah, this was insurmountable, at least for my tech intellect.
 
 ### 4: Jikan
