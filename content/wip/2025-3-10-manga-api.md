@@ -56,6 +56,7 @@ This one had superior API documentation, and I used ChatGPT 4.5 to build a small
 This is fine for a title like *Akira,* which was collected into 6 単行本, but what about a series like *One Piece*, which has more than 100 volumes? For that matter, what about titles that appear in individual volumes as well as tankobon, such as *FLCL*? I have the omnibus, but it also came out in two volumes. Jikan returns two different results for `FLCL`, which is even more confusing.
 
 ![FLCL results](static/img/2025-3-10-flcl-manga.png)
+![test](/img/1970_Ford_LTD_390_engine.JPG)
 
 It's a mess, but the job here is to make sense of the mess, or at least try. For a series with a reasonable number of volumes (*Akira*, again):
 
