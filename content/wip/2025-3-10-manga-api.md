@@ -43,7 +43,7 @@ This was great! At first. Loveable integrated this one the quickest, and with th
 
 This was the most finicky one by far, and the one I burned through a good deal of my monthly prompts with. Aside from endless CORS-based errors, returning an actual cover image was a chore.
 
-![Placeholder cover images](2025-3-10-mangadex-placeholder.png)
+![Placeholder cover images](/img/2025-3-10-mangadex-placeholder.png)
 *Placeholder cover images from MangaDex*
 
 Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Loveable handle, because I don't know what that means, really.
@@ -55,16 +55,15 @@ This one had superior API documentation, and I used ChatGPT 4.5 to build a small
 
 This is fine for a title like *Akira,* which was collected into 6 単行本, but what about a series like *One Piece*, which has more than 100 volumes? For that matter, what about titles that appear in individual volumes as well as tankobon, such as *FLCL*? I have the omnibus, but it also came out in two volumes. Jikan returns two different results for `FLCL`, which is even more confusing.
 
-![FLCL results](2025-3-10-flcl-manga.png)
-![FLCL results](2025-01-23-mystery-brackets-hash.png)
+![FLCL results](/img/2025-3-10-flcl-manga.png)
 
 It's a mess, but the job here is to make sense of the mess, or at least try. For a series with a reasonable number of volumes (*Akira*, again):
 
-![Akira volume list](2025-3-11-akira-volumes.png)
+![Akira volume list](/img/2025-3-11-akira-volumes.png)
 
 It's not that bad. However, for a series with a large number (i.e., a number that would make the modal too large on mobile viewports):
 
-![Naruto volumes](2025-3-21-naruto-volumes.png)
+![Naruto volumes](/img/2025-3-21-naruto-volumes.png)
 
 This is fine for titles that are finished, but for those still being written, the volume will always be `null,` — which I understand — but is an annoyance nonetheless, since sime titles take ages to finish. Additionally, even if the database were UTD, there's a lag between when titles are released in Japan and when translated versions are available stateside, so it makes sense why it's `null` until completed. That's how I understand it, anyway.
 
