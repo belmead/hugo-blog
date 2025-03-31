@@ -26,7 +26,7 @@ Mark the metal bits in the middle held in place by the red bar clamps: I needed 
 
 ![Gluing up the treads](/img/2025-3-30_glue-up.jpeg)
 
-While the glue up was finishing, I moved on to the legs. I was going to build custom legs, but since this was a "need" project instead of a "want," I just purchased some [legs from Home Depot](https://www.homedepot.com/p/Waddell-Traditional-Table-Leg-with-Hanger-Bolt-28-in-H-x-2-125-in-Dia-Sanded-Unfinished-Pine-DIY-Home-Furniture-Decor-2428/100392207) as well as [[some mounting hardware](https://www.homedepot.com/p/Waddell-Heavy-Duty-Top-Plate-5-5-in-x-3-in-16G-Steel-Mounting-Hardware-Furniture-Leg-Easy-Installation-2755/100390125?MERCH=REC-_-fbt_test-_-100392207-_-1-_-n/a-_-n/a-_-n/a-_-n/a-_-n/a). I found some scrap 2x8s and mounted the legs so I could prime and paint them easier.
+While the glue up was finishing, I moved on to the legs. I was going to build custom legs, but since this was a "need" project instead of a "want," I just purchased some [legs from Home Depot](https://www.homedepot.com/p/Waddell-Traditional-Table-Leg-with-Hanger-Bolt-28-in-H-x-2-125-in-Dia-Sanded-Unfinished-Pine-DIY-Home-Furniture-Decor-2428/100392207) as well as [some mounting hardware](https://www.homedepot.com/p/Waddell-Heavy-Duty-Top-Plate-5-5-in-x-3-in-16G-Steel-Mounting-Hardware-Furniture-Leg-Easy-Installation-2755/100390125?MERCH=REC-_-fbt_test-_-100392207-_-1-_-n/a-_-n/a-_-n/a-_-n/a-_-n/a). I found some scrap 2x8s and mounted the legs so I could prime and paint them easier.
 
 ![Painting the legs](/img/2025-3-30_painted-legs.jpeg)
 
