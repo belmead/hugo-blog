@@ -22,7 +22,9 @@ I cut each tread down to size with my table saw. Notice I cut off the rounded ed
 
 Afterward, I glued the edges and gave them 24 hours to set. I found some pretty [decent clamps at Harbor Freight](https://www.harborfreight.com/hand-tools/clamps-vises/60-in-aluminum-f-style-bar-clamp-60673.html) for the glue-up proces. I was going to use the pipe clamps I have at home, but when I was out buying the materials, I couldn't remember if I had two 36" pipe clamps or two 24" pipe clamps, so I just bought the F-style clamps to be sure. One can never have too many clamps.
 
-Mark the metal bits in the middle held in place by the red bar clamps: I needed a way to press the treads so the table top would be flat (or flat enough) so I bought two... metal things from Mendards in the electrical section. These aren't cauls, exactly, since I think cauls are meant to span the entire length of the piece. I don't know what the metal bits are meant for, but they were flat and cheap, and those were the only requirements. As it turns out, wood glue does in fact bond to metal, which was opposite of my prediction. I had to hit one of them pretty hard with a hammer to get it to release. Thankfully, it didn't tear the wood at all.
+Mark the metal bits in the middle held in place by the red bar clamps: I needed a way to press the treads so the table top would be flat (or flat enough) so I bought two... metal things from Mendards in the electrical section. These aren't cauls, exactly, since I think cauls are meant to span the entire length of the piece, and these just cover a small area near the joint.
+
+I don't know what the metal bits are meant for, but they were flat and cheap, and those were the only requirements. As it turns out, wood glue does in fact bond to metal, which was opposite of my prediction. I had to hit one of them pretty hard with a hammer to get it to release. Thankfully, it didn't tear the wood at all.
 
 ![Gluing up the treads](/img/2025-3-30_glue-up.jpeg)
 
