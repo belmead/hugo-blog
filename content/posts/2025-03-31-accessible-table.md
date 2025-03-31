@@ -6,7 +6,7 @@ draft: false
 ---
 My wife and I recently welcomed our first child to the world, and neither of us were really prepared for just how many diapers an infant can go through. I can change a diaper in under a minute, but my wife, a wheelchair user, faces some unique challenges w/r/t this task. Specifically, she gets along much better when things are roll-under. Our kitchen table is the perfect height, so I based the height off of that.
 
-### Menards
+### Design and Construction
 
 I recall seeing stair treads at Menards for a pretty decent price, so I bought four of those (turned out only 3 were necessary).
 
