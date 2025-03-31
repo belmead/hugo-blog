@@ -8,7 +8,7 @@ My wife and I recently welcomed our first child to the world, and neither of us 
 
 ### Design and Construction
 
-I recall seeing stair treads at Menards for a pretty decent price, so I bought four of those (turned out only 3 were necessary).
+I recall seeing stair treads at Menards for a pretty decent price, so I bought four of those (turned out only three were necessary).
 
 ![Poplar stair treads at Menards](/img/2025-3-30_treads.jpeg)
 
