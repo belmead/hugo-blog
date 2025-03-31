@@ -40,7 +40,7 @@ I routed with a 1/4" roundover bit across the top, leaving a bit of a lip (~1/16
 
 With the top and bottom routed, I hit the surfaces with a belt sander to rough down the material and remove any glue where the pieces meet. Then I used the random orbital sander to smooth it out and prepare the top and bottom for staining (first 120-grit, then 220-grit).
 
-![After sanding](/img/2025-3-30_glue-up-finished.jpeg)
+![After sanding](/img/2025-3-30_top-routed.jpeg)
 
 There's not much of a difference between these two photos, but this is what it looks like after [pre-stain](https://www.menards.com/main/paint/interior-paint-stain/wood-conditioners-oils/minwax-reg-interior-oil-based-pre-stain-wood-conditioner/11500/p-1444440474447-c-13129.htm?exp=false) was applied:
 
