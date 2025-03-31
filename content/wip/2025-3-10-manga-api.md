@@ -63,4 +63,8 @@ It's a mess, but the job here is to make sense of the mess, or at least try. For
 
 It's not that bad. However, for a series with a large number (i.e., a number that would make the modal too large on mobile viewports):
 
-![One Piece volumes](2025-3-11-one-piece-volumes.png)
+![Naruto volumes](2025-3-21-naruto-volumes.png)
+
+### 5. Various Improvements
+
+Something about grid view, showing the incorrect number of top owned titles on desktop in grid view (it shows 5 for some reason), the "owned" button having 100% width for Most Popular Titles in Wishlists titles, modals misbehaving...
