@@ -2,7 +2,7 @@
 title: "Loveable.dev and the pain of finding a good API"
 description: "AIs and APIs."
 date: 2025-03-10
-draft: true
+draft: false
 ---
 ## Rolodex
 
@@ -45,6 +45,7 @@ This was great! At first. Loveable integrated this one the quickest, and with th
 This was the most finicky one by far, and the one I burned through a good deal of my monthly prompts with. Aside from endless CORS-based errors, returning an actual cover image was a chore.
 
 ![Placeholder cover images](/img/2025-3-10-mangadex-placeholder.png)
+![Lazy running in nvim](/img/2025-02-02_lazy-initial.png)
 *Placeholder cover images from MangaDex*
 
 Apparently this is because of MangaDex's policy on serving cover images via their API. To access actual cover images, I need to proxy the image requests through my server, which I let Loveable handle, because I don't know what that means, really.
