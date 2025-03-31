@@ -65,6 +65,8 @@ It's not that bad. However, for a series with a large number (i.e., a number tha
 
 ![Naruto volumes](2025-3-21-naruto-volumes.png)
 
-### 5. Various Improvements
+This is fine for titles that are finished, but for those still being written, the volume will always be `null,` — which I understand — but is an annoyance nonetheless, since sime titles take ages to finish. Additionally, even if the database were UTD, there's a lag between when titles are released in Japan and when translated versions are available stateside, so it makes sense why it's `null` until completed. That's how I understand it, anyway.
+
+## Various Improvements
 
 Something about grid view, showing the incorrect number of top owned titles on desktop in grid view (it shows 5 for some reason), the "owned" button having 100% width for Most Popular Titles in Wishlists titles, modals misbehaving...
