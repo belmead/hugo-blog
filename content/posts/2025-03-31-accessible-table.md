@@ -36,7 +36,7 @@ By the time I got around to finishg painting the legs, the glue-up was finished.
 
 I routed with a 1/4" roundover bit across the top, leaving a bit of a lip (~1/16" eyeballed), and did a non-lip roundover on the underside.
 
-![Finished glueup](/img/2025-3-30_full-roundover.jpeg)
+![Routing the surfaces](/img/2025-3-30_full-roundover.jpeg)
 
 With the top and bottom routed, I hit the surfaces with a belt sander to rough down the material and remove any glue where the pieces meet. Then I used the random orbital sander to smooth it out and prepare the top and bottom for staining (first 120-grit, then 220-grit).
 
