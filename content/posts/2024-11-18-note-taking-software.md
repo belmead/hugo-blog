@@ -1,8 +1,9 @@
+---  
+layout: post
+title: Note-taking Software
+draft: true
 ---
-title: "Note-taking Software"
-description: "Notes about notes and Goldilocks software."
-date: 2024-11-18
----
+
 I'm on the hunt for a good note-taking application. This is my usage history:
 
 - A single, long MSFT Word document
@@ -24,7 +25,7 @@ Too many options. I will expound on this point ere long.
 
 ## UNIX Philosophy
 
-Thinking about finding the right editor reminded me of the Stack Overflow blog post, [Modern IDEs are magic. Why are so many coders still using Vim and Emacs?](https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs/). I'm not one to retread on such well-worn ground as dunking on the baffling logic of the post, seeing as my betters have done such an impressive, thorough job — I have nothing new or interesting to add to the heap anyway — so this is more of an attempt to use the article as a example of how I've grown to appreciate constraints in software as well as understand and esteem UNIX philosophy.
+Thinking about finding the right editor reminded me of the Stack Overflow blog post, [Modern IDEs are magic. Why are so many coders still using Vim and Emacs?](https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs/). I'm not one to retread on such well-worn ground as dunking on the baffling logic of the post, seeing as my betters have done such an impressive, thorough job — I have nothing new or interesting to add to the heap anyway — so this is more of an attempt to use the article as a example of how I've grown to appreciate constraints in software as well as understand and esteem [[UNIX philosophy]].
 
 To speak on that, briefly, I'm not sure when I learned of the idea of the [[UNIX philosophy]], and I certainly didn't understand it well at that time (not do I completely understand it now). I'm beginning to grasp it in parts, but many aspects make sense only *intellectually*. One aspect that has gone from intellectual to internalized, gut-based understanding is the notion of "do one thing well."
 
@@ -62,11 +63,9 @@ This also means the lack of an editing panel. Obsidian is fairly clean...
 
 ...which is appreciated, as it's the single minimalist experience in my otherwise messy (thanks, Microsoft) work-tech stack. It does what it set out to do with nearly nonexistent "but wait, there's more!" action. I haven't fully explored backlinks, so commenting on how I feel about them would be premature.
 
-Edit: I expolored them and found they don't solve any problem I currently have, and indeed adding them into my blog posts doesn't work as Jekyll doesn't support the feature, so they will remain unsused.
-
 I like the approach Obsidian takes w/r/t no edit panel, but I quickly threw this together to show what one might look like:
 
 ![Obsidian with edit panel](https://belmead.github.io/blog/images/markdown_edit_panel.jpg "Obsidian with edit panel")
 ## What's next?
 
-I think at this point any change from Obsidian would be akin to distro hopping — just using something else because it looks neat or if I get bored of Obsidian. It works perfectly well right now (though I need to set git up so I can push directly to the blog, but that's a skill issue on my end). I've heard neat things about Joplin, but it looks too busy and I don't need anything like cloud sharing, collab, or multimedia notes. Obsidian also jives well with my blog, which runs on Jekyll, because it's based on markdown.
+I think at this point any change from Obsidian would be akin to distro hopping — just using something else because it looks neat or if I get bored of Obsidian. It works perfectly well right now (I need to set git up so I can push directly to the blog, but that's a skill issue on my end). I've heard neat things about Joplin, but it looks too busy and I don't need anything like cloud sharing, collab, or multimedia notes. It would be an IDE to Obsidian's text editor for my use case, so I reckon I'll stay put for now.

@@ -1,7 +1,8 @@
 ---
 title: "February 2025: Best Reads"
 description: "What caught my eye in the month of February, 2025."
-date: 2025-02-26
+date: 2025-02-12
+draft: true
 ---
 [The Wrongs of Thomas More (Wrong 5)](https://nealstephenson.substack.com/p/the-wrongs-of-thomas-more-wrong-5) by Neal Stephenson
 
