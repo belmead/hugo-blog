@@ -48,4 +48,14 @@ There's not much of a difference between these two photos, but this is what it l
 
 ![Pre-stained](/img/2025-3-30_pre-stain.jpeg)
 
-Up next is the stain and the spar poly application. I dislike these steps most of all, since they take ages and are finicky, so I'll update as that gets completed.
+The following evening, I grabbed a stain pad from Home Depot on advice that it makes that process a bit easier. I bought two — one cheap, one decent, but ended up only using the cheap one for now. 
+
+![Stain pad](/img/2025-3-31_stain-pad.jpeg)
+
+I had some stain from a previous piece so just went with that, since my wife requested the same color.
+
+![Cabot stain](/img/2025-3-31_cabot-stain.jpeg)
+
+It turned out okay. The pad definitely helped, but it did leave some tiny bubbles I had to deal with. Overall, would use again. I only did the top, since I have to flip the thing to get to the underside.
+
+![Stained top](/img/2025-3-31_cabot-stain.jpeg)
