@@ -10,3 +10,5 @@ draft: true
 [AI 2027](https://ai-2027.com/) by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean
 
 [Polymathy in decline?](https://hekint.org/2017/01/30/polymathy-in-decline/) by J.M.S. Pearce
+
+[The Colors Of Her Coat](https://www.astralcodexten.com/p/the-colors-of-her-coat) by Scott Alexander
