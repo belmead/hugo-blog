@@ -5,8 +5,8 @@ date: 2025-04-04
 draft: true
 ---
 
-[https://www.theatlantic.com/ideas/archive/2025/03/ayn-rand-peikoff-inheritance-battle/682219/](The Curse of Ayn Rand's Heir) by Christopher Beam
+[The Curse of Ayn Rand's Heir](https://www.theatlantic.com/ideas/archive/2025/03/ayn-rand-peikoff-inheritance-battle/682219/) by Christopher Beam
 
-[https://ai-2027.com/](AI 2027) by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean
+[AI 2027](https://ai-2027.com/) by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, and Romeo Dean
 
-[https://hekint.org/2017/01/30/polymathy-in-decline/](Polymathy in decline?) by J.M.S. Pearce
+[Polymathy in decline?](https://hekint.org/2017/01/30/polymathy-in-decline/) by J.M.S. Pearce
