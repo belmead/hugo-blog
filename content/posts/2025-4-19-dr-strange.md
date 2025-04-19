@@ -26,6 +26,9 @@ I knew page one of the first issue of [Dr. Strange of Asgard](https://www.marvel
 ![Ditko's Dr. Strange](img/2025-4-13-ditko-strange.jpg)
 *Steve Ditko's midcentury proto-psychedelic Dr. Strange*
 
+![Lazy running in nvim](/img/2025-02-02_lazy-initial.png)
+*Lazy running in nvim with `:Lazy`*
+
 I also found the original issues of Fantastic Four were available as facsimiles – the covers made the issue jump out from the surrounding titles. This was Kirby's work, much in the same vein as Ditko — bright colors, great use of whitespace, classic title art...
 
 ![FF #1 facsimile](/img/2025-04-13-ff-facsimile.jpg)
