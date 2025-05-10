@@ -120,3 +120,15 @@ Side note: I agree here. Microsoft *indeed* bad. I just abhor how this opinion i
 That very infantilization is at odds with the concept of agency.
 
 I don't have a problem with Erland, and I certainly don't dislike his project. Make websites until the sun burns out, go nuts. It's the victimhood marketing I can't stand.
+
+## Mental Health
+
+YouTube's algorithm is hit and miss. I've recently received a spate of videos critical of the consumerist issue prevalent in "mental health," which I did not watch (Wenn ich psychische Gesundhei höre) but did remind me of the lengths man will go to in order to avoid seeking God. Rather, man seeks Him in everything except Himself, and since the heart is an idol factory, small wonder the concept of "mental health" is the superfactor du jour. At least it's closer to the truth of things: Yer messed up, and you know it - but swerves at the idea that the fault is a heart issue, or some imputed thing only God can remedy. Regardless, beloved, who told you to expect happiness? Are you owed that, too?
+
+To be clear, being a Christ follower promises hardship, but doesn't use wordly happiness as the carrot. Trials are a natural occurrence (normal and expected!) but Christ is living water, the bread of life. In Him we rest and know peace (His peace, not the world's peace). There is the snag the MH crowd does not accept, won't consider, or has not considered: This is a wicked, fallen world, and you cannot buy peace of mind.
+
+That last bit can be overlooked in GYST: The "your" part. MUGYST is the apex of secular psychological help: elegant, short and cheap. Free, even, as it has no dependencies, no additional packages to install. GYST's followup to IONTBO is "so get used to it," which is a bit tautological when paired with Man Up, but it's neat in its complement.
+
+## The World is a Vampire
+
+A watchphrase of the product designer is expectation management. That is, you effect experiences by controlling user expectations. You can't be disappointed if you do not appoint unreasonable expectations on outcomes. The earlier you jettison any notions of fairness and 
