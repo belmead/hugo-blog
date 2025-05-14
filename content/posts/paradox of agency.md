@@ -6,7 +6,7 @@ draft: true
 
 On his excellent Wretched Radio podcast, Todd Friel noted children vary in the age at which they are culpable for sin. A toddler may err yet not commit sin; a five-year-old <em>may</em> know that a choice is wrong and still choose that choice. In the latter example, a sort of sin debt is being added to. For the sake of simplicity, I'm ignoring the concept of imputed sin. I may return to that concept at a later time, or I may not.
 
-One of the lesser points Mr. Friel made on that episode (I'll link to it if I can ever find it) is the age of moral responsibility — knowing right from wrong, sin from non-sin — varies, sometimes greatly, between children. At exactly the moment the child has the mental wherewithal to choose between a right thing and a wrong thing, a responsibility is created: That is, the causer of an action must enjoy or bear the effect.
+One of the lesser points Mr. Friel made on that episode (I'll link to it if I can ever find it) is the age of moral responsibility — knowing right from wrong, sin from non-sin — varies, sometimes greatly, between children. (I just said this in the first sentence, what is the point of this?) At exactly the moment the child has the mental wherewithal to choose between a right thing and a wrong thing, a responsibility is created: That is, the causer of an action must enjoy or bear the effect.
 
 --
 
