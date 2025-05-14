@@ -17,7 +17,7 @@ I do not declare that figuratively. I do not deserve the salary I earn from my e
 
 A non-insignificant amount of advertising (mostly for goods rather than services) revolves around selling the concept of deserving the thing: You deserve a beer, vacation, beer on a vacation, et cetera. An especially bold advertiser will take the risk of providing a reason you are in this state of deserving: You deserve a beer because you worked hard. Wasn't it a long day? The vulnerability here is predicated on the hearer having fulfilled the task that puts them in the state of deserving. 
 
-This is tablestakes rewarding — participation trophies for (in this scenario) those of drinking age. I have no formal education in marketing, but as a passive observer (and not-infrequent collaborator with marketing teams), it's my passive observation that a good deal of marketing is predicated on infantalizing the listener (or viewer, reader...). A key differentiator (possibly <em>the</em> differentiator, with regard to mental capacity) between children and adults is the capacity to assume responsibility.
+This is tablestakes rewarding — participation trophies for (in this scenario) those of drinking age. I have no formal education in marketing, but as a passive observer (and not-infrequent collaborator with marketing teams), a good deal of marketing is predicated on infantalizing the listener (or viewer, reader...). A key differentiator (possibly <em>the</em> differentiator, with regard to mental capacity) between children and adults is the capacity to assume responsibility.
 
 ∀x(P(x)∧R(x)→A(x))
 
