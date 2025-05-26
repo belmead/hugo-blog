@@ -1,10 +1,9 @@
 ---
 title: "Favorite Video Game YouTubers"
 description: "A list that continues to grow."
-date: 2024-11-18
+date: 2025-03-14
 draft: false
 ---
-
 Another list. My favorite video game YouTubers, in the order I thought of them in. Additions made as time passes.
 
 ### Game Sack - [https://www.youtube.com/@GameSack](https://www.youtube.com/@GameSack)
