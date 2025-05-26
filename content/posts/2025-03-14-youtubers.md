@@ -1,6 +1,7 @@
----  
-layout: post
-title: Favorite Video Game YouTubers
+---
+title: "Favorite Video Game YouTubers"
+description: "A list that continues to grow."
+date: 2024-11-18
 draft: false
 ---
 
