@@ -9,3 +9,7 @@ draft: true
 [The Universal Tech Tree](https://asteriskmag.com/issues/10/the-universal-tech-tree) by Étienne Fortier-Dubois (Asterisk Mag)
 
 [Building an AI Server on a Budget](https://www.informationga.in/blog/building-an-ai-server-on-a-budget) by information gain
+
+[Lessons from That 1834 Landscape Gardening Guidebook](https://fi-le.net/pueckler/) by fi-le.net
+
+[Air-dried vs. Kiln-dried Wood](https://christopherschwarz.substack.com/p/air-dried-vs-kiln-dried-wood) by Christopher Schwarz and Kara Gebhart Uhl
