@@ -6,7 +6,7 @@ draft: true
 ---
 [Bayes for Everyone](https://www.astralcodexten.com/p/bayes-for-everyone) by Astral Codex Ten
 
-[The Universal Tech Tree](https://asteriskmag.com/issues/10/the-universal-tech-tree) by Étienne Fortier-Dubois (Asterisk Mag)
+[The Universal Tech Tree](https://asteriskmag.com/issues/10/the-universal-tech-tree) by Étienne Fortier-Dubois
 
 [Building an AI Server on a Budget](https://www.informationga.in/blog/building-an-ai-server-on-a-budget) by information gain
 
