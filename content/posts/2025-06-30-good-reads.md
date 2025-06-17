@@ -13,3 +13,5 @@ draft: true
 [Lessons from That 1834 Landscape Gardening Guidebook](https://fi-le.net/pueckler/) by fi-le.net
 
 [Air-dried vs. Kiln-dried Wood](https://christopherschwarz.substack.com/p/air-dried-vs-kiln-dried-wood) by Christopher Schwarz and Kara Gebhart Uhl
+
+[The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html) by Edsger W. Dijkstra
