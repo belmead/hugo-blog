@@ -15,3 +15,5 @@ draft: true
 [Air-dried vs. Kiln-dried Wood](https://christopherschwarz.substack.com/p/air-dried-vs-kiln-dried-wood) by Christopher Schwarz and Kara Gebhart Uhl
 
 [The Humble Programmer](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html) by Edsger W. Dijkstra
+
+[The Grug Brained Developer: A layman's guide to thinking like the self-aware smol brained](https://grugbrain.dev/) by grug
