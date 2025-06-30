@@ -2,7 +2,7 @@
 title: "June 2025: Best Reads"
 description: "What caught my eye in the month of June, 2025."
 date: 2025-06-30
-draft: true
+draft: false
 ---
 [Bayes for Everyone](https://www.astralcodexten.com/p/bayes-for-everyone) by Astral Codex Ten
 
