@@ -1,6 +1,7 @@
----  
-layout: post
-title: Premium Piracy
+---
+title: Two Things Can Be Wrong at Once
+description: ¬(x = y) → ¬(a = b) knavery.
+date: "2025-06-30"
 draft: true
 ---
 
@@ -57,4 +58,12 @@ Furthermore:
 >**2.2. Your Personal, Non-Commercial Use.**
 >Subject to the terms of this Agreement, we grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to access and use the Services, including Virtual Items and your Account, for your personal, non-commercial enjoyment. The Services, Virtual Items, or your Account, including the Content, but excluding any tangible medium the Services may be supplied on, are licensed, not sold. This license is personal to you only and does not give you any ownership rights in any of the Services, Virtual Items, or your Account (or in or to any of their features or Content).
 
-You never owned the game, because you can't — you merely purchased a license to play (access the service). Rockstar is very clear on this point. 
+You never owned the game, because you can't — you merely purchased a license to play (access the service). Rockstar is very clear on this point.
+
+## Smug Pirates' Smug
+
+I'd hoped the phrase, "if buying isn't owning, then piracy isn't stealing," would not reach meme status, but that ship has sailed. Once Linus or Asmon gets ahold of something, it's over.
+
+[!YouTubers on piracy](2025-06-30-youtuber-piracy.png)
+
+Rightly dividing the phrase means knowing some use it tongue-in-cheek while others just download it into their mind's `roguish_intellectual_etc` subdir, next to "unpack" and "problematic." It's a fools-in-good-company phrase. To be clear, I empathize with the antecedent entirely. The prevailing attitude seems to be, "I'd willingly pay for something if I could truly own it," a stance good and right.
