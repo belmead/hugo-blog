@@ -1,8 +1,8 @@
 ---
 title: Two Things Can Be Wrong at Once
 description: ¬(x = y) → ¬(a = b) knavery.
-date: "2025-06-30"
-draft: true
+date: 2025-06-30
+draft: false
 ---
 
 On the [Hacker News-posted article](https://news.ycombinator.com/item?id=41999314 ) (originally found on [Gaming on Linux](https://www.gamingonlinux.com/2024/10/steam-games-will-now-need-to-fully-disclose-kernel-level-anti-cheat-on-store-pages/)), I found this comment:
