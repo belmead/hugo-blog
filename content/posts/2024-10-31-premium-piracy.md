@@ -64,7 +64,7 @@ You never owned the game, because you can't — you merely purchased a license t
 
 I'd hoped the phrase, "if buying isn't owning, then piracy isn't stealing," would not reach meme status, but that ship has sailed. Once Linus or Asmon gets ahold of something, it's over.
 
-[!YouTubers on piracy](/2025-06-30-youtuber-piracy.png)
+[!YouTubers on piracy](/img/2025-06-30-youtuber-piracy.png)
 
 Rightly dividing the phrase means knowing some use it tongue-in-cheek while others just download it into their mind's `roguish_intellectualisms` subdir. It's a fools-in-good-company phrase. To be clear, I empathize with the antecedent entirely. The prevailing attitude seems to be, "I'd willingly pay for something if I could truly own it," a stance good and right. Nothing wrong with that.
 
