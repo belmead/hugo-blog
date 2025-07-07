@@ -2,7 +2,7 @@
 title: Two Things Can Be Wrong at Once
 description: ¬(x = y) → ¬(a = b) knavery.
 date: 2025-06-30
-draft: false
+draft: true
 ---
 
 On the [Hacker News-posted article](https://news.ycombinator.com/item?id=41999314 ) (originally found on [Gaming on Linux](https://www.gamingonlinux.com/2024/10/steam-games-will-now-need-to-fully-disclose-kernel-level-anti-cheat-on-store-pages/)), I found this comment:
@@ -77,6 +77,6 @@ So to be clear, this is how it goes:
 4) User decides he was wronged (again, based on confusion stemming from lack of attention to detail)
 5) User steals IP and smirks
 
-This is part of how we arrived at Stop Killing Games. If you aren't aware, Stop Killing Games is a consumer initiative led by Ross Scott, advocating for legislation to prevent video game publishers from rendering games unplayable by shutting down servers without providing alternatives. The movement seeks to ensure continued access to games post-server shutdown, such as through offline modes or private servers. It has gained significant traction, achieving over one million signatures in the EU, prompting debates in both the European Commission and UK Parliament. Rerez has a [good video](https://www.youtube.com/watch?v=6Dblhx8mPaE) about an instance of this happening a while back with one of the Tony Hawk games.
+This is — in part — of how we arrived at Stop Killing Games. If you aren't aware, Stop Killing Games is a consumer initiative led by Ross Scott, advocating for legislation to prevent video game publishers from rendering games unplayable by shutting down servers without providing alternatives. The movement seeks to ensure continued access to games post-server shutdown, such as through offline modes or private servers. It has gained significant traction, achieving over one million signatures in the EU, prompting debates in both the European Commission and UK Parliament. Rerez has a [good video](https://www.youtube.com/watch?v=6Dblhx8mPaE) about an instance of this happening a while back with one of the Tony Hawk games.
 
 I'm not terribly convinced by the pro-SKG arguments. Expectation management is key: It seems foolish to expect a company to support servers for a game indefinitely (which is why giving the option to run personal servers is by far the preferred option). On the other hand, I don't think single-player games should require access to the Internet in order to be played. I gather this is becoming more and more the norm, but none of the games I play or are interested in playing use this method, so it doesn't mean much to me. Even if that were the case, in an extension to my point above about Valorant, I wouldn't play that game. Tough.
