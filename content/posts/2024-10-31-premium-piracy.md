@@ -60,10 +60,22 @@ Furthermore:
 
 You never owned the game, because you can't — you merely purchased a license to play (access the service). Rockstar is very clear on this point.
 
-## Smug Pirates' Smug
+## Smug Pirates' Motto
 
 I'd hoped the phrase, "if buying isn't owning, then piracy isn't stealing," would not reach meme status, but that ship has sailed. Once Linus or Asmon gets ahold of something, it's over.
 
 [!YouTubers on piracy](2025-06-30-youtuber-piracy.png)
 
-Rightly dividing the phrase means knowing some use it tongue-in-cheek while others just download it into their mind's `roguish_intellectual_etc` subdir, next to "unpack" and "problematic." It's a fools-in-good-company phrase. To be clear, I empathize with the antecedent entirely. The prevailing attitude seems to be, "I'd willingly pay for something if I could truly own it," a stance good and right.
+Rightly dividing the phrase means knowing some use it tongue-in-cheek while others just download it into their mind's `roguish_intellectualisms` subdir. It's a fools-in-good-company phrase. To be clear, I empathize with the antecedent entirely. The prevailing attitude seems to be, "I'd willingly pay for something if I could truly own it," a stance good and right. Nothing wrong with that.
+
+So to be clear, this is how it goes:
+
+1) Company creates (or licenses) a product — allows use via a licensing system
+2) User acquires a license, mistaking it for ownership
+3) Company quits supporting product, changes product, etc., which is well within their right to do
+4) User decides he was wronged (again, based on confusion and a lack of attention to detail)
+5) User steals IP and smirks
+
+This is part of how we arrived at Stop Killing Games. If you aren't aware, Stop Killing Games is a consumer initiative led by Ross Scott, advocating for legislation to prevent video game publishers from rendering purchased games unplayable by shutting down servers without providing alternatives. The movement seeks to ensure continued access to games post-server shutdown, such as through offline modes or private servers. It has gained significant traction, achieving over one million signatures in the EU, prompting debates in both the European Commission and UK Parliament. Rerez has a [good video](https://www.youtube.com/watch?v=6Dblhx8mPaE) about an instance of this happening a while back with one of the Tony Hawk games.
+
+I'm not terribly convinced by the pro-STG arguments. It seems foolish to expect a company to support servers for a game indefinitely (which is why giving the option to run personal servers is by far the preferred option). 
