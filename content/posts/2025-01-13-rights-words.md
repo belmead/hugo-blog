@@ -1,6 +1,7 @@
 ---  
 layout: post
 title: More Words about Rights
+date: 2025-01-13
 draft: true
 ---
 
