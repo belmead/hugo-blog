@@ -5,3 +5,5 @@ date: 2025-07-31
 draft: true
 ---
 [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering) by Phil Schmid
+
+[5 things I learned from 5 years at Vercel](https://leerob.com/vercel) by lee robinson
