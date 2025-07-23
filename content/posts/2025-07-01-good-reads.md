@@ -9,3 +9,5 @@ draft: true
 [5 things I learned from 5 years at Vercel](https://leerob.com/vercel) by lee robinson
 
 [Designing for the Eye: Optical Corrections in Architecture and Typography](https://www.nubero.ch/blog/015) by Niko Kitsakis
+
+[My LLM codegen workflow atm](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) by Harper Reed
