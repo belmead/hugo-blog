@@ -38,8 +38,8 @@ One of the underpinnings of contracts being able to work at all is the ability f
 
 A one-off request of forbearance isn't noteworthy. I've certainly faced my share of hurdles in life, and I reckon you have as well. A large part of my sense of agency stems from ownership of those hurdles: I built them myself. To wit: I am the cause. 
 
-Recognizing I am the author of my own problems is one of the fundamental aspects of responsibility. It's validation that I am indeed an adult capable of handling risk, at least to the degree required to enter into agreements. If I fail at handling the risk, I am rightly culpable.
+Recognizing I am the author of my own problems is one of the fundamental aspects of responsibility. It's validation that I am indeed an adult capable of taking on risk, at least to the degree required to enter into agreements. If I fail at handling the risk, I am rightly culpable: It's a package deal.
 
-What I cannot do, however, is choose to take on risk and then bail if things go sour.
+Therefore I cannot choose to take on risk and then bail if things go sour. Unforeseen circumstances, bumps along the way, sudden catastrophe — none of these abrogate responsibility. 
 
 Doing so would justifiably bring my capacity into question. 
