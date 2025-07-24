@@ -13,3 +13,5 @@ draft: true
 [My LLM codegen workflow atm](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) by Harper Reed
 
 [How to be more agentic: On a supposedly difficult thing](https://usefulfictions.substack.com/p/how-to-be-more-agentic) by Cate Hall
+
+[When Swiping Supplants Scissors: The Hidden Cost of Touchscreens — and how Designers Can Help](https://caseorganic.medium.com/when-swiping-supplants-scissors-the-hidden-cost-of-touchscreens-and-how-designers-can-help-dba0fa65f5b7) by Amber Case
