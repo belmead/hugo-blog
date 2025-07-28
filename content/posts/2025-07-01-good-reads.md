@@ -15,3 +15,5 @@ draft: true
 [How to be more agentic: On a supposedly difficult thing](https://usefulfictions.substack.com/p/how-to-be-more-agentic) by Cate Hall
 
 [When Swiping Supplants Scissors: The Hidden Cost of Touchscreens — and how Designers Can Help](https://caseorganic.medium.com/when-swiping-supplants-scissors-the-hidden-cost-of-touchscreens-and-how-designers-can-help-dba0fa65f5b7) by Amber Case
+
+[The Great American Novel](https://www.tedagame.com/zak-site/Great-American-Novel/Great-American-Novel.html) by Chris (?)
