@@ -1,0 +1,1 @@
+(https://nearlyright.com/how-ai-researchers-accidentally-discovered-that-everything-they-thought-about-learning-was-wrong/)[How AI researchers accidentally discovered that everything they thought about learning was wrong] by Jamie Lord
