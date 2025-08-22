@@ -4,4 +4,4 @@
 
 [Grug Design](https://www.grug.design/know) by grug
 
-[Essential Reading for Agentic Engineers - August 2025](https://steipete.me/posts/2025/essential-reading-august-2025] by Peter Steinberger
+[Essential Reading for Agentic Engineers - August 2025](https://steipete.me/posts/2025/essential-reading-august-2025) by Peter Steinberger
