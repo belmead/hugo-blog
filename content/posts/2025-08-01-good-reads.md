@@ -5,3 +5,5 @@
 [Grug Design](https://www.grug.design/know) by grug
 
 [Essential Reading for Agentic Engineers - August 2025](https://steipete.me/posts/2025/essential-reading-august-2025) by Peter Steinberger
+
+[What are OKLCH colors?](https://jakub.kr/components/oklch-colors) by Jakub Krehel
