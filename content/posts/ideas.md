@@ -1,2 +1,0 @@
-- rewire hank's car so it plays real music
-need new speaker and a python file that will randomize the mp3s it plays. will need tiny CPU for this, whatever can run off a AA bat. or upgrade the battery situation 
