@@ -12,7 +12,7 @@ In UX design, an **affordance** refers to the perceived and actual properties of
 
 ## User Context
 Accessibility is not the sole domain of disabled users. There exists a wide range of contextual and situational accessibility needs:
-![Accessibility Situation Spectrums](2025-08-29-accessibility.png)
+![Accessibility Situation Spectrums](/img/2025-08-29-accessibility.png)
 The machine lives on my side of the bed, and I only use it *when the room is dark*. This is the backdrop (context) that informs the rest of my complaints about the UX of this machine.
 
 ## Zero affordance
