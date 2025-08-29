@@ -1,5 +1,5 @@
 ---
-title: High Noise, Low Signal: A Lesson in Affordances
+title: High Noise, Low Signal - A Lesson in Affordances
 description: An example of why product design requires research.
 date: 2025-08-29
 draft: true
