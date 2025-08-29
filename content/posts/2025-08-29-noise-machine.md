@@ -7,6 +7,9 @@ draft: false
 # Foreword
 Our six-month-old hates sleep. This is not uncommon for infants, apparently, though difficult to comprehend given how much his parents would like regain the sleep they've lost since his birth. We know white noise helps put him to sleep (or is an excellent placebo), so we purchased a white-noise machine from Amazon. The baffling lack of research that went into this device is a case study in itself. Let me tell you about it.
 
+## What is Affordance?
+In UX design, an **affordance** refers to the perceived and actual properties of an object that determine how it can be used. It is the relationship between an object's *design* and the user's ability to recognize its *function*. For example, a button on a webpage suggests it can be clicked, and a slider implies it can be dragged.
+
 ## User Context
 Accessibility is not the sole domain of disabled users. There exists a wide range of contextual and situational accessibility needs:
 ![Accessibility Situation Spectrums](2025-08-29-accessibility.png)
