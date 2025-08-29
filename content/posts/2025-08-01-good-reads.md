@@ -1,5 +1,5 @@
 ---
-title: August 2025: Best Reads
+title: August 2025 Best Reads
 description: What caught my eye in the month of August, 2025.
 date: 2025-08-31
 draft: false
