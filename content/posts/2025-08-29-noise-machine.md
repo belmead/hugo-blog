@@ -5,7 +5,7 @@ date: 2025-08-29
 draft: true
 ---
 # Foreword
-Our six-month-old hates sleep—not uncommon for infants, apparently, though difficult to comprehend given how much he's disrupted his parents' sleep. We know white noise works (or is an excellent placebo), so we purchased a white-noise machine from Amazon. The baffling lack of research that went into this device is a case study in itself. Let me tell you about it.
+Our six-month-old hates sleep. This is not uncommon for infants, apparently, though difficult to comprehend given how much his parents would like regain the sleep they've lost since his birth. We know white noise helps put him to sleep (or is an excellent placebo), so we purchased a white-noise machine from Amazon. The baffling lack of research that went into this device is a case study in itself. Let me tell you about it.
 
 ## User Context
 Accessibility is not the sole domain of disabled users. There exists a wide range of contextual and situational accessibility needs:
