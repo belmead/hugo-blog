@@ -1,6 +1,7 @@
----  
-layout: post
-title: Early Review — AYN Odin 2 Pro
+---
+title: Review — AYN Odin 2 Pro
+description: After a few weeks of use.
+date: 2024-12-13
 draft: false
 ---
 
