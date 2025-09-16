@@ -1,6 +1,6 @@
 ---
 title: "July 2025: Best Reads"
-description: "What caught my eye in the month of January, 2025."
+description: "What caught my eye in the month of July, 2025."
 date: 2025-07-31
 draft: false
 ---
