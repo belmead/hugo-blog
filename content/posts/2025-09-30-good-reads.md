@@ -9,3 +9,5 @@ draft: true
 [Fifty Things you can do with a Software Defined Radio](https://blinry.org/50-things-with-sdr/) by blinry
 
 [Order Up](https://casualarchivist.substack.com/p/order-up) by Elizabeth Goodspeed
+
+[Beyond the Front Page: A Personal Guide to Hacker News](https://hsu.cy/2025/09/how-to-read-hn/) by Chenyang “Platy” Hsu
