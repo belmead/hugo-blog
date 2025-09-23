@@ -11,3 +11,5 @@ draft: true
 [Order Up](https://casualarchivist.substack.com/p/order-up) by Elizabeth Goodspeed
 
 [Beyond the Front Page: A Personal Guide to Hacker News](https://hsu.cy/2025/09/how-to-read-hn/) by Chenyang “Platy” Hsu
+
+[The Vibes Have Completely Taken Over](https://datastream.substack.com/p/the-vibes-have-completely-taken-over) by Jay F.
