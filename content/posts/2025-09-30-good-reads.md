@@ -2,7 +2,7 @@
 title: "September 2025: Best Reads"
 description: "What caught my eye in the month of September, 2025."
 date: 2025-09-30
-draft: true
+draft: false
 ---
 [The day Return became Enter](https://aresluna.org/the-day-return-became-enter/) by Marcin Wichary
 
