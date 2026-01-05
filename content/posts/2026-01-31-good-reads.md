@@ -5,4 +5,4 @@ date: 2026-1-31
 draft: true
 ---
 
-[https://tonsky.me/blog/tahoe-icons/](It’s hard to justify Tahoe icons) by Nikita Prokopov
+[It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/) by Nikita Prokopov
