@@ -1,7 +1,7 @@
 ---
 title: January 2026 Best Reads
 description: Best articles I read in January 2026.
-date: 2026-1-31
+date: 2026-01-31
 draft: true
 ---
 
