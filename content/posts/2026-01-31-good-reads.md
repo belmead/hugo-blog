@@ -1,11 +1,8 @@
 ---
-title: Title of the post
-description:
-date:
-tldr: (optional)
-draft: true/false (optional)
-tags: [tag names] (optional)
-toc: true/false (optional)
+title: Good reads: January 2026
+description: Best articles I read in January 2026.
+date: 2026-1-31
+draft: true
 ---
 
 [https://tonsky.me/blog/tahoe-icons/](It’s hard to justify Tahoe icons) by Nikita Prokopov
