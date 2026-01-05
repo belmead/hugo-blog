@@ -1,5 +1,5 @@
 ---
-title: Good reads: January 2026
+title: January 2026 Best Reads
 description: Best articles I read in January 2026.
 date: 2026-1-31
 draft: true
