@@ -2,7 +2,7 @@
 
 Local mode binds to loopback, checks the host and peer address, and rejects forwarded admin requests. Production mode requires an explicit HTTPS origin and shared Upstash Redis credentials. Missing configuration fails closed; there is no insecure fallback. The public blog is still generated into `site/` without credentials or a password form.
 
-The production login is prepared for Vercel Functions and uses Redis for credentials, session hashes, idle/absolute expiration, atomic throttling, and a cross-instance hashing lease. The Vercel entry serves the compiled studio, never Vite. See `deploy-admin.md` for owner provisioning and deployment settings. No live deployment has been performed or verified. The local `.shiro/` directory must stay out of GitHub and public artifacts.
+The production login is prepared for Vercel Functions and uses Redis for credentials, session hashes, idle/absolute expiration, atomic throttling, and a cross-instance hashing lease. The Vercel entry serves the compiled studio, never Vite. See `deploy-admin.md` for owner provisioning and deployment settings. The November 13, 2026 production release verified the configured host, protected routes, origin rejection, GitHub writes, upload streaming, sessions, and actual password sign-in in Dia; see `release-2026-11-13.md`. The local `.shiro/` directory must stay out of GitHub and public artifacts.
 
 Implemented controls:
 
@@ -19,3 +19,5 @@ Automated checks cover legacy hash migration, password masking and non-reflectio
 Reference guidance: [OWASP password storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) and [OWASP session management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html).
 
 Production publishing uses a server-only, repository-scoped GitHub token, constrained write paths, GitHub SHA conflict checks, and authenticated origin-checked chunk uploads. Images are type/size checked before a single complete-file commit. Redis staging expires after ten minutes and never supplies public URLs or GitHub tokens. All uploaded assets are public. A public source repository also exposes Markdown drafts; login protects editing, not repository visibility. See `deploy-admin.md` for the source migration, branch isolation, token permissions, and deployment verification.
+
+Admin responses use `Referrer-Policy: same-origin`: HTML form POSTs retain their Origin while external requests omit the referrer. Null and cross-origin writes remain rejected. See [MDN’s Origin-header behavior](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy#effect_on_the_origin_header).

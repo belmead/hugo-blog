@@ -16,7 +16,7 @@ The existing local admin password hash was provisioned without changing the pass
 
 Private local credential material is in ignored `.shiro/production.env` and `.shiro/github-production-token`, both mode 600. Do not print, commit, or package these files. The local `.vercel/` project link and `.env.local` are also ignored. The production secret values are intentionally absent from this document.
 
-Shiro source is now on the `shiro` branch; `main` retains the previous Hugo source. The Shiro branch omits the Hugo deployment workflow. Production publishing configuration uses `SHIRO_GITHUB_BRANCH=shiro`. Credential provisioning is complete and must not overwrite the existing credential. Staged Vercel checks have verified authenticated saves, a published post, pages, homepage saves, conflicts, previews, logout, and a 5 MB chunked image round-trip through GitHub. Traffic promotion is recorded in the release report after completion.
+Shiro source is now on the `shiro` branch; `main` retains the previous Hugo source. The Shiro branch omits the Hugo deployment workflow. Production publishing configuration uses `SHIRO_GITHUB_BRANCH=shiro`. Credential provisioning is complete and must not overwrite the existing credential. Staged Vercel checks have verified authenticated saves, a published post, pages, homepage saves, conflicts, previews, logout, and a 5 MB chunked image round-trip through GitHub. Traffic is promoted, automatic production deployments track `shiro`, and real password sign-in is confirmed. See `release-2026-11-13.md`.
 
 ## Configure the deployment
 
