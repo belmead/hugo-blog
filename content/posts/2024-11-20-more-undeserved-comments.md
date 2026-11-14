@@ -1,7 +1,9 @@
----  
+---
 layout: post
 title: title
 draft: true
+description: ''
+date: ''
 ---
 
 Hackernews' Newest section is a great source of blogs I'd otherwise never find. Sometimes it's gold like [Dan Luu's blog](https://danluu.com/). Oftentimes it's more like [Muni Blog](https://blog.muni.town/digital-homeownership/). I've not read every blog post on Muni, and have no ire toward the author — never met the man! — but the post rankles. It's not a lengthy post, so can be analyzed bit by bit.

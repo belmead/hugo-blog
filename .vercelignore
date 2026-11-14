@@ -1,0 +1,8 @@
+.shiro
+.env*
+source-reference
+output
+test
+docs
+content/.history
+content/.trash

@@ -1,0 +1,32 @@
+{
+  "name": "shiro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --watch-path=server.mjs --watch-path=lib --watch-path=build.mjs server.mjs",
+    "build": "vite build && node build.mjs",
+    "build:site": "node build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "postinstall": "node scripts/patch-editor.mjs",
+    "start": "NODE_ENV=production node server.mjs",
+    "provision:admin": "node scripts/provision-admin.mjs"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "3.2.2",
+    "express": "^5.3.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^15.0.3",
+    "sanitize-html": "^2.18.2"
+  },
+  "devDependencies": {
+    "smol-toml": "^1.9.1",
+    "vite": "^8.3.8"
+  },
+  "overrides": {
+    "dompurify": "^3.4.17"
+  }
+}

@@ -1,8 +1,12 @@
 ---
-title: "May 2025: Best Reads"
-description: "What caught my eye in the month of May, 2025."
-date: 2025-05-31
+title: 'May 2025: Best Reads'
+description: 'What caught my eye in the month of May, 2025.'
+date: '2025-05-31T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 Heavy work month.
 

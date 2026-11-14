@@ -1,8 +1,9 @@
 ---
-title: "Favorite Video Game YouTubers"
-description: "A list that continues to grow."
-date: 2025-03-14
+title: Favorite Video Game YouTubers
+description: A list that continues to grow.
+date: '2025-03-14T12:00:00.000Z'
 draft: false
+datePrecision: day
 ---
 Another list. My favorite video game YouTubers, in the order I thought of them in. Additions made as time passes.
 

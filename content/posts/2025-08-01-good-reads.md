@@ -1,10 +1,13 @@
 ---
 title: August 2025 Best Reads
-description: What caught my eye in the month of August, 2025.
-date: 2025-08-31
+description: 'What caught my eye in the month of August, 2025.'
+date: '2025-08-31T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
-
 [How AI researchers accidentally discovered that everything they thought about learning was wrong](https://nearlyright.com/how-ai-researchers-accidentally-discovered-that-everything-they-thought-about-learning-was-wrong/) by Jamie Lord
 
 [OpenMower - The DIY Smart Mowing Robot for Everyone](https://github.com/ClemensElflein/OpenMower) by Clemens Elflein

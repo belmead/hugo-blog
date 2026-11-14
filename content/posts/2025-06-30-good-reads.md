@@ -1,8 +1,12 @@
 ---
-title: "June 2025: Best Reads"
-description: "What caught my eye in the month of June, 2025."
-date: 2025-06-30
+title: 'June 2025: Best Reads'
+description: 'What caught my eye in the month of June, 2025.'
+date: '2025-06-30T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 [Bayes for Everyone](https://www.astralcodexten.com/p/bayes-for-everyone) by Astral Codex Ten
 

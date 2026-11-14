@@ -1,7 +1,9 @@
----  
+---
 layout: post
 title: Gaming Backlog
 draft: true
+description: ''
+date: ''
 ---
 
 | Title                              | Console       | Acquired? | Played? | Beaten? | Notes            |

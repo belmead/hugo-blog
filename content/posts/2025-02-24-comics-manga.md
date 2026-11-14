@@ -1,8 +1,9 @@
 ---
-title: "Pictures and Words"
-description: "On the manga/comics debate."
-date: 2024-11-18
+title: Pictures and Words
+description: On the manga/comics debate.
+date: '2024-11-18T12:00:00.000Z'
 draft: true
+datePrecision: day
 ---
 ### Barnes and Noble
 

@@ -1,7 +1,12 @@
 ---
-title: "Mexican Trinitron"
-description: "Notes on a CRT."
-date: 2024-10-03
+title: Mexican Trinitron
+description: Notes on a CRT.
+date: '2024-10-03T12:00:00.000Z'
+draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 h/t to @bennieiv for directing me to an estate sale with a 27" Sony WEGA Trinitron ($5!). The scanline geometry is a bit ...wonky, but easy to ignore. I lack the knowledge, time, tools, and interest to do anything about it, and for $5, what's the difference? It could very well be the case this is how all flat-panel CRTs look. 
 

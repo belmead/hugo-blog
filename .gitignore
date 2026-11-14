@@ -1,0 +1,14 @@
+node_modules/
+dist/
+site/
+source-reference/
+output/
+content/.history/
+content/.trash/
+.shiro/
+.playwright-cli/
+site.building/
+.DS_Store
+.env*
+!.env.example
+.vercel

@@ -1,0 +1,21 @@
+# Admin authentication
+
+Local mode binds to loopback, checks the host and peer address, and rejects forwarded admin requests. Production mode requires an explicit HTTPS origin and shared Upstash Redis credentials. Missing configuration fails closed; there is no insecure fallback. The public blog is still generated into `site/` without credentials or a password form.
+
+The production login is prepared for Vercel Functions and uses Redis for credentials, session hashes, idle/absolute expiration, atomic throttling, and a cross-instance hashing lease. The Vercel entry serves the compiled studio, never Vite. See `deploy-admin.md` for owner provisioning and deployment settings. No live deployment has been performed or verified. The local `.shiro/` directory must stay out of GitHub and public artifacts.
+
+Implemented controls:
+
+- Password records use asynchronous scrypt with N=131072, r=8, p=1, a fresh 32-byte salt, and a 64-byte derived key. Only a single password derivation runs at a time per process.
+- Existing password records remain valid. A successful legacy login upgrades the hash without changing the password. The password is never echoed into HTML, saved in plaintext, placed in browser storage, or put in a cookie.
+- Local credential and attempt-state files use private permissions and atomic writes. Production credentials are provisioned privately with SET NX; public setup is disabled. Neither path overwrites an existing password during initial provisioning.
+- Five failed or malformed attempts per minute trigger throttling, persisted across restarts. Production limits and hashing leases are atomic Redis Lua operations shared across instances. Concurrent attempts receive HTTP 429 with Retry-After. Successful authentication resets the failed-attempt window.
+- Sessions use random 256-bit tokens; only token hashes are stored. Local sessions live in memory; production sessions live in Redis. Production uses Secure, HttpOnly, SameSite=Strict, host-only `__Host-` cookies. The backend requires its configured host and HTTPS, checks exact origins, and sets HSTS. Forwarded protocol headers are trusted only on Vercel or from explicitly configured proxy addresses.
+- Sessions expire after 30 minutes idle or eight hours absolute. Logging in replaces the session in that browser; signing out revokes it across instances. Local server restarts invalidate local sessions. Production sessions survive serverless cold starts and deployments through shared storage.
+- Same-origin checks protect login, setup, logout, and content changes. Admin responses disable caching and framing, and the password form has a restrictive content security policy.
+
+Automated checks cover legacy hash migration, password masking and non-reflection, throttling across restarts, parallel hashing, rejected cross-origin/proxy requests, malformed cookies, session rotation, logout, idle/absolute expiration, and missing production configuration. A real Redis/HTTPS integration suite also verifies cross-instance and restart behavior, atomic leases, shared throttling, cookie flags, owner provisioning, credential migration, fail-closed outages, and the actual deployment handler serving the compiled studio. These checks are not a penetration test or verification of a live Vercel deployment.
+
+Reference guidance: [OWASP password storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) and [OWASP session management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html).
+
+Production publishing uses a server-only, repository-scoped GitHub token, constrained write paths, GitHub SHA conflict checks, and authenticated origin-checked chunk uploads. Images are type/size checked before a single complete-file commit. Redis staging expires after ten minutes and never supplies public URLs or GitHub tokens. All uploaded assets are public. A public source repository also exposes Markdown drafts; login protects editing, not repository visibility. See `deploy-admin.md` for the source migration, branch isolation, token permissions, and deployment verification.

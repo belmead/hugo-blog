@@ -1,7 +1,12 @@
 ---
-title: "Birds of the Midwest"
-description: "Other fauna, too."
-date: 2024-10-09
+title: Birds of the Midwest
+description: 'Other fauna, too.'
+date: '2024-10-09T12:00:00.000Z'
+draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 There's a walking trail on a for-sale plot of land contiguous to the corporate HQ where I work. I find it good and pleasing to walk this trail two or three times in the morning, and again in the afternoon, depending on how warm it is.
 

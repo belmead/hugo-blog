@@ -1,10 +1,14 @@
 ---
 title: Thew new Dr. Strange run isn't very good
 description: But the Fantastic 4 reprints are excellent.
-date: 2025-04-19
+date: '2025-04-19T12:00:00.000Z'
 draft: true
-tags: [comics & manga]
+tags:
+  - comics & manga
 toc: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
 ---
 # Despite Better Sense
 Watching YouTube videos critiquing modern comics wasn't so much as a mistake as it was a primer on the state of modern (read: Marvel and DC) comics: Pick up any ish of a mainstream cape story and wince away.

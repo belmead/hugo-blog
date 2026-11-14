@@ -1,7 +1,12 @@
 ---
-title: "January 2025: Best Reads"
-description: "What caught my eye in the month of January, 2025."
-date: 2025-02-12
+title: 'January 2025: Best Reads'
+description: 'What caught my eye in the month of January, 2025.'
+date: '2025-02-12T12:00:00.000Z'
+draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 [The Short Case for Nvidia Stock](https://youtubetranscriptoptimizer.com/blog/05_the_short_case_for_nvda) by Jeffrey Emmanuel
 

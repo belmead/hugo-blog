@@ -1,8 +1,11 @@
 ---
-title: High Noise, Low Signal - A Lesson in Affordances
+title: 'High Noise, Low Signal - A Lesson in Affordances'
 description: An example of why product design requires research.
-date: 2025-08-29
+date: '2025-08-29T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /img/2025-08-29-accessibility.png
+imageAlt: Accessibility Situation Spectrums
 ---
 # Foreword
 Our six-month-old hates sleep. This is not uncommon for infants, apparently, though difficult to comprehend given how much his parents would like regain the sleep they've lost since his birth. We know white noise helps put him to sleep (or is an excellent placebo), so we purchased a white-noise machine from Amazon. The baffling lack of research that went into this device is a case study in itself. Let me tell you about it.

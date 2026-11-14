@@ -1,10 +1,12 @@
 ---
 title: Review — AYN Odin 2 Pro
 description: After a few weeks of use.
-date: 2024-12-13
+date: '2024-12-13T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
 ---
-
 I received the most excellent AYN Odin 2 Pro from my lovely wife this Christmas, and this is an early review of the device (approx. 3 hours playing so far).
 
 ### Feel
@@ -48,4 +50,4 @@ I haven't emulated anything yet, and if you're familiar with my previous posts, 
 
 ### Conclusion
 
-I am thoroughly impressed with this device. A higher refresh rate for the screen would have been preferable, and I do wish for larger controls, but the positives more than make up for the negatives. For the sake of reviewing this again in the future, I rate it ~87 / 100. 
+I am thoroughly impressed with this device. A higher refresh rate for the screen would have been preferable, and I do wish for larger controls, but the positives more than make up for the negatives. For the sake of reviewing this again in the future, I rate it ~87 / 100.

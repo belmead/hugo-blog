@@ -1,10 +1,14 @@
----  
+---
 layout: post
 title: More Words about Rights
-date: 2025-01-13
+date: '2025-01-13T12:00:00.000Z'
 draft: true
+description: ''
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
-
 [Medhir Bhargava](https://medhir.com/blog/right-to-root-access) wrote a blog post that did fairly well on HN about degrees of control over devices (root access). His tl;dr is a great summary:
 
 >If you own a computing device outright, you should be able to make any level of software modification you desire. hardware manufacturers should not be allowed to absolutely restrict distribution of software to their own channels under the guise of safety.
@@ -35,4 +39,4 @@ E-waste is a problem, surely, but I don't think forcing private companies to unl
 
 This is partially sarcastic response, and I don't think I fully believe it. It's a terrible insult to both companies and the public. Ultimately, I'm against forcing behavior w/r/t consumption on either side of the POS machine — it messes with the agency of the buyer and seller.
 
-I would certainly hope that a company that opted to make root-access-enabled devices would just fly off the shelves. I also hope that they will eventually sell the Totoya Hilux Champ stateside, for similar reasons. 
+I would certainly hope that a company that opted to make root-access-enabled devices would just fly off the shelves. I also hope that they will eventually sell the Totoya Hilux Champ stateside, for similar reasons.

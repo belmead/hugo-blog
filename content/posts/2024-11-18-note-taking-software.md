@@ -1,9 +1,12 @@
----  
+---
 layout: post
 title: Note-taking Software
 draft: true
+description: ''
+date: ''
+image: /images/placeholder.svg
+imageAlt: ''
 ---
-
 I'm on the hunt for a good note-taking application. This is my usage history:
 
 - A single, long MSFT Word document

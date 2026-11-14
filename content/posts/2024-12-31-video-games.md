@@ -1,7 +1,9 @@
 ---
-title: "My Life in Gaming"
-description: "All the games I can remember playing."
-date: 2024-12-13
+title: My Life in Gaming
+description: All the games I can remember playing.
+date: '2024-12-13T12:00:00.000Z'
+draft: false
+datePrecision: day
 ---
 I don't recall at which age I began to game — between six and eight years of age, I reckon — but I've been at this hobby for at least 75% of my life. I anticipate this number will only increase as I age. Were I a smarter man, I would have compiled a list sooner and kept up with it, but I've always been a poor planner.
 

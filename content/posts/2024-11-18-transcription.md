@@ -1,7 +1,11 @@
 ---
-title: "Transcription with OpenAI's Whisper"
-description: "Findings and notes from using python and AI to transcribe a lengthy video."
-date: 2024-11-18
+title: Transcription with OpenAI's Whisper
+description: Findings and notes from using python and AI to transcribe a lengthy video.
+date: '2024-11-18T12:00:00.000Z'
+draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
 ---
 Shortly before leaving work last Friday, I received an email with a request to use AI to transcribe some video. Note the request — to use AI to accomplish the task. The video was around two and a half hours long, so I would have chosen that route anyway, but a colleague and I had led the (semi-) monthly AI meeting two days prior to the request, so the idea of using AI where possible was fresh in everyone's head.
 
@@ -163,4 +167,4 @@ Virtual environments are great, probably, but annoying in that they are married 
 
 A timer would be nifty to tell me exactly how long it took to transcribe. This would be excellent for testing the same audio file against the different models.
 
-Altogether, it was pleasing to get the task completed in a relatively short amount of time (the bulk of the job was me learning how things worked; the actual transcription was quick) using FOSS on Arch. I know there's some debate on exactly what "open source" means when it comes to models, as the training data itself usually isn't open-source, but I'm calling this a win for my skills in Linux/CLI, Python, and more advanced AI usage. 
+Altogether, it was pleasing to get the task completed in a relatively short amount of time (the bulk of the job was me learning how things worked; the actual transcription was quick) using FOSS on Arch. I know there's some debate on exactly what "open source" means when it comes to models, as the training data itself usually isn't open-source, but I'm calling this a win for my skills in Linux/CLI, Python, and more advanced AI usage.

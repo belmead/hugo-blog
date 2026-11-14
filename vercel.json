@@ -1,0 +1,64 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "site",
+  "functions": {
+    "api/shiro.mjs": {
+      "includeFiles": "{content,public,dist/studio}/**",
+      "excludeFiles": "{.shiro,source-reference,output,test,docs}/**",
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/uploads/:path*",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/studio/:path*",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/preview/:path*",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/api/content/:path*",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/api/home",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/api/media/:path*",
+      "destination": "/api/shiro"
+    },
+    {
+      "source": "/api/build",
+      "destination": "/api/shiro"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/posts",
+      "destination": "/#posts",
+      "permanent": true
+    },
+    {
+      "source": "/tags",
+      "destination": "/#posts",
+      "permanent": true
+    },
+    {
+      "source": "/categories",
+      "destination": "/#posts",
+      "permanent": true
+    }
+  ]
+}

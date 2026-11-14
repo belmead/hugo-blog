@@ -1,8 +1,12 @@
 ---
-title: "July 2025: Best Reads"
-description: "What caught my eye in the month of July, 2025."
-date: 2025-07-31
+title: 'July 2025: Best Reads'
+description: 'What caught my eye in the month of July, 2025.'
+date: '2025-07-31T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering) by Phil Schmid
 

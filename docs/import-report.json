@@ -1,0 +1,236 @@
+{
+  "imported": [
+    {
+      "source": "0-colophon.md",
+      "file": "0-colophon.md",
+      "draft": false
+    },
+    {
+      "source": "2024-10-28-backlog.md",
+      "file": "2024-10-28-backlog.md",
+      "draft": false
+    },
+    {
+      "source": "2024-10-3-mexican-trinitron.md",
+      "file": "2024-10-3-mexican-trinitron.md",
+      "draft": false
+    },
+    {
+      "source": "2024-10-31-premium-piracy.md",
+      "file": "2024-10-31-premium-piracy.md",
+      "draft": true
+    },
+    {
+      "source": "2024-10-9-midwest-birds.md",
+      "file": "2024-10-9-midwest-birds.md",
+      "draft": false
+    },
+    {
+      "source": "2024-11-18-note-taking-software.md",
+      "file": "2024-11-18-note-taking-software.md",
+      "draft": true
+    },
+    {
+      "source": "2024-11-18-transcription.md",
+      "file": "2024-11-18-transcription.md",
+      "draft": false
+    },
+    {
+      "source": "2024-11-20-git-gud.md",
+      "file": "2024-11-20-git-gud.md",
+      "draft": true
+    },
+    {
+      "source": "2024-11-20-more-undeserved-comments.md",
+      "file": "2024-11-20-more-undeserved-comments.md",
+      "draft": true
+    },
+    {
+      "source": "2024-11-5-python.md",
+      "file": "2024-11-5-python.md",
+      "draft": true
+    },
+    {
+      "source": "2024-12-13-odin-2-pro-review.md",
+      "file": "2024-12-13-odin-2-pro-review.md",
+      "draft": false
+    },
+    {
+      "source": "2024-12-31-video-games.md",
+      "file": "2024-12-31-video-games.md",
+      "draft": false
+    },
+    {
+      "source": "2025-01-13-rights-words.md",
+      "file": "2025-01-13-rights-words.md",
+      "draft": true
+    },
+    {
+      "source": "2025-01-22-new-blog.md",
+      "file": "2025-01-22-new-blog.md",
+      "draft": true
+    },
+    {
+      "source": "2025-01-27-good-reads.md",
+      "file": "2025-01-27-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-02-02-nvim-newb-1.md",
+      "file": "2025-02-02-nvim-newb-1.md",
+      "draft": false
+    },
+    {
+      "source": "2025-02-02-nvim-newb-2.md",
+      "file": "2025-02-02-nvim-newb-2.md",
+      "draft": false
+    },
+    {
+      "source": "2025-02-02-nvim-newb-3.md",
+      "file": "2025-02-02-nvim-newb-3.md",
+      "draft": false
+    },
+    {
+      "source": "2025-02-24-comics-manga.md",
+      "file": "2025-02-24-comics-manga.md",
+      "draft": true
+    },
+    {
+      "source": "2025-02-26-good-reads.md",
+      "file": "2025-02-26-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-03-10-manga-api.md",
+      "file": "2025-03-10-manga-api.md",
+      "draft": false
+    },
+    {
+      "source": "2025-03-14-youtubers.md",
+      "file": "2025-03-14-youtubers.md",
+      "draft": false
+    },
+    {
+      "source": "2025-03-31-accessible-table.md",
+      "file": "2025-03-31-accessible-table.md",
+      "draft": false
+    },
+    {
+      "source": "2025-04-04-good-reads.md",
+      "file": "2025-04-04-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-04-19-dr-strange.md",
+      "file": "2025-04-19-dr-strange.md",
+      "draft": true
+    },
+    {
+      "source": "2025-05-05-good-reads.md",
+      "file": "2025-05-05-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-05-21-server.md",
+      "file": "2025-05-21-server.md",
+      "draft": false
+    },
+    {
+      "source": "2025-06-30-good-reads.md",
+      "file": "2025-06-30-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-07-01-good-reads.md",
+      "file": "2025-07-01-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-07-07-wisdom.md",
+      "file": "2025-07-07-wisdom.md",
+      "draft": false
+    },
+    {
+      "source": "2025-07-11-attention.md",
+      "file": "2025-07-11-attention.md",
+      "draft": true
+    },
+    {
+      "source": "2025-07-17-complain.md",
+      "file": "2025-07-17-complain.md",
+      "draft": true
+    },
+    {
+      "source": "2025-08-01-good-reads.md",
+      "file": "2025-08-01-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-08-29-noise-machine.md",
+      "file": "2025-08-29-noise-machine.md",
+      "draft": false
+    },
+    {
+      "source": "2025-09-13-music.md",
+      "file": "2025-09-13-music.md",
+      "draft": true
+    },
+    {
+      "source": "2025-09-30-good-reads.md",
+      "file": "2025-09-30-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-10-31-good-reads.md",
+      "file": "2025-10-31-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-11-30-good-reads.md",
+      "file": "2025-11-30-good-reads.md",
+      "draft": false
+    },
+    {
+      "source": "2025-12-28-peptides.md",
+      "file": "2025-12-28-peptides.md",
+      "draft": false
+    },
+    {
+      "source": "2026-01-31-good-reads.md",
+      "file": "2026-01-31-good-reads.md",
+      "draft": true
+    },
+    {
+      "source": "Scaring the Normies.md",
+      "file": "scaring-the-normies.md",
+      "draft": true
+    },
+    {
+      "source": "backlog.md",
+      "file": "backlog.md",
+      "draft": true
+    },
+    {
+      "source": "my-first-post.md",
+      "file": "my-first-post.md",
+      "draft": true
+    },
+    {
+      "source": "paradox of agency.md",
+      "file": "paradox-of-agency.md",
+      "draft": true
+    }
+  ],
+  "skipped": [],
+  "notes": [
+    "2024-11-18-note-taking-software.md: no valid date; kept as a draft.",
+    "2024-11-20-git-gud.md: no valid date; kept as a draft.",
+    "2024-11-20-more-undeserved-comments.md: no valid date; kept as a draft.",
+    "2024-11-5-python.md: no valid date; kept as a draft.",
+    "Scaring the Normies.md: no valid date; kept as a draft.",
+    "Scaring the Normies.md: normalized filename to scaring-the-normies.md.",
+    "backlog.md: no valid date; kept as a draft.",
+    "paradox of agency.md: no valid date; kept as a draft.",
+    "paradox of agency.md: normalized filename to paradox-of-agency.md."
+  ]
+}

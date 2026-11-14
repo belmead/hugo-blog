@@ -1,8 +1,12 @@
 ---
 title: The Internet was a Mistake
-description: Gatekeeping is a good thing, or, why policing your own groups is a necessity.
-date: 2025-07-11
+description: 'Gatekeeping is a good thing, or, why policing your own groups is a necessity.'
+date: '2025-07-11T12:00:00.000Z'
 draft: true
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 >Mental health in an interesting topic because it used to be taboo.
 
@@ -12,4 +16,4 @@ Young people, on encountereing an idea new to them, often herald it as a novel t
 
 The demise of the monoculture has had a tremendously negative impact on Western society. Aside from the lack of a shared sense of media / media awareness, 
 
-The point is: Disease is not a personality, and those desperate to belong somewhere exciting and edgy will adopt whatever they need to fit in with the group they choose to glom onto — this is part of the nature of attention-seeking behavior. 
+The point is: Disease is not a personality, and those desperate to belong somewhere exciting and edgy will adopt whatever they need to fit in with the group they choose to glom onto — this is part of the nature of attention-seeking behavior.

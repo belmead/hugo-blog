@@ -1,8 +1,12 @@
 ---
-title: "October 2025: Best Reads"
-description: "What caught my eye in the month of October, 2025."
-date: 2025-10-31
+title: 'October 2025: Best Reads'
+description: 'What caught my eye in the month of October, 2025.'
+date: '2025-10-31T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 [Build Your Own Database](https://www.nan.fyi/database) by nanda
 

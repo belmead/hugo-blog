@@ -1,8 +1,12 @@
 ---
-title: "September 2025: Best Reads"
-description: "What caught my eye in the month of September, 2025."
-date: 2025-09-30
+title: 'September 2025: Best Reads'
+description: 'What caught my eye in the month of September, 2025.'
+date: '2025-09-30T12:00:00.000Z'
 draft: false
+datePrecision: day
+image: /images/placeholder.svg
+imageAlt: ''
+nav: false
 ---
 [The day Return became Enter](https://aresluna.org/the-day-return-became-enter/) by Marcin Wichary
 

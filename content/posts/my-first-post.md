@@ -1,19 +1,12 @@
-+++
-title = "My First Post"
-date = "2025-01-22T09:50:13-06:00"
-draft = true
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = false
-hideComments = false
-summary = "This is a test of how summaries work"
-+++
+---
+title: My First Post
+description: ''
+draft: true
+date: '2025-01-22T15:50:13.000Z'
+image: ''
+imageAlt: ''
+nav: false
+---
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
