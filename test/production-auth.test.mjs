@@ -115,7 +115,7 @@ test('live Redis: HTTPS and exact-origin enforcement, no public bootstrap, legac
     assert.equal((await app.request('/admin/',{headers:{Host:'attacker.example'}})).status,403);
     assert.equal((await app.request('/admin/login',{method:'POST',headers:{Origin:'https://attacker.example'}})).status,403);
     assert.equal((await app.request('/admin/setup',{method:'POST'})).status,404);
-    const form=await app.request('/admin/');assert.equal(form.status,200);assert.match(form.headers.get('strict-transport-security'),/max-age/);assert.equal(form.headers.get('cache-control'),'no-store');
+    const form=await app.request('/admin/');assert.equal(form.status,200);assert.match(form.headers.get('strict-transport-security'),/max-age/);assert.equal(form.headers.get('cache-control'),'no-store');assert.equal(form.headers.get('referrer-policy'),'same-origin');
     assert.ok(!(await form.text()).includes('Set your admin password'));
     const login=await app.login();assert.equal(login.status,303);assert.equal((await shared.credential()).version,2);
     const session=cookie(login),realFetch=globalThis.fetch;
