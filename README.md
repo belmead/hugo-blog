@@ -4,7 +4,7 @@ A Markdown writing app and static blog generator with a local editor, production
 
 ## Run locally
 
-Requires Node 22 or newer.
+Production uses Node 22.x.
 
 ```sh
 npm install
@@ -41,7 +41,7 @@ Post URLs use `/posts/<filename>/`, page URLs use `/<filename>/`. Existing URL n
 
 Rich text uses CommonMark/GFM through TOAST UI Editor. HTML and Markdown in public output are sanitized. Custom HTML, scripts, and Hugo templates are not a portable rich text format; use Markdown for new content. There is no arbitrary HTML layout builder: the homepage fields and Markdown pages are the deliberately small editing surface.
 
-The editor is pinned to TOAST UI 3.2.2. `scripts/patch-editor.mjs` applies a checked install-time fix for its queued resize callback after teardown. Review that patch when updating the editor. DOMPurify is overridden to a patched release.
+The editor is pinned to TOAST UI 3.2.2. `scripts/patch-editor.mjs` applies a checked install-time fix for its queued resize callback after teardown. Review that patch when updating the editor. DOMPurify is overridden to a patched release. The current sanitize-html release is retained, with htmlparser2 constrained to its compatible CommonJS 10.x build because Vercel’s function loader rejects its newer ESM-only build. Sanitizer tests and npm audit pass with this override.
 
 ## Original blog
 
@@ -65,3 +65,5 @@ npm run build
 `build` compiles the local studio into `dist/studio/` and generates the public site into `site/`. Only `site/` belongs on a public host. Neither the editor, admin credentials, nor Markdown drafts are included in that output. `npm run build:site` builds only the public files.
 
 Later, GitHub can remain the source repository and Vercel can serve `site/`, or a GitHub Pages workflow can upload it as an artifact. Hosting changes, repository pushes, and domain changes are deferred until the local design is approved. Production admin login is prepared for Vercel Functions and shared Redis authentication state. See `docs/deploy-admin.md` for environment settings and one-time owner provisioning. Production post/page/homepage saves and image uploads commit to the configured GitHub branch; its Vercel Git integration rebuilds the public site. Private previews read GitHub immediately. Tokens remain server-only and file revisions prevent stale edits from overwriting newer work. Deployment requires installing Shiro in that branch and replacing the old Hugo deployment workflow, plus the documented server credentials. Nothing has been deployed by this setup.
+
+Production uses the `shiro` Git branch. The unchanged Hugo source remains on `main` for rollback.
