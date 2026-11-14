@@ -5,8 +5,8 @@
   "outputDirectory": "site",
   "functions": {
     "api/shiro.mjs": {
-      "includeFiles": "{content,public,dist/studio}/**",
-      "excludeFiles": "{.shiro,source-reference,output,test,docs}/**",
+      "includeFiles": "{content,dist/studio}/**",
+      "excludeFiles": "{.shiro,source-reference,output,test,docs,public,content/.history,content/.trash,node_modules/vite,node_modules/rolldown,node_modules/@rolldown}/**",
       "maxDuration": 60
     }
   },
@@ -60,5 +60,6 @@
       "destination": "/#posts",
       "permanent": true
     }
-  ]
+  ],
+  "trailingSlash": false
 }

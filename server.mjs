@@ -97,7 +97,10 @@ export async function createApp({ studio = true, adminDirectory, production=proc
     res.type('html').send(documentPage(home(),doc,list('pages')));
   });
   let vite;
-  if(studio && production)app.use('/studio',express.static('dist/studio',{dotfiles:'deny'}));
+  if(studio && production){
+    app.get('/studio/',(req,res)=>res.sendFile(path.resolve('dist/studio/index.html')));
+    app.use('/studio',express.static('dist/studio',{dotfiles:'deny',redirect:false}));
+  }
   if (studio && !production) { const {createServer}=await import('vite');vite = await createServer({ server:{middlewareMode:true}, appType:'spa' }); app.use(vite.middlewares); }
   app.use((error,req,res,next)=> {
     const status = error.status || 500;
