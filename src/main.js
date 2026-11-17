@@ -6,7 +6,7 @@ import { imageMarkdown } from './image-markdown.js';
 const $ = selector => document.querySelector(selector);
 const e = value => String(value ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let data, section = 'posts', current, editor, dirty = false, bodyChanged = false, search = '', filter = 'all', saving = false;
-let noticeTimer;
+let noticeTimer, savedSnapshot='', savedMarkdown=null;
 async function api(url, options = {}) {
   const res = await fetch(url, { ...options, headers: { 'Content-Type':'application/json', ...options.headers } });
   const result = await res.json();
@@ -30,14 +30,25 @@ function notify(message, error = false) {
   noticeTimer = setTimeout(()=>{ $('#notice').hidden = true; },error ? 8000 : 4000);
 }
 const storageKey = () => `shiro:${section}:${current?.id || 'home'}`;
-function markDirty() {
-  dirty = true;
-  $('#save-state').textContent = 'Unsaved changes';
-  $('#save-state').className = 'unsaved';
-  try { localStorage.setItem(storageKey(), JSON.stringify(values())); } catch { /* Disk save remains available when browser storage is full. */ }
+function editorSnapshot(input) {
+  const fields=section==='home'?['siteTitle','title','subtitle','image','imageAlt','buttonText','buttonURL','postsTitle','timezone','body']:['title','description','date','draft','image','imageAlt','nav','body'];
+  return JSON.stringify(fields.map(key=>input[key] ?? ''));
 }
-function canLeave() { return !dirty || confirm('Leave this editor? Your unsaved changes are kept in this browser for recovery.'); }
-function destroyEditor() { editor?.destroy(); editor = null; }
+function updateSaveButton() {
+  const button=$('#save');if(!button)return;
+  const draft=$('#draft')?.value==='true';
+  button.textContent=saving?'Saving…':section==='home'?'Save homepage':draft?'Save draft':current?.draft?'Publish':'Save changes';
+  button.disabled=saving || !dirty;
+}
+function markDirty() {
+  dirty=editorSnapshot(values())!==savedSnapshot;
+  $('#save-state').textContent=dirty?'Unsaved changes':data.publishing==='github'?'Saved to GitHub':'Saved to Markdown';
+  $('#save-state').className=dirty?'unsaved':'';
+  updateSaveButton();
+  try { if(dirty)localStorage.setItem(storageKey(), JSON.stringify(values()));else localStorage.removeItem(storageKey()); } catch { /* Disk save remains available when browser storage is full. */ }
+}
+function canLeave() { if(saving){notify('Wait for the save to finish.');return false;}return !dirty || confirm('Leave this editor? Your unsaved changes are kept in this browser for recovery.'); }
+function destroyEditor() { savedMarkdown=null;editor?.destroy(); editor = null; }
 function layout() {
   $('#app').innerHTML = `<div class="studio"><aside class="sidebar"><a class="shiro" href="/studio/">shiro<span>白</span></a><div class="site-label">YOUR SPACE</div><div class="site-name">${e(data.home.siteTitle)}</div><nav aria-label="Studio"><button data-section="posts">Writing <span>${data.posts.length}</span></button><button data-section="pages">Pages <span>${data.pages.length}</span></button><button data-section="home">Homepage</button><button data-section="media">Images</button></nav><div class="sidebar-bottom"><a href="/" target="_blank" rel="noopener">View your site <span>↗</span></a><button id="build">Build static site <span>↗</span></button><form method="post" action="/admin/logout"><button type="submit">Sign out</button></form></div></aside><div class="workspace"><header class="studio-top"><span id="breadcrumb">Your space / Writing</span><div><span class="local-label">${data.publishing==='github'?'GitHub workspace':'Local workspace'}</span><a href="/" target="_blank" rel="noopener">Open preview ↗</a></div></header><main id="work"></main><div id="notice" role="status" hidden></div></div></div><dialog id="modal"></dialog><input id="file-picker" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden>`;
   document.querySelectorAll('[data-section]').forEach(btn=>btn.onclick=()=>{ if(canLeave()) { section=btn.dataset.section; dirty=false; current=null; render(); } });
@@ -74,7 +85,10 @@ function newDocument() {
 }
 function localDate(value) { const d=new Date(value || Date.now());return new Date(d.getTime()-d.getTimezoneOffset()*60000).toISOString().slice(0,16); }
 function mountEditor(body) {
-  editor = new Editor({ el:$('#editor'), height:'auto', minHeight:'430px', initialEditType:'wysiwyg', previewStyle:'vertical', initialValue:body||'', usageStatistics:false, autofocus:false, placeholder:'Begin anywhere. Make it yours.', toolbarItems:[['heading','bold','italic','strike'],['hr','quote'],['ul','ol','task'],['table','link'],['code','codeblock']], hooks:{addImageBlobHook: async(blob,callback)=>{try { const image=await upload(blob); callback(image.url,blob.name||'Image'); }catch(err){notify(err.message,true);} }}, events:{change:()=>{if(editor && editor.getMarkdown() !== (section==='home'?data.home.body:current?.body)){bodyChanged=true;markDirty();}}} });
+  savedMarkdown=null;
+  editor = new Editor({ el:$('#editor'), height:'auto', minHeight:'430px', initialEditType:'wysiwyg', previewStyle:'vertical', initialValue:body||'', usageStatistics:false, autofocus:false, placeholder:'Begin anywhere. Make it yours.', toolbarItems:[['heading','bold','italic','strike'],['hr','quote'],['ul','ol','task'],['table','link'],['code','codeblock']], hooks:{addImageBlobHook: async(blob,callback)=>{try { const image=await upload(blob); callback(image.url,blob.name||'Image'); }catch(err){notify(err.message,true);} }}, events:{change:()=>{if(editor && savedMarkdown!==null){bodyChanged=editor.getMarkdown()!==savedMarkdown;markDirty();}}} });
+  savedMarkdown=editor.getMarkdown();
+  savedSnapshot=editorSnapshot(values());updateSaveButton();
   document.querySelectorAll('#editor div.ProseMirror').forEach((editable,i)=>{editable.setAttribute('role','textbox');editable.setAttribute('aria-multiline','true');editable.setAttribute('aria-label',i===0?'Markdown body':'Rich text body');});
   document.querySelectorAll('#editor .toastui-editor-mode-switch .tab-item').forEach(tab=>{tab.setAttribute('role','button');tab.tabIndex=0;tab.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();tab.click();}});});
 }
@@ -103,15 +117,15 @@ function values() {
   return { ...current, title:$('#title').value, description:$('#description').value, date:$('#date').value?new Date($('#date').value).toISOString():'', draft:$('#draft').value==='true',image:$('#image').value,imageAlt:$('#imageAlt').value,nav:$('#nav')?.checked||false,body:bodyChanged?editor.getMarkdown():current.body };
 }
 async function saveCurrent() {
-  if(saving)return false;saving=true;$('#save').disabled=true;
+  if(saving)return false;if(!dirty)return true;saving=true;updateSaveButton();
   try {
-    const payload=values();
+    const payload=values(),snapshot=editorSnapshot(payload),markdown=editor.getMarkdown();
     const result=await api(section==='home'?'/api/home':`/api/content/${section}/${current.id}`,{method:'PUT',body:JSON.stringify(payload)});
-    try{localStorage.removeItem(storageKey());}catch{}
     if(section==='home'){data.home=result;$('#home-preview').contentWindow.location.reload();}
     else {current=result;const index=data[section].findIndex(d=>d.id===result.id);if(index<0)data[section].unshift(result);else data[section][index]=result;}
-    dirty=false;bodyChanged=false;$('#save-state').textContent=data.publishing==='github'?'Saved to GitHub':'Saved to Markdown';$('#save-state').className='';$('#save').textContent=section==='home'?'Save homepage':current.draft?'Save draft':'Save changes';notify(data.publishing==='github'?'Saved to GitHub. The public site updates after deployment.':'Saved. Your Markdown file is up to date.');return true;
-  }catch(err){$('#save-state').textContent='Not saved. Your changes are still in this tab.';$('#save-state').className='unsaved';notify(err.message,true);return false;}finally{saving=false;$('#save').disabled=false;}
+    savedSnapshot=snapshot;savedMarkdown=markdown;bodyChanged=editor.getMarkdown()!==savedMarkdown;markDirty();
+    notify(dirty?'Saved. Newer edits are still unsaved.':data.publishing==='github'?'Saved to GitHub. The public site updates after deployment.':'Saved. Your Markdown file is up to date.');return !dirty;
+  }catch(err){$('#save-state').textContent='Not saved. Your changes are still in this tab.';$('#save-state').className='unsaved';notify(err.message,true);return false;}finally{saving=false;updateSaveButton();}
 }
 function offerRecovery() {
   let recovery;try{recovery=JSON.parse(localStorage.getItem(storageKey()));}catch{}

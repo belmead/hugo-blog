@@ -41,7 +41,7 @@ Post URLs use `/posts/<filename>/`, page URLs use `/<filename>/`. Existing URL n
 
 Rich text uses CommonMark/GFM through TOAST UI Editor. HTML and Markdown in public output are sanitized. Custom HTML, scripts, and Hugo templates are not a portable rich text format; use Markdown for new content. There is no arbitrary HTML layout builder: the homepage fields and Markdown pages are the deliberately small editing surface.
 
-The editor is pinned to TOAST UI 3.2.2. `scripts/patch-editor.mjs` applies a checked install-time fix for its queued resize callback after teardown. Review that patch when updating the editor. DOMPurify is overridden to a patched release. The current sanitize-html release is retained, with htmlparser2 constrained to its compatible CommonJS 10.x build because Vercel’s function loader rejects its newer ESM-only build. Sanitizer tests and npm audit pass with this override.
+The editor is pinned to TOAST UI 3.2.2. `scripts/patch-editor.mjs` applies checked install-time fixes for its queued resize callback after teardown and URL-field focus when opening the link popup. Review that patch when updating the editor. DOMPurify is overridden to a patched release. The current sanitize-html release is retained, with htmlparser2 constrained to its compatible CommonJS 10.x build because Vercel’s function loader rejects its newer ESM-only build. Sanitizer tests and npm audit pass with this override.
 
 ## Original blog
 
