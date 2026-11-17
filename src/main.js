@@ -10,8 +10,18 @@ let noticeTimer;
 async function api(url, options = {}) {
   const res = await fetch(url, { ...options, headers: { 'Content-Type':'application/json', ...options.headers } });
   const result = await res.json();
-  if (res.status === 401) { window.location.assign('/admin/'); throw new Error('Sign in to continue.'); }
+  if (res.status === 401) {
+    const target=$('#modal')?.open ? $('#modal') : $('#work');
+    if(target){
+      const banner=$('#session-expired') || document.createElement('div');
+      banner.id='session-expired';banner.className='recovery';banner.setAttribute('role','alert');
+      banner.innerHTML='Your session expired. Your writing is still here. <a href="/admin/" target="_blank" rel="noopener">Sign in in another tab</a>, then retry saving or uploading.';
+      target.prepend(banner);
+    }
+    throw Object.assign(new Error('Your session expired. Sign in in another tab, then retry. Your writing is still here.'),{status:401});
+  }
   if (!res.ok) throw new Error(result.error || 'Could not connect to Shiro.');
+  $('#session-expired')?.remove();
   return result;
 }
 function notify(message, error = false) {
@@ -101,7 +111,7 @@ async function saveCurrent() {
     if(section==='home'){data.home=result;$('#home-preview').contentWindow.location.reload();}
     else {current=result;const index=data[section].findIndex(d=>d.id===result.id);if(index<0)data[section].unshift(result);else data[section][index]=result;}
     dirty=false;bodyChanged=false;$('#save-state').textContent=data.publishing==='github'?'Saved to GitHub':'Saved to Markdown';$('#save-state').className='';$('#save').textContent=section==='home'?'Save homepage':current.draft?'Save draft':'Save changes';notify(data.publishing==='github'?'Saved to GitHub. The public site updates after deployment.':'Saved. Your Markdown file is up to date.');return true;
-  }catch(err){notify(err.message,true);return false;}finally{saving=false;$('#save').disabled=false;}
+  }catch(err){$('#save-state').textContent='Not saved. Your changes are still in this tab.';$('#save-state').className='unsaved';notify(err.message,true);return false;}finally{saving=false;$('#save').disabled=false;}
 }
 function offerRecovery() {
   let recovery;try{recovery=JSON.parse(localStorage.getItem(storageKey()));}catch{}
@@ -163,4 +173,4 @@ async function renderMedia() {
 }
 window.addEventListener('beforeunload',ev=>{if(dirty){ev.preventDefault();ev.returnValue='';}});
 window.addEventListener('keydown',ev=>{if((ev.metaKey||ev.ctrlKey)&&ev.key==='s'&&$('#save')){ev.preventDefault();saveCurrent();}});
-try { data=await api('/api/content');layout(); } catch(err) { $('#app').innerHTML=`<div class="startup-error"><h1>Shiro couldn’t open your writing.</h1><p>${e(err.message)}</p><button onclick="location.reload()">Try again</button></div>`; }
+try { data=await api('/api/content');layout(); } catch(err) { $('#app').innerHTML=`<div class="startup-error"><h1>Shiro couldn’t open your writing.</h1><p>${e(err.message)}</p>${err.status===401?'<a href="/admin/">Sign in</a>':''}<button onclick="location.reload()">Try again</button></div>`; }
