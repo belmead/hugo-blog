@@ -4,7 +4,7 @@ date: '2026-11-17T15:02:00.000Z'
 description: 'What works, what doesn''t.'
 image: /uploads/image-1a378776-1771-4c1f-8107-d16f4c1b379b.png
 imageAlt: Plastic model nippers
-draft: true
+draft: false
 nav: false
 ---
 # 初めのプラモ
