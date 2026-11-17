@@ -7,7 +7,7 @@ imageAlt: Plastic model nippers
 draft: false
 nav: false
 ---
-# 初めのプラモ
+# First model/初めのプラモ
 
 A re-org shuttered the department I worked in last year and while we were safely (mostly) transferred to another division, we had to move down a floor. The upside was we got to choose our own cubicles, and were given a week or so to get comfortable. I had a double-wide workspace cobbled together from two different cubicles and while a colleague and I were rummaging through vacant cubicles, scavenging for shelving, VESA mounts, cables and the like, she located an unopened SD 00 Raiser kit. Who did this belong to? Why was it left behind?
 
@@ -30,7 +30,7 @@ Probably everyone's first purchase. I opted for [RUITOOL Model Nippers for Begin
 
 ![image.png](/uploads/image-1a378776-1771-4c1f-8107-d16f4c1b379b.png)
 
-## **スティック・ガラス・スポンジヤスリなど/**Sanding Sticks, sponges, pads, etc
+## スティック・ガラス・スポンジヤスリなど/Sanding Sticks, sponges, pads, etc
 
 These are a mixed bag. I started with a set of [stedi-brand glass files](https://www.amazon.com/stedi-Polishing-Ultimate-Precision-Resin-Base/dp/B0CFLKZX6B/ref=sr_1_5?crid=IK0Q9TM25HLD&dib=eyJ2IjoiMSJ9.lCPp8o1dXLbO8_4Flh6DJ3qn3BowF000SWMG9EIxRplOXGO_jGn1RUz5IgBGzQR8gHcVGvFq7RaLhRuf-5lWqOmElRrw2e-ALdtrEfA4C2ekS17j5MVVjpyfJKAV5Q6lU1-2c8m87oNepKN1w5Hxb1cIvXdjpgN-ZOyrdAhJJVBQ_HjXv5NEsUao3Px94__iDSKIoCJWevuk3Bt3r7J59er8GXzs_RQRBMlTIdkzCeg.xcr9NpN0YKrGwioy7fUg-ibG3srSnjLnSFByofZAURo&dib_tag=se&keywords=dspiae%2Bglass%2Bfile%2Bset&qid=1794932751&sprefix=dspiae%2Bglas%2Caps%2C246&sr=8-5&th=1) and they were fine for a bit, but I found more common utility in normal sanding sticks and sponges. I still use them on occasion, but I could get by without them. The [stedi sanding sticks](https://www.amazon.com/dp/B0DM7ZTJJ1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) are my go-to (after I blew threw the Infini-brand sticks, which are no longer on Amazon). Great give and grit. If I could find the large Infini sticks, I would purchase some, but I don't think they are in production anymore, or Amazon doesn't carry them. They are on par with the stedi sticks, and either will get you moving in the right direction.
 
@@ -57,7 +57,7 @@ What I do use is the scriber I got from Daiso. It's unidirectional, being a need
 I bought this on a whim — it's just one of those things where I say, "That's so wasteful. When will I use this? I have other tools," but when I do need to use it, I'm glad I own it. It's kind on plastic and has a protrusion making it easy to poke pieces out from their undersides, which has been a blessing more than once. Every manufacturer under the sun makes a variation on this tool, and I've seen plenty with metal blades, though I'd probably stay clear of those. Worth the $5.
 ![image.png](/uploads/image-6137a147-2762-4e9b-afc5-5eb7cd317fe5.png)
 
-## 歯ブラシToothbrush
+## 歯ブラシ/Toothbrush
 
 You know what this is. Medium bristles do a fine job of removing plastic chaff. Day-1 tool.
 ![image.png](/uploads/image-3f41aa0a-38df-45aa-bd77-2a5fef6f4bd0.png)
