@@ -17,7 +17,7 @@ async function api(url, options = {}) {
 function notify(message, error = false) {
   clearTimeout(noticeTimer);
   $('#notice').textContent = message; $('#notice').classList.toggle('error',error); $('#notice').hidden = false;
-  if (!error) noticeTimer = setTimeout(()=>{ $('#notice').hidden = true; },4000);
+  noticeTimer = setTimeout(()=>{ $('#notice').hidden = true; },error ? 8000 : 4000);
 }
 const storageKey = () => `shiro:${section}:${current?.id || 'home'}`;
 function markDirty() {
