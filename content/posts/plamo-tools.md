@@ -44,13 +44,15 @@ It's an exacto knife, so you probably have one of these laying around. Ask yer d
 ![image.png](/uploads/image-5b20ce45-a136-4e5b-b86f-8332fdcbcec9.png)
 The real difference lies in the blades you use: The stedi knife uses the 45-degree blades the kit came with, and the Tamiya knife is for typical No. 11 hobby blades. I use the stedi knife for removing flashing and scraping away mold lines, and the Tamiya for cutting down proud nubs.
 
-![image.png](/uploads/image-df6aa317-6f5a-494b-932d-522dbbf703d8.png)
+![image.png](/uploads/image-dc851ecf-104e-41b1-a925-8b1f5b884fd1.png)
 
 ## スジボリタガネ/scriber
 
 stedi again: I (poorly) use the [stedi blue handle with a 0.15mm chisel](https://www.amazon.com/dp/B0CMT3R3RV?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1). It's fantastic, though I wish the handle was a bit smaller. I originally wanted a BMC tagane scriber, though I am glad I opted for the stedi since the BMCs are woefully expensive and my skill woudln't justify such an outrageous purchase. Not much to say about this, since I don't use it too often.
 ![image.png](/uploads/image-33c6fa91-a8c0-4180-8482-98d6b3307020.png)
 What I do use is the scriber I got from Daiso. It's unidirectional, being a needle point rather than a chisel, and it's more forgiving as it's less sharp. It also creates a V-shaped channel, so its's good for clean lines. It also works well to get panel lines ready to better accept the stedi scriber, since it tends to stay where I want it to more when the panel lines are deeper/better defined.
+
+![image.png](/uploads/image-ff52105b-3656-423b-afd0-cc99b3675160.png)
 
 ## パーツセパレーター/Part Separator
 
